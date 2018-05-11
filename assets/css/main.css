@@ -2175,7 +2175,7 @@
 		}
 
 			.panel > *.color0 {
-				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);
+				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #859dc1 5%, #4e4b51 60%, #36333a);
 				background-size: 128px 128px, auto;
 			}
 
@@ -2692,7 +2692,7 @@
 		}
 
 		.panel.color0 {
-			background-image: url("../../images/overlay.png"), linear-gradient(45deg, #726193 20%, #e37b7c 60%, #ffe4b4);
+			background-image: url("../../images/overlay.png"), linear-gradient(45deg, #859dc1 5%, #4e4b51 60%, #36333a);
 			background-size: 128px 128px, auto;
 		}
 
@@ -3577,7 +3577,7 @@
 			bottom: -3rem;
 			right: 0;
 			font-size: 0.8rem;
-			color: rgba(46, 43, 55, 0.375);
+			color: rgba(0, 0, 0, 0.486);
 			margin-bottom: 0;
 		}
 
