@@ -18,6 +18,10 @@ body:after {
 	background-size: 128px 128px, cover;
 }
 
+.invisible {
+	display: none;
+}
+
 .panel > *.color0 {
 	background-image: url("../../images/overlay.png"), linear-gradient(45deg, #000000 5%, #231b1b 60%, #18202d);
 	background-size: 128px 128px, auto;
@@ -26,8 +30,4 @@ body:after {
 .panel.color0 {
 	background-image: url("../../images/overlay.png"), linear-gradient(45deg, #859dc1 5%, #4e4b51 60%, #36333a);
 	background-size: 128px 128px, auto;
-}
-
-.invisible {
-	display: none;
 }
