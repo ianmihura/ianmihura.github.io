@@ -2172,8 +2172,7 @@
 		.panel > * {
 			position: relative;
 			min-width: 10rem;
-		}
-
+		}	
 			.panel > *.color0 {
 				background-image: url("../../images/overlay.png"), linear-gradient(45deg, #859dc1 5%, #4e4b51 60%, #36333a);
 				background-size: 128px 128px, auto;
@@ -2694,6 +2693,10 @@
 		.panel.color0 {
 			background-image: url("../../images/overlay.png"), linear-gradient(45deg, #859dc1 5%, #4e4b51 60%, #36333a);
 			background-size: 128px 128px, auto;
+		}
+
+		.panel.colorsturm {
+			background-color: #292a33;
 		}
 
 		.panel.color1 {
