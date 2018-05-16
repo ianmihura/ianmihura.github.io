@@ -27,3 +27,7 @@ body:after {
 	background-image: url("../../images/overlay.png"), linear-gradient(45deg, #859dc1 5%, #4e4b51 60%, #36333a);
 	background-size: 128px 128px, auto;
 }
+
+.invisible {
+	display: none;
+}
