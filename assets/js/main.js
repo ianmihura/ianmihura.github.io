@@ -643,6 +643,7 @@
 							$gallery = $a.parents('.gallery'),
 							$modal = $gallery.children('.modal'),
 							$modalImg = $modal.find('img'),
+							$modalText = $modal.find('p'),
 							href = $a.attr('href');
 
 						// Not an image? Bail.
@@ -668,7 +669,11 @@
 
 						// Focus.
 							$modal.focus();
-
+						
+						// Text.
+							document.getElementById("galleryText").innerText = this.text;
+							console.log(this.text);
+							
 						// Delay.
 							setTimeout(function() {
 
@@ -741,7 +746,7 @@
 							event.stopPropagation();
 
 					})
-					.prepend('<div class="modal" tabIndex="-1"><div class="inner"><img src="" /></div></div>')
+					.prepend('<div class="modal" tabIndex="-1"><div class="inner"><img src="" /><p id="galleryText"></p></div></div>')
 						.find('img')
 							.on('load', function(event) {
 
