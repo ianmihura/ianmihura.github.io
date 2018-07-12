@@ -3681,3 +3681,9 @@
 			}
 
 	}
+
+.portfolio-navigation {
+	position: fixed;
+	z-index: 999;
+	bottom: 45px;
+}
