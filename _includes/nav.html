@@ -34,6 +34,9 @@
                     {% if site.youtube-channel %}<li>
                         <a href="https://youtube.com/channel/{{ site.youtube-channel }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-youtube"></i> Youtube</a>
                     </li>{% endif %}
+                    {% if site.vimeo %}<li>
+                        <a href="https://vimeo.com/{{ site.vimeo }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-vimeo"></i> Vimeo</a>
+                    </li>{% endif %}
 				</ul><!-- /.dl-submenu -->
 			</li>
 			{% for link in site.data.navigation %}
