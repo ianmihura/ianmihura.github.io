@@ -218,6 +218,9 @@ kbd {
 
 .author-item {
 	text-align: center;
-	max-width: 50%;
 	margin: auto;
+	max-width: 50%;
+	@media #{$small} {
+		max-width: 75%;
+	}
 }
