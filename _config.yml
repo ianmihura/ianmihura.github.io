@@ -27,6 +27,10 @@ sass:
 collections:
   projects:
     output: true
+  videos:
+    output: true
+  webdesign:
+    output: true
 
 # Comments
 disqus_shortname:   ianmihura
