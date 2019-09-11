@@ -29,7 +29,7 @@ collections:
     output: true
   videos:
     output: true
-  webdesign:
+  webdesigns:
     output: true
 
 # Comments

@@ -1,6 +1,8 @@
 # Site navigation links
 
-- title: Video Projects
+- title: Videos
   url: /videos/
-- title: Web Design
-  url: /webdesign/
+- title: Webs
+  url: /webdesigns/
+- title: Designs
+  url: /designs/

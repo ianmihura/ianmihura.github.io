@@ -216,6 +216,21 @@ kbd {
 	align-items: center;
 }
 
+.gallery-list {
+	column-count: 2;
+	display: block;
+	@media #{$medium} {
+		column-count: 1;
+	}
+	@media #{$small} {
+		column-count: 1;
+	}
+}
+
+.gallery-item {
+	text-align: center;
+}
+
 .author-item {
 	text-align: center;
 	margin: auto;
