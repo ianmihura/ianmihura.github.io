@@ -72,4 +72,30 @@ $(document).ready(function() {
   $( ".expand").hide();
   $( "p.expand_end" ).hide();
 
+  // modal
+
+  // Get the modal
+    var modals = document.getElementsByClassName("modal");
+
+    for (var i = 0; i < modals.length; i++) {
+        var modal = modals[i];
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = modal.parentElement.children[0].children[0];
+        var modalImg = modal.children[1];
+        var captionText = modal.children[1];
+        img.onclick = function(){
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        }
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks on <span> (x), close the modal
+        modal.onclick = function() {
+          modal.style.display = "none";
+        }
+    }
+
 });

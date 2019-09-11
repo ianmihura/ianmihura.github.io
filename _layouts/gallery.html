@@ -25,11 +25,18 @@ layout: compress
                 <ul class="gallery-list">
                     {% for image in site.static_files %}
                         {% if image.path contains 'img/designs' %}
-                            <li class="wow fadeInLeft gallery-item" data-wow-duration="1.5s">
+                            <li class="gallery-item" data-wow-duration="1.5s">
 
                                 <figure>
-                                  <a href="{{ design.webpage }}"><img class="author-image" src="{{ site.baseurl }}{{ image.path }}"></a>
+                                  <img class="author-image" src="{{ site.baseurl }}{{ image.path }}">
                                 </figure>
+
+                                <!-- The Modal -->
+                                <div class="modal">
+                                  <span class="close" id="close">&times;</span>
+                                  <img class="modal-content">
+                                  <div class="caption"></div>
+                                </div>
 
                             </li>
                         {% endif %}
