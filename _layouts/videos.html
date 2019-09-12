@@ -22,24 +22,24 @@ layout: compress
                     </a>
                 </div>
                 <div class="post-list">
-                <ul class="author-list">
-                    {% for video in site.videos %}
-                        <li class="wow fadeInLeft author-item" data-wow-duration="1.5s">
+                    <ul class="author-list">
+                        {% for video in site.videos %}
+                            <li class="wow fadeInLeft author-item" data-wow-duration="1.5s">
 
-                            <figure>
-                              <a href="{{ video.webpage }}"><img class="author-image" src="{{site.url}}/assets/img/{{ video.image }}"></a>
-                            </figure>
+                                <figure>
+                                  <a href="{{ video.webpage }}"><img class="author-image" src="{{site.url}}/assets/img/{{ video.image }}"></a>
+                                </figure>
 
-                            <h1>{{ video.name }}</h1>
-                            <p>{{ video.description }}</p>
-                            <p><b>Role:</b> {{ video.role }}</p>
+                                <h1>{{ video.name }}</h1>
+                                <p>{{ video.description }}</p>
+                                <p><b>Role:</b> {{ video.role }}</p>
 
-                            {% if video.webpage %}
-                            <a href="{{ video.webpage }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-play"></i></a>
-                            {% endif %}
-                        </li>
-                    {% endfor %}
-                </ul>
+                                {% if video.webpage %}
+                                <a href="{{ video.webpage }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-play"></i></a>
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                    </ul>
                 </div>
             </div>
         </div>

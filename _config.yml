@@ -31,6 +31,8 @@ collections:
     output: true
   webdesigns:
     output: true
+  designs:
+    output: true
 
 # Comments
 disqus_shortname:   ianmihura

@@ -22,6 +22,37 @@ layout: compress
                     </a>
                 </div>
                 <div class="post-list">
+
+                    <!-- Projects -->
+                    <ul class="author-list">
+                        {% for design in site.designs %}
+                            <li class="wow fadeInLeft author-item" data-wow-duration="1.5s">
+
+                                <figure>
+                                  <a href="{{ design.webpage }}"><img class="author-image" src="{{ site.url }}/assets/img/{{ design.image }}"></a>
+                                </figure>
+
+                                <h1>{{ design.name }}</h1>
+                                <p>{{ design.description }}</p>
+
+                                {% if design.instagram %}
+                                    <a href="{{ design.instagram }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram design-icon"></i></a>
+                                {% endif %}
+                                {% if design.behance %}
+                                    <a href="{{ design.behance }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-behance design-icon"></i></a>
+                                {% endif %}
+                                {% if design.website %}
+                                    <a href="{{ design.website }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-globe design-icon"></i></a>
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                    </ul>
+
+                    <hr class="hr-line">
+                    <h1 class="title">And some other projects</h1>
+                    <hr class="hr-line">
+
+                    <!-- Other stuff -->
                     <ul class="gallery-list">
                         {% for image in site.static_files %}
                             {% if image.path contains 'img/designs' %}
@@ -42,6 +73,7 @@ layout: compress
                             {% endif %}
                         {% endfor %}
                     </ul>
+
                 </div>
             </div>
         </div>
