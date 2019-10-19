@@ -1,6 +1,13 @@
+.dl-menuwrapper-home {
+	@media #{$notsmall} {
+		margin-top: 12em !important;
+	}
+}
+
 .dl-menuwrapper {
 	width: 100%;
 	position: absolute;
+	display: inline-block;
 	top: 0;
 	left: 0;
 	z-index: 1000;
@@ -13,8 +20,10 @@
 	@media #{$notsmall} {
 		position: fixed;
 		max-width: 175px;
-		top: 25px;
-		left: 25px;
+		left: auto;
+		right: 75%;
+		margin-top: 4em;
+		display: block
 	}
 	button {
 		top: 0;
@@ -47,8 +56,8 @@
 		background: $white;
 		top: 10px;
 		left: 16%;
-		box-shadow: 
-			0 10px 0 $white, 
+		box-shadow:
+			0 10px 0 $white,
 			0 20px 0 $white;
 	}
 	button.dl-active {
@@ -166,10 +175,10 @@
 		display: none;
 	}
 }
-/* 
+/*
 When a submenu is openend, we will hide all li siblings.
 For that we give a class to the parent menu called "dl-subview".
-We also hide the submenu link. 
+We also hide the submenu link.
 The opened submenu will get the class "dl-subviewopen".
 All this is done for any sub-level being entered.
 */
@@ -314,6 +323,13 @@ All this is done for any sub-level being entered.
 		opacity: 0;
 	}
 }
+
+.dl-trigger {
+	@media #{$notsmall} {
+		display: none;
+	}
+}
+
 /* No Touch Fallback */
 .no-touchevents .dl-menuwrapper li a:hover {
 	background: rgba(255,248,213,0.1);
