@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: ianmihura.me
+Token: 64222b2108801df9b47c1a588a70ae3746e30348e36d4ec9fdfd73f72980a9cc
