@@ -38,6 +38,10 @@ plugins:
   - jekyll-feed
   - jekyll-pug
 
+keep_files:
+  - .git
+  - .gitignore
+
 # TODO - translate to SASS
 # sass:
 #   sass_dir:         _sass
