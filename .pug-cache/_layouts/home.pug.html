@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{page.title}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&amp;display=swap" rel="stylesheet">
+    <script src="assets/js/main.js"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper black"><a class="sidenav-trigger" href="mailto:{{site.email}}" target="blank">{{site.email}}</a>
+          <ul class="left hide-on-med-and-down" id="nav-mobile">
+            <li> <a href="mailto:{{site.email}}" target="blank">{{site.email}}</a></li>
+          </ul>
+          <ul class="right hide-on-med-and-down" id="nav-mobile">
+            <li> <a href="#">{{site.author}}</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <ul class="sidenav black" id="slide-out">
+      <li>
+        <div class="user-view"><a class="white-text" href="#text">
+            <h4>It's me</h4>
+            <h6>{{ site.author }}</h6><br>
+            <p class="description-short">{{ site.description_short }}</p><br><br></a></div>
+      </li>
+    </ul>
+    <div class="sidenav-trigger side-left-header black" data-target="slide-out"><i class="fas fa-bars mainnav-icon white-text"></i> open</div>
+    <div class="side-right-header black">
+      <div><a class="white-text" href="https://twitter.com/{{site.twitter_username}}" target="blank">twitter</a><a class="white-text" href="https://github.com/{{site.github_username}}" target="blank">github</a><a class="white-text" href="https://instagram.com/{{site.instagram_username}}" target="blank">instagram</a></div>
+    </div>
+    <div class="side-bottom-header black">
+      <div><a class="white-text" href="#education">Education</a><a class="white-text" href="#experience">Experience</a><a class="white-text" href="#projects">Projects</a><a class="white-text" href="#ideas">Ideas</a></div>
+    </div><img class="banner-img responsive-img" src="assets/img/mountain.jpg">
+    <div class="row banner-container">
+      <div class="col s2 m2"></div>
+      <div class="col s8 m4">
+        <div class="banner-text black white-text">
+          <h1>Hi!</h1>
+          <p>My new page is under construction. It will be finished shortly, patience!</p>
+        </div>
+      </div>
+      <div class="col s2 m3"></div>
+      <div class="col s0 m3"></div>
+    </div>{{ content }}
+  </body>
+</html>

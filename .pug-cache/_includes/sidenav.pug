@@ -1,0 +1,35 @@
+ul#slide-out.sidenav.black
+    li
+        div.user-view
+            a(href="#text").white-text
+                h4 Smart Tickets.
+    li.white-text
+        a.subheader Producer section
+    li 
+        a(href="/create").white-text <i class="fas fa-plus sidenav-icon"></i> Create Event
+    li 
+        a(href="/edit").white-text <i class="fas fa-edit sidenav-icon"></i> My Events
+    li 
+        a(href="/checkin").white-text <i class="fas fa-check sidenav-icon"></i> Checkin
+    li 
+        div.divider
+    li
+        a.subheader.white-text Attendee section
+    li
+        a(href="/buy").white-text <i class="fas fa-shopping-cart sidenav-icon"></i> Buy Tickets
+    li 
+        a(href="/tickets").white-text <i class="fas fa-ticket-alt sidenav-icon"></i> My Tickets
+    li 
+        div.divider
+    li
+        a.subheader Utils
+    li
+        a.modal-trigger(href="#qrModal") <i class="fas fa-qrcode sidenav-icon"></i> QR Builder
+    li
+        a.modal-trigger(href="#camModal" onclick="SetCalleeId('')") <i class="fas fa-camera sidenav-icon"></i> QR Scanner
+    li
+        a(href="/txid") <i class="fas fa-clipboard-list sidenav-icon"></i> tx Details
+    li
+        a(href="/contracts/dapp-v3.ride") <i class="far fa-file-code sidenav-icon"></i> Download Smart Contract
+    li
+        a(href="/help") <i class="fas fa-question sidenav-icon"></i> Help Guide
