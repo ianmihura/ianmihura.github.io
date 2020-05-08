@@ -1,0 +1,23 @@
+// Universal pure classes
+// Pure body, h1, p, a tags
+
+body {
+    font-size: 16px;
+    min-width: 320px;
+    line-height: 1.5;
+    font-family: 'Source Code Pro', monospace;
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+    min-height: 100%;
+    margin: 0;
+    visibility: visible !important;
+    background-color: black;
+}
+
+.hidden {
+    display: none;
+}
+
+.pointer {
+    cursor: pointer;
+}

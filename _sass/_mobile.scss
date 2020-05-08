@@ -1,0 +1,19 @@
+// Media small exception
+
+@media only screen and (max-width: 600px) { 
+    .side-bottom-header div a {
+        display: none;
+    }
+
+    .banner-img {
+        content:url("../img/sm-mountain.jpg");
+    }
+
+    .banner-container {
+        top: -540px;
+    }
+
+    .banner-text {
+        padding: 15px;
+    }
+}
