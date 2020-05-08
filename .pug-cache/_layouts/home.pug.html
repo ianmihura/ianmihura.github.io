@@ -11,18 +11,6 @@
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body class="white-text">
-    <div class="navbar-fixed">
-      <nav>
-        <div class="nav-wrapper black"><a class="sidenav-trigger clickable" href="mailto:{{site.email}}" target="blank"><span>{{site.email}}</span></a>
-          <ul class="left hide-on-med-and-down" id="nav-mobile">
-            <li> <a class="clickable" href="mailto:{{site.email}}" target="blank"><span>{{site.email}}</span></a></li>
-          </ul>
-          <ul class="right hide-on-med-and-down" id="nav-mobile">
-            <li> <a class="clickable" href="#"><span>{{site.author}}</span></a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
     <div class="sidenav-trigger side-left-header black pointer" data-target="slide-out"><i class="fas fa-bars mainnav-icon white-text"></i> open</div>
     <ul class="sidenav black" id="slide-out">
       <li>
@@ -39,11 +27,11 @@
       <li> 
         <div class="divider"></div>
       </li>
-      <li><a class="clickable" href="asdf">
+      <li><a class="clickable" href="mailto:{{ site.mail }}">
           <p class="white-text">Email me</p></a></li>
-      <li><a class="clickable" href="asdf">
+      <li><a class="clickable" href="https://github.com/ianmihura">
           <p class="white-text">Checkout my Github</p></a></li>
-      <li><a class="clickable" href="asdf">
+      <li><a class="clickable" href="https://instagram.com/ianmihura">
           <p class="white-text">or my Intagram!</p></a></li>
     </ul>
     <div class="side-right-header black">
@@ -52,10 +40,22 @@
           <p>github</p></a><a class="white-text clickable" href="https://linkedin.com/in/{{site.linkedin_username}}" target="blank">
           <p>linkedin</p></a></div>
     </div>
+    <div class="navbar-fixed">
+      <nav>
+        <div class="nav-wrapper black"><a class="sidenav-trigger clickable" href="mailto:{{site.email}}" target="blank"><span>{{site.email}}</span></a>
+          <ul class="left hide-on-med-and-down" id="nav-mobile">
+            <li> <a class="clickable" href="mailto:{{site.email}}" target="blank"><span>{{site.email}}</span></a></li>
+          </ul>
+          <ul class="right hide-on-med-and-down" id="nav-mobile">
+            <li> <a class="clickable" href="#"><span>{{site.author}}</span></a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
     <div class="side-bottom-header black">
       <div><a class="white-text clickable" href="#education"><span>Education</span></a><a class="white-text clickable" href="#experience"><span>Experience</span></a><a class="white-text clickable" href="#projects"><span>Projects</span></a></div>
     </div>
-    <div class="banner-container"><img class="img-responsive" src="assets/img/mountain.jpg">
+    <div class="banner-container"><img class="responsive-img" src="assets/img/mountain.jpg">
       <h1> <span class="black white-text">{Developer}</span></h1>
     </div>
     <div class="all-container">
@@ -209,7 +209,7 @@
     <footer><a class="footer-container white-text" href="mailto:{{ site.email }}">
         <p>Got a project?</p>
         <h3>Let's talk</h3></a>
-      <div class="copyright">© 2020 by Ian Mihura.</div>
+      <div class="copyright">© 2020 by Ian Mihura. Photos from <a href="https://unsplash.com/">Unsplash</a>. </div>
     </footer>
   </body>
 </html>

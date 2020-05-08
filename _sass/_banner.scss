@@ -63,11 +63,19 @@
         display: inline-flex;
         padding: 15px 35px;
     }
+
+    @media only screen and (max-width: 600px) { 
+        display: none;
+    }
 }
 
 .banner-container {
     img {
-        // max-height: 100vh;
+        // max-height: 90vh !important;
+
+        @media only screen and (max-width: 600px) { 
+            content:url("../img/sm-mountain.jpg");
+        }
     }
 
     span {
@@ -79,6 +87,15 @@
 
         padding: 20px 30px;
         font-weight: 700;
+        
+        @media only screen and (max-width: 600px) { 
+            font-size: 0.5em;
+            padding: 0 10px;
+        }
+    }
+
+    @media only screen and (max-width: 600px) { 
+        
     }
 }
 
