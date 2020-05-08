@@ -1,8 +1,24 @@
 // Other custom formats
 
-.copyright {
-    opacity: 0.24;
-    margin: 10px 0;
-    font-size: 14px;
-    font-weight: 500;
+.profile-image {
+    box-shadow: 10px 10px 0 0;
+}
+
+.profile-container {
+    margin-bottom: 70px;
+}
+
+.profile-content {
+    padding: 35px !important;
+}
+
+.profile-icons {
+    text-align: center;
+
+    svg {
+        width: 5em !important;
+        height: 5em;
+
+        margin: 30px;
+    }
 }

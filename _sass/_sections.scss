@@ -47,6 +47,10 @@
 
     background-color: white;
     color: black;
+
+    @media only screen and (max-width: 600px) { 
+        font-size: 0.5em;
+    }
 }
 
 .education-container h1 {
