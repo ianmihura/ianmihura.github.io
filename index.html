@@ -8,46 +8,208 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&amp;display=swap" rel="stylesheet">
     <script src="assets/js/main.js"></script>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/style.css">
   </head>
-  <body>
+  <body class="white-text">
     <div class="navbar-fixed">
       <nav>
-        <div class="nav-wrapper black"><a class="sidenav-trigger" href="mailto:mihura.ian@gmail.com" target="blank">mihura.ian@gmail.com</a>
+        <div class="nav-wrapper black"><a class="sidenav-trigger clickable" href="mailto:mihura.ian@gmail.com" target="blank"><span>mihura.ian@gmail.com</span></a>
           <ul class="left hide-on-med-and-down" id="nav-mobile">
-            <li> <a href="mailto:mihura.ian@gmail.com" target="blank">mihura.ian@gmail.com</a></li>
+            <li> <a class="clickable" href="mailto:mihura.ian@gmail.com" target="blank"><span>mihura.ian@gmail.com</span></a></li>
           </ul>
           <ul class="right hide-on-med-and-down" id="nav-mobile">
-            <li> <a href="#">Ian Mihura</a></li>
+            <li> <a class="clickable" href="#"><span>Ian Mihura</span></a></li>
           </ul>
         </div>
       </nav>
     </div>
+    <div class="sidenav-trigger side-left-header black pointer" data-target="slide-out"><i class="fas fa-bars mainnav-icon white-text"></i> open</div>
     <ul class="sidenav black" id="slide-out">
       <li>
-        <div class="user-view"><a class="white-text" href="#text">
-            <h4>It's me</h4>
-            <h6>Ian Mihura</h6><br>
-            <p class="description-short">Developer, sometimes producer. Thinker by hobby.</p><br><br></a></div>
+        <div class="user-view">
+          <h4>It's me</h4>
+          <h6>Ian Mihura</h6>
+          <p class="description-short">Developer, sometimes Producer. Thinker by hobby.</p><br>
+        </div>
       </li>
+      <li><a class="clickable" href="#education">
+          <p class="white-text">My Education</p></a></li>
+      <li><a class="clickable" href="#experience">
+          <p class="white-text">My Experience</p></a></li>
+      <li> 
+        <div class="divider"></div>
+      </li>
+      <li><a class="clickable" href="asdf">
+          <p class="white-text">Email me</p></a></li>
+      <li><a class="clickable" href="asdf">
+          <p class="white-text">Checkout my Github</p></a></li>
+      <li><a class="clickable" href="asdf">
+          <p class="white-text">or my Intagram!</p></a></li>
     </ul>
-    <div class="sidenav-trigger side-left-header black" data-target="slide-out"><i class="fas fa-bars mainnav-icon white-text"></i> open</div>
     <div class="side-right-header black">
-      <div><a class="white-text" href="https://twitter.com/ianmihura" target="blank">twitter</a><a class="white-text" href="https://github.com/ianmihura" target="blank">github</a><a class="white-text" href="https://instagram.com/ianmihura" target="blank">instagram</a></div>
+      <div><a class="white-text clickable" href="https://twitter.com/ianmihura" target="blank">
+          <p>twitter</p></a><a class="white-text clickable" href="https://github.com/ianmihura" target="blank">
+          <p>github</p></a><a class="white-text clickable" href="https://linkedin.com/in/ianmihura" target="blank">
+          <p>linkedin</p></a></div>
     </div>
     <div class="side-bottom-header black">
-      <div><a class="white-text" href="#education">Education</a><a class="white-text" href="#experience">Experience</a><a class="white-text" href="#projects">Projects</a><a class="white-text" href="#ideas">Ideas</a></div>
-    </div><img class="banner-img responsive-img" src="assets/img/mountain.jpg">
-    <div class="row banner-container">
-      <div class="col s2 m2"></div>
-      <div class="col s8 m4">
-        <div class="banner-text black white-text">
-          <h1>Hi!</h1>
-          <p>My new page is under construction. It will be finished shortly, patience!</p>
+      <div><a class="white-text clickable" href="#education"><span>Education</span></a><a class="white-text clickable" href="#experience"><span>Experience</span></a><a class="white-text clickable" href="#projects"><span>Projects</span></a></div>
+    </div>
+    <div class="banner-container"><img class="img-responsive" src="assets/img/mountain.jpg">
+      <h1> <span class="black white-text">{Developer}</span></h1>
+    </div>
+    <div class="all-container">
+      <div class="education-container" id="education">
+        <h2><span class="section-title">Education</span></h2><br>
+        <hr class="l-only">
+        <div class="row">
+          <div class="col m12 l4">
+            <div class="card black white-text">
+              <div class="card-content white-text">
+                <div class="dot"></div><i>2019-2017</i><span class="card-title">Film Production</span>
+                <p>EMAV film school @ Barcelona. Focused in the film production process as a headway for project management and logistics, as well as technical resource administration. Finished 2019.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col m12 l4">
+            <div class="card black white-text">
+              <div class="card-content white-text">
+                <div class="dot"></div><i>2017-2015</i><span class="card-title">Computer Science</span>
+                <p>University of Buens Aires. The study of abstract concepts about Mathematics and Computer relationship. Fascinating subjects, but too abstract. Didn't finish.    </p>
+              </div>
+            </div>
+          </div>
+          <div class="col m12 l4">
+            <div class="card black white-text">
+              <div class="card-content white-text">
+                <div class="dot"></div><i>2014-2013</i><span class="card-title">Communication Sc.</span>
+                <p>University of Saint Andrew's @ Buenos Aires. Understanding human communication, using traditional and modern communication tools. Interesting subjects, but too soft. Didn't finish.    </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><br>
+      <div class="education-container">
+        <h2><span class="section-title">Self Learner</span></h2><br>
+        <hr class="l-only">
+        <div class="row">
+          <div class="col m0 l1"></div>
+          <div class="col m12 l3">
+            <div class="card black white-text">
+              <div class="card-content white-text">
+                <div class="dot"></div><i>2020-2015</i><span class="card-title">JS</span>
+                <p>Advnaced understanding of Javascript and its frameworks. Been learning all around the web, Codecademy, Coursera, and others.</p>
+              </div>
+              <div class="card-action"><a class="clickable blue-text" href="https://www.freecodecamp.org/learn/"><span>link to the course</span></a></div>
+            </div>
+          </div>
+          <div class="col m12 l3">
+            <div class="card black white-text">
+              <div class="card-content white-text">
+                <div class="dot"></div><i>2020-2018</i><span class="card-title">Ethereum</span>
+                <p>Smart Contracts in Solidity, the EVM and web3.js, learned how to build an dapp. Have taken several courses on Ethereum, this is one of them:</p>
+              </div>
+              <div class="card-action"><a class="clickable blue-text" href="https://cryptozombies.io/en/course/"><span>link to the course</span></a></div>
+            </div>
+          </div>
+          <div class="col m12 l3">
+            <div class="card black white-text">
+              <div class="card-content white-text">
+                <div class="dot"></div><i>2020-2019</i><span class="card-title">Game Dev</span>
+                <p>Unity with C++, basis for 2D animations and game mechanics. Several open courses, and this Udemy course by GameDev.tv.</p>
+              </div>
+              <div class="card-action"><a class="clickable blue-text" href="https://www.udemy.com/course/unitycourse/"><span>link to the course</span></a></div>
+            </div>
+          </div>
+        </div>
+        <hr class="l-only">
+        <div class="row">
+          <div class="col m0 l2"></div>
+          <div class="col m12 l3">
+            <div class="card black white-text">
+              <div class="card-content white-text">
+                <div class="dot"></div><i>2020</i><span class="card-title">Cryptography 01</span>
+                <p>Stanfort University online course, by Dan Boneh. Everything from Simmetrical Key exchange to hash functions.</p>
+              </div>
+              <div class="card-action"><a class="clickable blue-text" href="https://www.coursera.org/learn/crypto"><span>link to the course</span></a></div>
+            </div>
+          </div>
+          <div class="col m12 l3">
+            <div class="card black white-text">
+              <div class="card-content white-text">
+                <div class="dot"></div><i>2018</i><span class="card-title">Typography 01</span>
+                <p>Graphic design course based on the understanding of typography as the building block of any 2D design.</p>
+              </div>
+              <div class="card-action"><a class="clickable blue-text" href="https://academy.thefutur.com/p/typography-01"><span>link to the course</span></a></div>
+            </div>
+          </div>
+          <div class="col m12 l3">
+            <div class="card black white-text">
+              <div class="card-content white-text">
+                <div class="dot"></div><i>2020</i><span class="card-title">Waves</span>
+                <p>Waves blockchain is another VM blockchain that supports smart contract building, with a different use of memory than Ethereum.</p>
+              </div>
+              <div class="card-action"><a class="clickable blue-text" href="https://stepik.org/course/54415/promo"><span>link to the course</span></a></div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col s2 m3"></div>
-      <div class="col s0 m3"></div>
+      <div class="experience-container" id="experience">
+        <h2><span class="section-title">Experience</span></h2><br>
+        <hr class="l-only">
+        <div class="row">
+          <div class="col m0 l1"></div>
+          <div class="col m12 l3">
+            <div class="card black white-text">
+              <div class="card-content white-text">
+                <div class="dot"></div><i>2020</i><span class="card-title">Freelance</span>
+                <p>Various freelance projects, JS and Android focused. Including data scrapping, prototype building, API and service maintenance. Some graphic design jobs too.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col m12 l3">
+            <div class="card black white-text">
+              <div class="card-content white-text">
+                <div class="dot"></div><i>2020-2019</i><span class="card-title">As. Producer</span>
+                <p>Everything from internal logistics to client projects. Including events and audiovisual products. Company: TheCreativeAgency. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col m12 l3">
+            <div class="card black white-text">
+              <div class="card-content white-text">
+                <div class="dot"></div><i>2017-2015</i><span class="card-title">Dev Jr+</span>
+                <p>Longest and strongest work experience. Worked various NodeJS frameworks, Drupal and SAP BI tools as Lumira. Company: Inlcusion Services S.A.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="l-only">
+        <div class="row">
+          <div class="col m0 l2"></div>
+          <div class="col m12 l3">
+            <div class="card black white-text">
+              <div class="card-content white-text">
+                <div class="dot"></div><i>2015</i><span class="card-title">Dev Jr.</span>
+                <p>Very first job as a Dev. Worked with mySQL and Android, for a client in the sanitary sector. Company: GMS S.A.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col m12 l3">
+            <div class="card black white-text">
+              <div class="card-content white-text">
+                <div class="dot"></div><i>2014</i><span class="card-title">Tech. Producer</span>
+                <p>Technical producer at a local radio station in Buenos Aires. Editing audio and content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <footer><a class="footer-container white-text" href="mailto:mihura.ian@gmail.com">
+        <p>Got a project?</p>
+        <h3>Let's talk</h3></a>
+      <div class="copyright">© 2020 by Ian Mihura.</div>
+    </footer>
   </body>
 </html>
