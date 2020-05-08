@@ -14,10 +14,49 @@ body {
     background-color: black;
 }
 
+hr {
+    border: 0.5px solid #444444;
+}
+
 .hidden {
     display: none;
 }
 
 .pointer {
     cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) { 
+    .l-only {
+        display: none;
+    }
+}
+
+.clickable {
+    :hover {
+        cursor: pointer;
+        background-color: white;
+        color: black !important;
+    }
+}
+
+footer {
+    .footer-container {
+        text-align: center;
+        font-weight: 700;
+        cursor: default;
+
+        :hover {
+            cursor: pointer;
+            background-color: white;
+            color: black;
+        }
+    }
+
+    .copyright {
+        opacity: 0.24;
+        margin: 20px 100px;
+        font-size: 14px;
+        font-weight: 500;
+    }
 }

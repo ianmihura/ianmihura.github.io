@@ -7,57 +7,51 @@ div(data-target="slide-out").sidenav-trigger.side-left-header.black.pointer
 ul#slide-out.sidenav.black
     li
         div.user-view
-            a(href="#text").white-text
-                h4 It's me
-                h6 {{ site.author }}
-                br
-                p.description-short {{ site.description_short }}
-                br
-                br
-
-    //- li
-    //-     a.btn-floating.btn-large.waves-effect-waves-light.white
-    //-         <i class="fas fa-plus fa-lg sidenav-icon black-text"></i>
-  
-    //- li.white-text
-    //-     a.subheader.white-text Section 00
-    //- li 
-    //-     a(href="#").white-text <i class="fas fa-plus sidenav-icon"></i> Link 00
-    //- li 
-    //-     a(href="#").white-text <i class="fas fa-edit sidenav-icon"></i> Link 01
-    //- li 
-    //-     a(href="#").white-text <i class="fas fa-check sidenav-icon"></i> Link 02
-    
-    //- li
-    //-     a.subheader.white-text Section 01
-    //- li
-    //-     a(href="#").white-text <i class="fas fa-shopping-cart sidenav-icon"></i> Link 10
-    //- li 
-    //-     a(href="#").white-text <i class="fas fa-ticket-alt sidenav-icon"></i> Link 11
-
+            h4 It's me
+            h6 {{ site.author }}
+            p.description-short {{ site.description_short }}
+            br
+    li
+        a(href="#education").clickable
+            p.white-text My Education
+    li
+        a(href="#experience").clickable
+            p.white-text My Experience
+    li 
+        div.divider
+    li
+        a(href="asdf").clickable
+            p.white-text Email me
+    li
+        a(href="asdf").clickable
+            p.white-text Checkout my Github
+    li
+        a(href="asdf").clickable
+            p.white-text or my Intagram!
 
 //- Right banner
 div.side-right-header.black
     div
-        a(href="https://twitter.com/{{site.twitter_username}}" target="blank").white-text twitter
-        a(href="https://github.com/{{site.github_username}}" target="blank").white-text github
-        a(href="https://instagram.com/{{site.instagram_username}}" target="blank").white-text instagram
+        a(href="https://twitter.com/{{site.twitter_username}}" target="blank").white-text.clickable
+            p twitter
+        a(href="https://github.com/{{site.github_username}}" target="blank").white-text.clickable
+            p github
+        a(href="https://linkedin.com/in/{{site.linkedin_username}}" target="blank").white-text.clickable
+            p linkedin
 
 //- Bottom banner
 div.side-bottom-header.black
-    div.hidden
-        a(href="#education").white-text Education
-        a(href="#experience").white-text Experience
-        a(href="#projects").white-text Projects
-        a(href="#ideas").white-text Ideas
+    div
+        a(href="#education").white-text.clickable
+            span Education
+        a(href="#experience").white-text.clickable
+            span Experience
+        a(href="#projects").white-text.clickable
+            span Projects
 
 //- Central image
-img.banner-img.responsive-img(src="assets/img/mountain.jpg")
-div.row.banner-container
-    div.col.s2.m2
-    div.col.s8.m4
-        div.banner-text.black.white-text
-            h1 Hi!
-            p My new page is under construction. It will be finished shortly, patience!
-    div.col.s2.m6
+div.banner-container
+    img.img-responsive(src="assets/img/mountain.jpg")
+    h1 
+        span.black.white-text {Developer}
 

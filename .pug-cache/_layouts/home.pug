@@ -2,8 +2,14 @@ doctype
 html
     include head
     
-    body
+    body.white-text
         include nav
         include banner
 
-        | {{ content }}
+        div.all-container
+            include education
+            include experience
+
+        include footer
+
+        //- | {{ content }}

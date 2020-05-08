@@ -1,0 +1,46 @@
+// Education, experience
+// Normal content sections
+
+.all-container {
+    margin: 100px;
+}
+
+.timeline {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    z-index: 0;
+    background: #444444;
+}
+
+.dot {
+    content: '';
+    position: absolute;
+    display: block;
+    top: -23px;
+
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    z-index: 100;
+
+    border: 1px solid #777777;
+    background: black;
+    
+    @media only screen and (max-width: 1000px) { 
+        display: none;
+    }
+}
+
+.card-title {
+    font-weight: 700 !important;
+}
+
+.section-title {
+    padding: 0 25px;
+    font-weight: 700;
+
+    background-color: white;
+    color: black;
+}
