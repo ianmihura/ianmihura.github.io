@@ -20,19 +20,24 @@
 
 title: Ian | Home
 author: Ian Mihura
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-description_short: Developer, sometimes Producer. Thinker by hobby.
+description: >-
+  Lifelong learner. I'm passionate about technology and the ways stuff gets built. From webapps,
+  Smart Contracts, hashing algorithms and servers to cameras, video encoding protocols and animation.
+  Studied in many different universities and institutes, from many different people, always
+  absorbing their worldview as their skillset. My path is quite a divergent one, which makes me
+  skilled in a very wide range of subjects regarding technology. I work only in places where I
+  can learn something.
+description_short: Developer, sometimes Producer and Designer. Thinker by hobby.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ianmihura.me" # the base hostname & protocol for your site, e.g. http://example.com
 
-email: mihura.ian@gmail.com
-twitter_username:   ianmihura
-github_username:    ianmihura
-instagram_username: ianmihura
-linkedin_username:  ianmihura
+email:          mihura.ian@gmail.com
+twitter_link:   https://twitter.com/ianmihura
+github_link:    https://github.com/ianmihura
+instagram_link: https://instagram.com/ianmihura
+linkedin_link:  https://linkedin.com/in/ianmihura
+youtube_link:   https://www.youtube.com/ianmihura
+telegram_link:  https://t.me/ianmihura
 
 # Build settings
 # theme: minima

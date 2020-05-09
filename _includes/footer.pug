@@ -1,6 +1,11 @@
-footer
-    a.footer-container.white-text(href="mailto:{{ site.email }}")
-        p Got a project?
-        h3 Let's talk
-    div.copyright
-        | © 2020 by Ian Mihura. Photos from <a href="https://unsplash.com/">Unsplash</a>. 
+footer#talk
+    div.footer-container
+        a.white-text(href="mailto:{{ site.email }}" target="blank")
+            p Got a project?
+            h3 Let's talk
+    div.foot
+        div.copyright
+            | © 2020 by Ian Mihura. Photos from <a href="https://unsplash.com/" target="blank">Unsplash</a>.
+        div.social
+            span my_social_media: 
+            include social

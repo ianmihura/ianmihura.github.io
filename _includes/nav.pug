@@ -9,31 +9,28 @@ ul#slide-out.sidenav.black
             h4 It's me
             h6 {{ site.author }}
             p.description-short {{ site.description_short }}
-            br
     li
         a(href="#education").clickable
-            p.white-text My Education
+            span.white-text my_education
     li
         a(href="#experience").clickable
-            p.white-text My Experience
+            span.white-text my_experience
+    li
+        a(href="#projects").clickable
+            span.white-text my_projects
     li 
         div.divider
-    li
-        a(href="mailto:{{ site.mail }}").clickable
-            p.white-text Email me
-    li
-        a(href="https://github.com/ianmihura").clickable
-            p.white-text Checkout my Github
-    li
-        a(href="https://instagram.com/ianmihura").clickable
-            p.white-text or my Intagram!
+    li.white-text
+        a.subheader
+            span.white-text my_social_media:
+        include social
 
 //- Right social links
 div.side-right-header.black
     div
-        a(href="https://twitter.com/{{site.twitter_username}}" target="blank").white-text.clickable
+        a(href="{{ site.twitter_link }}" target="blank").white-text.clickable
             p twitter
-        a(href="https://github.com/{{site.github_username}}" target="blank").white-text.clickable
+        a(href="{{ site.github_link }}" target="blank").white-text.clickable
             p github
-        a(href="https://linkedin.com/in/{{site.linkedin_username}}" target="blank").white-text.clickable
+        a(href="{{ site.linkedin_link }}" target="blank").white-text.clickable
             p linkedin

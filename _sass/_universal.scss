@@ -2,6 +2,7 @@
 // Pure body, h1, p, a tags
 
 body {
+    color: #aaaaaa !important;
     font-size: 16px;
     min-width: 320px;
     line-height: 1.5;
@@ -26,6 +27,11 @@ hr {
     cursor: pointer;
 }
 
+::selection {
+    background: #c0c0c0;
+    // background: #ffb7b7; // cool pink
+}
+
 @media only screen and (max-width: 1000px) { 
     .l-only {
         display: none;
@@ -42,14 +48,26 @@ hr {
 
 footer {
     .footer-container {
-        text-align: center;
-        font-weight: 700;
-        cursor: default;
+        margin: 300px 0;
 
-        :hover {
-            cursor: pointer;
-            background-color: white;
-            color: black;
+        a {
+            text-align: center;
+            font-weight: 700;
+            cursor: default;
+    
+            :hover {
+                cursor: pointer;
+                background-color: white;
+                color: black;
+            }
+        }
+    }
+
+    .foot {
+        display: flex;
+
+        @media only screen and (max-width: 600px) { 
+            display: inline;
         }
     }
 
@@ -64,26 +82,34 @@ footer {
             text-align: center;
         }
     }
+    
+    .social {
+        opacity: 0.5;
+        margin: 20px 100px;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: left;
+        
+        @media only screen and (max-width: 600px) { 
+            margin: 20px 40px;
+            text-align: center;
+        }
+    }
 }
 
-/* width */
+// Custom Scrollbar
+// width
 ::-webkit-scrollbar {
   width: 5px;
 }
-
-/* Track */
-::-webkit-scrollbar-track {
-//   box-shadow: inset 0 0 5px grey; 
-//   border-radius: 10px;
-}
  
-/* Handle */
+// Handle
 ::-webkit-scrollbar-thumb {
   background: #424a4b; 
   border-radius: 10px;
 }
 
-/* Handle on hover */
+// Handle on hover
 ::-webkit-scrollbar-thumb:hover {
   background: #a9dce2; 
 }
