@@ -67,3 +67,16 @@
         font-size: 250%;
     }
 }
+
+.quote {
+    text-align: center;
+    margin: 200px;
+
+    @media only screen and (max-width: 600px) { 
+        margin: 200px 30px;
+    }
+}
+
+.experience-parallax {
+    padding-bottom: 100px;
+}

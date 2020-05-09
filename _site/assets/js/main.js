@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     M.Sidenav.init(document.querySelectorAll('.sidenav'));
+    M.Parallax.init(document.querySelectorAll('.parallax'));
 
     // var elems = document.querySelectorAll('.pushpin');
     // var instances = M.Pushpin.init(elems);
