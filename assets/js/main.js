@@ -15,7 +15,3 @@ document.addEventListener('DOMContentLoaded', function () {
 //         bottom: $target.offset().top + $target.outerHeight() - $this.height()
 //     });
 // });
-
-function downloadCV() {
-    console.log(1);
-}
