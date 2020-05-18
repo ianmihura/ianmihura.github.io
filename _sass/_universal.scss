@@ -40,10 +40,18 @@ hr {
 
 .clickable {
     :hover {
+        animation: blinker 1s linear infinite;
         cursor: pointer;
         background-color: white;
         color: black !important;
     }
+}
+
+@keyframes blinker {  
+  0% { background-color: white; color: black; }
+  74% { background-color: white; color: black; }
+  75% { background-color: black; color: white; }
+  100% { background-color: black; color: white;  }
 }
 
 footer {
