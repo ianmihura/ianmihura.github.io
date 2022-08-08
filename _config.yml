@@ -21,13 +21,13 @@
 title: Ian | Home
 author: Ian Mihura
 description: >-
-  Lifelong learner. I'm passionate about technology and the ways stuff gets built. From webapps,
-  Smart Contracts, hashing algorithms and servers to cameras, video encoding protocols and animation.
-  Studied in many different universities and institutes, from many different people, always
-  absorbing their worldview as their skillset. My path is quite a divergent one, which makes me
-  skilled in a very wide range of subjects regarding technology. I work only in places where I
-  can learn something.
-description_short: Developer, sometimes Producer and Designer. Thinker by hobby.
+  Lifelong learner. Passionate about technology and the ways stuff gets built. 
+  From webapps, deep learning, hashing algorithms, to video encoding protocols 
+  and financial markets. My path is quite a divergent one, which makes me skilled 
+  in a wide range of technologies. I tend to work in positions where I can learn. 
+  My main strength is learning on the spot and finding fast solutions. 
+  My main weakness is delegating tasks and communicating my process.
+description_short: Developer & SysAdmin. Probably bussy studying.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ianmihura.me" # the base hostname & protocol for your site, e.g. http://example.com
 
