@@ -11,12 +11,6 @@
 # If you need help with YAML syntax, here are some quick references for you: 
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 
 title: Ian | Home
 author: Ian Mihura
@@ -25,8 +19,8 @@ description: >-
   From webapps, deep learning, hashing algorithms, to video encoding protocols 
   and financial markets. My path is quite a divergent one, which makes me skilled 
   in a wide range of technologies. I tend to work in positions where I can learn. 
-  My main strength is learning on the spot and finding fast solutions. 
-  My main weakness is delegating tasks and communicating my process.
+  Personality: My main strength is learning on the spot and finding fast solutions. 
+  On the other hand, It has been difficult for me to ask for help when I need it.
 description_short: Developer & SysAdmin. Probably bussy studying.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ianmihura.me" # the base hostname & protocol for your site, e.g. http://example.com
