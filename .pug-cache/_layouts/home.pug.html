@@ -3,279 +3,31 @@
   <head>
     <title>{{page.title}}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&amp;display=swap" rel="stylesheet">
     <script src="assets/js/main.js"></script>
     <link rel="stylesheet" href="assets/css/style.css">
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-166722087-1"></script>
-    <script src="{{ site.url }}/assets/js/analytics.js"></script>
-    <link rel="icon" type="image/png" href="{{ site.url }}/assets/img/favicon_4.png?v=1">
   </head>
-  <body class="white-text">
-    <div class="sidenav-trigger side-left-header black pointer" data-target="slide-out"><i class="fas fa-bars mainnav-icon white-text"></i> open</div>
-    <ul class="sidenav black" id="slide-out">
-      <li>
-        <div class="user-view">
-          <h4>It's me</h4>
-          <h6><i class="blink">I</i>an Mihura</h6>
-          <p class="description-short">{{ site.description_short }}</p>
-        </div>
-      </li>
-      <li><a class="clickable" href="#experience" target="blank"><span class="white-text">my_experience</span></a></li>
-      <li>     <a class="clickable" href="#education" target="blank"><span class="white-text">my_education</span></a></li>
-      <li><a class="clickable" href="#projects" target="blank"><span class="white-text">my_projects</span></a></li>
-      <li> 
-        <div class="divider"></div>
-      </li>
-      <li class="white-text"><a class="subheader"><span class="white-text">my_social_media:</span></a><a class="clickable" href="{{ site.github_link }}" target="blank"><span class="white-text">> github; </span></a><a class="clickable" href="{{ site.linkedin_link }}" target="blank"><span class="white-text">> linkedin; </span></a><a class="clickable" href="{{ site.instagram_link }}" target="blank"><span class="white-text">> instagram; </span></a></li>
-    </ul>
-    <div class="side-right-header black">
-      <div><a class="white-text clickable" href="{{ site.instagram_link }}" target="blank">
-          <p>instagram</p></a><a class="white-text clickable" href="{{ site.github_link }}" target="blank">
-          <p>github</p></a><a class="white-text clickable" href="{{ site.linkedin_link }}" target="blank">
-          <p>linkedin</p></a></div>
-    </div>
-    <div class="navbar-fixed">
-      <nav>
-        <div class="nav-wrapper black"><a class="sidenav-trigger clickable" href="mailto:{{site.email}}" target="blank"><span>{{site.email}}</span></a>
-          <ul class="left hide-on-med-and-down" id="nav-mobile">
-            <li> <a class="clickable" href="mailto:{{site.email}}" target="blank"><span>{{site.email}}</span></a></li>
-          </ul>
-          <ul class="right hide-on-med-and-down" id="nav-mobile">
-            <li> <a class="clickable" href="#"><span>{{site.author}}</span></a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-    <div class="side-bottom-header black">
-      <div><a class="white-text clickable" href="#experience"><span>Experience</span></a><a class="white-text clickable" href="#education"><span>Education</span></a><a class="white-text clickable" href="#projects"><span>Projects</span></a><a class="white-text clickable" href="#talk"><span>Let's Talk</span></a></div>
-    </div>
-    <div class="banner-container" id="home"><img class="responsive-img" src="assets/img/mountain.jpg">
-      <h1> <span class="black white-text">{Technician}</span></h1>
-      <h6><span class="black white-text">[Developer, SysAdmin]</span></h6>
-    </div>
-    <div class="all-container">
-      <div class="cv"><a class="clickable" href="assets/documents/cv_ian_mihura.pdf" target="blank">
-          <h5 class="white-text">download_cv</h5></a></div>
-      <div class="profile-container" id="profile">
-        <div class="row">
-          <div class="col m12 l6 profile-image"><img class="responsive-img" src="assets/img/me.jpg"></div>
-          <div class="col m12 l6 profile-content">
-            <h1 style="display: inline-grid;"><span class="section-title-alt">Work with</span><span class="section-title">enthusiasm.</span></h1><i>Barcelona, august 2022</i>
-            <p>{{ site.description }}</p>
-            <div class="profile-icons"><i class="fa fa-server"></i><i class="fa fa-laptop-code"></i><i class="fab fa-js"></i></div>
-          </div>
-        </div>
+  <body>
+    <div id="link-list">
+      <div class="list">
+        <ul>
+          <li data-id="1">hello</li>
+          <li data-id="2">how are you</li>
+          <li data-id="3">very well</li>
+          <li data-id="4">good bae</li>
+        </ul>
       </div>
-      <div class="experience-parallax">
-        <div class="parallax-container">
-          <div class="parallax"><img src="assets/img/mountain-2.jpg"></div>
-        </div>
-      </div>
-      <div class="experience-container" id="experience">
-        <h2><span class="section-title">Experience</span></h2><br>
-        <hr class="l-only">
-        <div class="row">
-          <div class="col m0 l1"></div>
-          <div class="col m12 l3">
-            <div class="card black white-text">
-              <div class="card-content white-text">
-                <div class="dot"></div><i>2020-2022</i><span class="card-title">SysAdmin, Dev.</span>
-                <p>Started out as Broadcast Engineer for Telefoot in Paris. Then, integrated with the team at BCN as SysAdmin, where I am now. Also developing some internal tools with XAMPP stack. </p>
-              </div>
-            </div>
-          </div>
-          <div class="col m12 l3">
-            <div class="card black white-text">
-              <div class="card-content white-text">
-                <div class="dot"></div><i>2020</i><span class="card-title">Freelance Dev.</span>
-                <p>Various freelance projects, JS and Android focused. Including data scrapping, prototype building, API and service maintenance. Some graphic design jobs too.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col m12 l3">
-            <div class="card black white-text">
-              <div class="card-content white-text">
-                <div class="dot"></div><i>2020-2019</i><span class="card-title">Associate Producer</span>
-                <p>Everything from internal logistics to client projects. Including events and audiovisual products. Company: TheCreativeAgency. </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <hr class="l-only">
-        <div class="row">
-          <div class="col m0 l2"></div>
-          <div class="col m12 l3">
-            <div class="card black white-text">
-              <div class="card-content white-text">
-                <div class="dot"></div><i>2017-2015</i><span class="card-title">Dev Jr+</span>
-                <p>Longest and strongest work experience. Worked various NodeJS frameworks, Drupal and SAP BI tools as Lumira. Company: Inlcusion Services S.A.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col m12 l3">
-            <div class="card black white-text">
-              <div class="card-content white-text">
-                <div class="dot"></div><i>2015</i><span class="card-title">Dev Jr.</span>
-                <p>Very first job as a Dev. Worked with mySQL and Android, for a client in the sanitary sector. Company: GMS S.A.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col m12 l3">
-            <div class="card black white-text">
-              <div class="card-content white-text">
-                <div class="dot"></div><i>2014</i><span class="card-title">Tech. Producer</span>
-                <p>Technical producer at a local radio station in Buenos Aires. Editing audio and content.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="quote">
-        <h4>Education is an admirable thing, but it is well to remember from time to time that nothing that is worth knowing can be taught.</h4><i class="black-text white">Oscar Wilde</i>
-      </div>
-      <div class="experience-container" id="projects">
-        <h2><span class="section-title">Projects</span></h2><br>
-        <hr class="l-only">
-        <div class="row">
-          <div class="col m12 l4">
-            <div class="card black white-text">
-              <div class="card-content white-text">
-                <div class="dot"></div><i>App</i><span class="card-title">Smart Tickets</span>
-                <p>Ticketing app based in Blockchain technology. Still under developement, it aims at rethinking the way we manage ticketing in general. Made with Express-js and Waves technology.</p>
-              </div>
-              <div class="card-action"><a class="clickable blue-text" href="https://smarttickets.herokuapp.com/" target="blank"><span>app</span></a></div>
-            </div>
-          </div>
-          <div class="col m12 l4">
-            <div class="card black white-text">
-              <div class="card-content white-text">
-                <div class="dot"></div><i>Webpage</i><span class="card-title">Future Philosophy</span>
-                <p>Future Philosophy is an interdisciplinary collective that aims at bringing the edge of philosophy debate about technology to the forefront of the industry. Webpage is made with Jekyll.</p>
-              </div>
-              <div class="card-action"><a class="clickable blue-text" href="https://filosofiadelfuturo.com/" target="blank"><span>web page</span></a></div>
-            </div>
-          </div>
-          <div class="col m12 l4">
-            <div class="card black white-text">
-              <div class="card-content white-">
-                <div class="dot"></div><i>Code</i><span class="card-title">LMC-js</span>
-                <p>The Little Man Computer (LMC) is an instructional model of a von Neumann architecture computer, created by Dr. Stuart Madnick. I implement this architecture in Javascript.</p>
-              </div>
-              <div class="card-action"><a class="clickable blue-text" href="{{ site.github_link }}/LMC-js" target="blank"><span>github repo</span></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="quote">
-        <h4>Experience without theory is blind, but theory without experience is mere intellectual play.</h4><i class="black-text white">Immanuel Kant</i>
-      </div>
-      <div class="education-container" id="education">
-        <h2><span class="section-title">Education</span></h2><br>
-        <hr class="l-only">
-        <div class="row">
-          <div class="col m12 l4">
-            <div class="card black white-text">
-              <div class="card-content white-text">
-                <div class="dot"></div><i>2019-2017</i><span class="card-title">Film Production</span>
-                <p>EMAV film school @ Barcelona. Focused in the film production process as a headway for project management and logistics, as well as technical resource administration. Finished 2019.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col m12 l4">
-            <div class="card black white-text">
-              <div class="card-content white-text">
-                <div class="dot"></div><i>2017-2015</i><span class="card-title">Computer Science</span>
-                <p>University of Buens Aires. The study of abstract concepts about Mathematics and Computer relationship. Fascinating subjects, but too abstract. Didn't finish.    </p>
-              </div>
-            </div>
-          </div>
-          <div class="col m12 l4">
-            <div class="card black white-text">
-              <div class="card-content white-text">
-                <div class="dot"></div><i>2014-2013</i><span class="card-title">Communication Sc.</span>
-                <p>University of Saint Andrew's @ Buenos Aires. Understanding human communication, using traditional and modern communication tools. Interesting subjects, but too soft. Didn't finish.    </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="education-container">
-        <h2><span class="section-title">Self Learner</span></h2><br>
-        <hr class="l-only">
-        <div class="row">
-          <div class="col m0 l1"></div>
-          <div class="col m12 l3">
-            <div class="card black white-text">
-              <div class="card-content white-text">
-                <div class="dot"></div><i>2020-2015</i><span class="card-title">JS</span>
-                <p>Advnaced understanding of Javascript and its frameworks. Been learning all around the web, Codecademy, Coursera, and others.</p>
-              </div>
-              <div class="card-action"><a class="clickable blue-text" href="https://www.freecodecamp.org/learn/" target="blank"><span>link to the course</span></a></div>
-            </div>
-          </div>
-          <div class="col m12 l3">
-            <div class="card black white-text">
-              <div class="card-content white-text">
-                <div class="dot"></div><i>2020-2018</i><span class="card-title">Ethereum</span>
-                <p>Smart Contracts in Solidity, the EVM and web3.js, learned how to build an dapp. Have taken several courses on Ethereum, this is one of them:</p>
-              </div>
-              <div class="card-action"><a class="clickable blue-text" href="https://cryptozombies.io/en/course/" target="blank"><span>link to the course</span></a></div>
-            </div>
-          </div>
-          <div class="col m12 l3">
-            <div class="card black white-text">
-              <div class="card-content white-text">
-                <div class="dot"></div><i>2020-2019</i><span class="card-title">Game Dev</span>
-                <p>Unity with C++, basis for 2D animations and game mechanics. Several open courses, and this Udemy course by GameDev.tv.</p>
-              </div>
-              <div class="card-action"><a class="clickable blue-text" href="https://www.udemy.com/course/unitycourse/" target="blank"><span>link to the course</span></a></div>
-            </div>
-          </div>
-        </div>
-        <hr class="l-only">
-        <div class="row">
-          <div class="col m0 l2"></div>
-          <div class="col m12 l3">
-            <div class="card black white-text">
-              <div class="card-content white-text">
-                <div class="dot"></div><i>2020</i><span class="card-title">Cryptography 01</span>
-                <p>Stanfort University online course, by Dan Boneh. Everything from Simmetrical Key exchange to hash functions.</p>
-              </div>
-              <div class="card-action"><a class="clickable blue-text" href="https://www.coursera.org/learn/crypto" target="blank"><span>link to the course</span></a></div>
-            </div>
-          </div>
-          <div class="col m12 l3">
-            <div class="card black white-text">
-              <div class="card-content white-text">
-                <div class="dot"></div><i>2018</i><span class="card-title">Typography 01</span>
-                <p>Graphic design course based on the understanding of typography as the building block of any 2D design.</p>
-              </div>
-              <div class="card-action"><a class="clickable blue-text" href="https://academy.thefutur.com/p/typography-01" target="blank"><span>link to the course</span></a></div>
-            </div>
-          </div>
-          <div class="col m12 l3">
-            <div class="card black white-text">
-              <div class="card-content white-text">
-                <div class="dot"></div><i>2020</i><span class="card-title">Waves</span>
-                <p>Waves blockchain is another VM blockchain that supports smart contract building, with a different use of memory than Ethereum.</p>
-              </div>
-              <div class="card-action"><a class="clickable blue-text" href="https://stepik.org/course/54415/promo" target="blank"><span>link to the course</span></a></div>
-            </div>
-          </div>
-        </div>
+      <div class="preview">
+        <ul> 
+          <li id="1">hello</li>
+          <li id="2">how are you</li>
+          <li id="3">very well</li>
+          <li id="4">good bae</li>
+        </ul>
       </div>
     </div>
-    <footer id="talk">
-      <div class="footer-container"><a class="white-text" href="mailto:{{ site.email }}" target="blank">
-          <p>Got a project?</p>
-          <h3>Let's talk</h3></a></div>
-      <div class="foot">
-        <div class="copyright">© 2022 by Ian Mihura. Photos from <a href="https://unsplash.com/" target="blank">Unsplash</a>.</div>
-        <div class="social"><span>my_social_media: </span><a class="clickable" href="{{ site.github_link }}" target="blank"><span class="white-text">> github; </span></a><a class="clickable" href="{{ site.linkedin_link }}" target="blank"><span class="white-text">> linkedin; </span></a><a class="clickable" href="{{ site.instagram_link }}" target="blank"><span class="white-text">> instagram; </span></a></div>
-      </div>
-    </footer>
   </body>
 </html>

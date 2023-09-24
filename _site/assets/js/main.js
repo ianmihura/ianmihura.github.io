@@ -1,17 +1,8 @@
-document.addEventListener('DOMContentLoaded', function () {
-    M.Sidenav.init(document.querySelectorAll('.sidenav'));
-    M.Parallax.init(document.querySelectorAll('.parallax'));
+$( document ).ready(function() {
+    $(".preview").scrollTop($(window.location.hash))
 
-    // var elems = document.querySelectorAll('.pushpin');
-    // var instances = M.Pushpin.init(elems);
-});
-
-
-// $('.pushpin-demo-nav').each(function () {
-//     var $this = $(this);
-//     var $target = $('#' + $(this).attr('data-target'));
-//     $this.pushpin({
-//         top: $target.offset().top,
-//         bottom: $target.offset().top + $target.outerHeight() - $this.height()
-//     });
-// });
+    $("li").on("click", function(e) {
+        let id = $(this).attr("data-id")
+        window.location.hash = `#${id}`
+    })
+})

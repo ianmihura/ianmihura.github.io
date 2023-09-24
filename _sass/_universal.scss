@@ -8,7 +8,7 @@ body {
     line-height: 1.5;
     font-family: 'Source Code Pro', monospace;
     overflow-x: hidden;
-    /* overflow-y: hidden; */
+    // overflow-y: hidden;
     min-height: 100%;
     margin: 0;
     visibility: visible !important;
@@ -17,6 +17,11 @@ body {
 
 hr {
     border: 0.5px solid #444444;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
 }
 
 .hidden {
@@ -29,7 +34,6 @@ hr {
 
 ::selection {
     background: #c0c0c0;
-    // background: #ffb7b7; // cool pink
 }
 
 @media only screen and (max-width: 1000px) { 
@@ -47,12 +51,6 @@ hr {
     }
 }
 
-@keyframes blinker {  
-  0% { background-color: white; color: black; }
-  74% { background-color: white; color: black; }
-  75% { background-color: black; color: white; }
-  100% { background-color: black; color: white;  }
-}
 
 footer {
     .footer-container {
