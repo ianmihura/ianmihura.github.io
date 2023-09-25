@@ -35,12 +35,16 @@ telegram_link:  https://t.me/ianmihura
 
 plugins:
   - jekyll-feed
-  - jekyll-pug
 
 keep_files:
   - .git
   - .gitignore
   - CNAME
+
+collections:
+  lists:
+    output: true
+    permalink: /:title/
 
 sass:
   sass_dir: _sass

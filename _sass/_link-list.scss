@@ -6,6 +6,7 @@
     div {
         overflow: scroll;
         width: 100%;
+        scroll-behavior: smooth;
     }
 
     li {
@@ -15,17 +16,27 @@
     .list {
         li {
             padding: 15px;
-            border: solid white 1px;
+            border: solid #aaaaaa 1px;
             cursor: pointer;
+            
+            &:after {
+                content: ">";
+                text-align: right;
+                float: right;
+            }
+            
+            &:hover {
+                border: solid white 1px;
+                color: white;
+            }
         }
     }
     
     .preview {
-        scroll-behavior: smooth;
         li {
             padding: 15px;
             padding-bottom: 500px;
-            border: dotted white 0.1px;
+            border: dotted #aaaaaa 0.1px;
         }
     }
 }
