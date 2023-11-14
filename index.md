@@ -1,5 +1,5 @@
 ---
 layout: home
-title: Ian Mihura | Home
+title: Ian Mihura
 comments: true
 ---
