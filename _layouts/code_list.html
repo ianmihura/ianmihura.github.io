@@ -1,0 +1,20 @@
+<html lang="en">
+    {% include head.html %}
+    <body>
+        {% include navbar.html %}
+
+        <div class="post-header">
+            <p class="post-title">
+                {{ page.title }}
+            </p>
+            {{ page.date | date_to_string}} | 
+            {% include addons/read_time.html %} |
+            {% if page.medium %}
+            <a href="{{ page.medium }}">Read story in medium</a>
+            {% endif %}
+        </div>
+        <div class="post-content">
+            {{ content }}
+        </div>
+    </body>
+</html>
