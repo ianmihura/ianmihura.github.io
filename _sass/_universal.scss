@@ -2,8 +2,8 @@
 // Pure body, h1, p, a tags
 
 body {
-    color: #aaaaaa !important;
-    font-size: 16px;
+    color: $text-color;
+    font-size: $font-medium;
     min-width: 320px;
     line-height: 1.5;
     font-family: 'Source Code Pro', monospace;
@@ -11,17 +11,30 @@ body {
     // overflow-y: hidden;
     min-height: 100%;
     margin: 0;
-    visibility: visible !important;
-    background-color: black;
+    visibility: visible;
+    background-color: $background-color;
+}
+
+p, span, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Code Pro', monospace;
 }
 
 hr {
-    border: 0.5px solid #444444;
+    border: 0.5px solid $line-color;
+}
+
+li {
+    list-style-type: none;
 }
 
 ul {
     margin: 0;
     padding: 0;
+}
+
+a:hover {
+    background-color: $selection-background-color;
+    color: $selection-text-color;
 }
 
 .hidden {
@@ -33,74 +46,7 @@ ul {
 }
 
 ::selection {
-    background: #c0c0c0;
-}
-
-@media only screen and (max-width: 1000px) { 
-    .l-only {
-        display: none;
-    }
-}
-
-.clickable {
-    :hover {
-        animation: blinker 1s linear infinite;
-        cursor: pointer;
-        background-color: white;
-        color: black !important;
-    }
-}
-
-
-footer {
-    .footer-container {
-        margin: 300px 0;
-
-        a {
-            text-align: center;
-            font-weight: 700;
-            cursor: default;
-    
-            :hover {
-                cursor: pointer;
-                background-color: white;
-                color: black;
-            }
-        }
-    }
-
-    .foot {
-        display: flex;
-
-        @media only screen and (max-width: 600px) { 
-            display: inline;
-        }
-    }
-
-    .copyright {
-        opacity: 0.24;
-        margin: 20px 100px;
-        font-size: 14px;
-        font-weight: 500;
-        
-        @media only screen and (max-width: 600px) { 
-            margin: 20px 40px;
-            text-align: center;
-        }
-    }
-    
-    .social {
-        opacity: 0.5;
-        margin: 20px 100px;
-        font-size: 14px;
-        font-weight: 500;
-        text-align: left;
-        
-        @media only screen and (max-width: 600px) { 
-            margin: 20px 40px;
-            text-align: center;
-        }
-    }
+    background: $selection-background-color;
 }
 
 // Custom Scrollbar
@@ -111,11 +57,11 @@ footer {
  
 // Handle
 ::-webkit-scrollbar-thumb {
-  background: #424a4b; 
+  background: $line-color; 
   border-radius: 10px;
 }
 
 // Handle on hover
 ::-webkit-scrollbar-thumb:hover {
-  background: #a9dce2; 
+  background: $secondary-color; 
 }

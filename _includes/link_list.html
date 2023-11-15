@@ -1,14 +1,14 @@
 <div id="link-list">
     <div class="list">
         <ul>
-            {% for item in site.lists %}
+            {% for item in include.list %}
                 <li data-title="{{ item.title | replace: " ", "_" }}">{{ item.title }}</li>
             {% endfor %}
         </ul>
     </div>
     <div class="preview">
         <ul> 
-            {% for item in site.lists %}
+            {% for item in include.list %}
                 <li id="{{ item.title | replace: " ", "_" }}">{{ item.content }}</li>
             {% endfor %}
         </ul>

@@ -1,0 +1,12 @@
+nav {
+    margin: 15px;
+    border: 1px solid $line-color;
+    border-radius: 5px;
+    
+    flex-direction: row;
+    display: flex;
+    
+    a {
+        padding: 10px;
+    }
+}

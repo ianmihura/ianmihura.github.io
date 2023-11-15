@@ -1,0 +1,5 @@
+<nav>
+    {% for link in site.data.navigation %}
+    <a href="{{ site.url }}{{ link.url }}">{{ link.title }}</a>
+    {% endfor %}
+</nav>

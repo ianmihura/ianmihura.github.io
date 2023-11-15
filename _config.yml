@@ -1,37 +1,26 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-
-title: Ian | Home
+title: Ian
 author: Ian Mihura
 description: >-
   Lifelong learner. Passionate about technology and the ways stuff gets built. 
   From webapps, deep learning, hashing algorithms, to video encoding protocols 
-  and financial markets. My path is quite a divergent one, which makes me skilled 
+  and financial markets, my path is quite a divergent one, making me skilled 
   in a wide range of technologies. I tend to work in positions where I can learn. 
   Personality: My main strength is learning on the spot and finding fast solutions. 
   On the other hand, It has been difficult for me to ask for help when I need it.
 description_short: Developer & SysAdmin. Probably bussy studying.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ianmihura.me" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://ianmihura.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /:title/
+words_per_minute: 220
 
-email:          mihura.ian@gmail.com
-twitter_link:   https://twitter.com/ianmihura
-github_link:    https://github.com/ianmihura
+email: mihura.ian@gmail.com
+twitter_link: https://twitter.com/ianmihura
+github_link: https://github.com/ianmihura
 instagram_link: https://instagram.com/ianmihura
-linkedin_link:  https://linkedin.com/in/ianmihura
-youtube_link:   https://www.youtube.com/ianmihura
-telegram_link:  https://t.me/ianmihura
+linkedin_link: https://linkedin.com/in/ianmihura
+youtube_link: https://www.youtube.com/ianmihura
+medium_link: https://medium.com/@mihura.ian
+spotify_link: <>
 
 plugins:
   - jekyll-feed
@@ -42,7 +31,7 @@ keep_files:
   - CNAME
 
 collections:
-  lists:
+  podcasts:
     output: true
     permalink: /:title/
 

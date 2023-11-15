@@ -1,0 +1,14 @@
+<html lang="en">
+    {% include head.html %}
+    <body>
+        {% include navbar.html %}
+
+        <ul class="post-content">
+            {% for post in site.posts %}
+            <li>
+                <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
