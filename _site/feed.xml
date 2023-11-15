@@ -1,1 +1,160 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-09-25T18:28:48+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ian | Home</title><subtitle>Lifelong learner. Passionate about technology and the ways stuff gets built.  From webapps, deep learning, hashing algorithms, to video encoding protocols  and financial markets. My path is quite a divergent one, which makes me skilled  in a wide range of technologies. I tend to work in positions where I can learn.  Personality: My main strength is learning on the spot and finding fast solutions.  On the other hand, It has been difficult for me to ask for help when I need it.</subtitle><author><name>Ian Mihura</name></author></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-11-15T01:15:02+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ian</title><subtitle>Lifelong learner. Passionate about technology and the ways stuff gets built.  From webapps, deep learning, hashing algorithms, to video encoding protocols  and financial markets, my path is quite a divergent one, making me skilled  in a wide range of technologies. I tend to work in positions where I can learn.  Personality: My main strength is learning on the spot and finding fast solutions.  On the other hand, It has been difficult for me to ask for help when I need it.</subtitle><author><name>Ian Mihura</name></author><entry><title type="html">No, A.I. won’t steal your job</title><link href="http://localhost:4000/no-a-i-wont-steal-your-job/" rel="alternate" type="text/html" title="No, A.I. won’t steal your job" /><published>2023-11-12T00:00:00+01:00</published><updated>2023-11-12T00:00:00+01:00</updated><id>http://localhost:4000/no-a-i-wont-steal-your-job</id><content type="html" xml:base="http://localhost:4000/no-a-i-wont-steal-your-job/">&lt;p&gt;Every few years we fall into the same old argument: No, machines will not steal your job.&lt;/p&gt;
+
+&lt;p&gt;They might take this job you are doing right now, but they will not take away every job.&lt;/p&gt;
+
+&lt;p&gt;The other day a friend of mine told me a story that very much illustrates this. He works in a company that trades chemical products internationally. Clients send requests through an integrated CRM and he arranges the delivery.&lt;/p&gt;
+
+&lt;p&gt;Unfortunately, he pays too much attention to the news cycle. The other day he confessed to me he’s afraid that A.I. will take his job.&lt;/p&gt;
+
+&lt;p&gt;“It is the end for me,” he said, “What I do is automatizable.”&lt;/p&gt;
+
+&lt;p&gt;It is true. One part of his work is automatizable. Some days he just takes requests through a system and log them in another. He’s a cog in the machine already.&lt;/p&gt;
+
+&lt;p&gt;But that’s not all he does. He spends his day surveilling logistics, verifying that no incidents happen and all clients are happy. But incidents happen, and when they do, his creativity kicks in.&lt;/p&gt;
+
+&lt;p&gt;So, the story goes, there was an incident with a request that came in boiling hot.&lt;/p&gt;
+
+&lt;p&gt;“We need 5 tons of acetic acid in Munich, day after tomorrow!” the sales guy told him.&lt;/p&gt;
+
+&lt;p&gt;He bit his lip. How many times had he fought the sales team for accepting impossible schedules?&lt;/p&gt;
+
+&lt;p&gt;“This is a highly explosive product,” he answered, “Our provider is in Spain. The amount of paperwork we need, even if the driver takes the long way around Switzerland. And who would do the trip? The guys at FriendlyTruck are all booked!”&lt;/p&gt;
+
+&lt;p&gt;“Make it happen. This is a very important client,” he hung the phone.&lt;/p&gt;
+
+&lt;p&gt;Looking around he thought hard, until a lightbulb switched: there’s a ship fully packed with acid coming into Hamburg every month. They must have some stock there. He called his friends, and alas, they had almost 3 tons of acid still available.&lt;/p&gt;
+
+&lt;p&gt;“Besides,” they told him, “we only sell 1 tonne per week.”&lt;/p&gt;
+
+&lt;p&gt;Still he had to take it from Hamburg to Munich. He had little truck contacts in Germany, but he knew of a French guy that was already downloading his tank of acetone in that same yard. Unfortunately, acetone and acetic acid are incompatible. This means, if a truck has carried acetone, you need to clean the thing thoroughly first, which itself takes a whole day, and even then the truck would only be eligible to carry acetic acid a week later.&lt;/p&gt;
+
+&lt;p&gt;He looked some more, until he found a guy that was going to carry acetone from Hamburg to Warsaw that very day. The last piece of the puzzle.&lt;/p&gt;
+
+&lt;p&gt;He found the number and called him. A deep Polish voice answered. They mumbled for a while, but it was futile: the trucker only spoke Polish! After a while, somehow, my friend managed to tell the driver to reach for his phone and reconfirm the trip (while they were trying to understand each other, he had already changed it). It worked.&lt;/p&gt;
+
+&lt;p&gt;“Ah… Okay, okay. Monachium. Munchen, Munchen…” he said. This Polish trucker would load 2 tons of acetic acid to Munich (which was the maximum he dared borrow without asking first).&lt;/p&gt;
+
+&lt;p&gt;My friend sighed. Hard part over! All that was left was to tie loose ends.&lt;/p&gt;
+
+&lt;p&gt;He called the French trucker downloading acetone. He told him to stop the download, and start loading up acetone again: his new job was to go to Warsaw with a full tank.&lt;/p&gt;
+
+&lt;p&gt;He then called the guys at the yard. They were well stocked with acetone luckily, but the acetic acid was low.&lt;/p&gt;
+
+&lt;p&gt;“Next sale is in a few days. That’s going to leave us dry. Not to mention if we make another small sale… When is next ship coming in?”&lt;/p&gt;
+
+&lt;p&gt;“I can get you a truck with 2 tons of acetic acid by next week,” he assured them. In fact he had arranged a truck with 5 tons: 2 for the guys at Hamburg and the remaining 3 for the very important client.&lt;/p&gt;
+
+&lt;p&gt;So he lastly called the sales guy who had started all this.&lt;/p&gt;
+
+&lt;p&gt;“I got you a truck with 2 tons of acetic acid going out of Hamburg yard in a few hours. The other 3 will arrive next week.”&lt;/p&gt;
+
+&lt;p&gt;“It’ll have to do. Thanks, you are a miracle worker.”&lt;/p&gt;
+
+&lt;p&gt;So, what is the moral of this story?&lt;/p&gt;
+
+&lt;p&gt;It seems that my friend still plays somewhat of a creative role. At least this part of the job won’t be automatized, right?&lt;/p&gt;
+
+&lt;p&gt;Well, no, that is not the full picture. With A.I., who knows, maybe they will be able to automatize this too. Even more so now that my friend has “discovered” this relationship of providers. He might as well be teaching the machines of the future how to solve complex problems.&lt;/p&gt;
+
+&lt;p&gt;No. There is still an element my friend missed in his story, related to the very important client. Why did the sales guy take the deal? He was making a bet, sure, but there is a deeper truth. If he did not take it, and if he routinely does not take “hot” deals, he, or perhaps the company itself, would fall out of business.&lt;/p&gt;
+
+&lt;p&gt;Why? The market has become more competitive, the customers more capricious. In the past it might have been rare to receive requests more urgent than a week, or a month. Imagine before the internet, and telephones, when international travel was a high risk adventure: shipments arrived when they arrived, if they arrived at all.&lt;/p&gt;
+
+&lt;p&gt;Now the market has sophisticated. With more technology, companies like the very important client not only exist, but take their whole competitive advantage from being flexible. The high availability of stock allows whole industries to exist, and companies to make (previously) absurd requests, like the one in the story. Can a machine solve these absurd requests? Sure! Indeed the more, the better, for they enable more companies to benefit from this flexibility, allowing us to think broader and deeper on actual human needs.&lt;/p&gt;
+
+&lt;p&gt;It is unsurprising that my friend tells me: those parts of his job that are automatizable are the ones he most hates doing. Why not automatize them? And free all his mental energy to solve complex problems like the one he just solved. The truth is, if he becomes good at it, the complex incidents will multiply, not reduce. Imagine all lost deals that the sales team have to turn down because they are just unfeasable. Or the amount of deals that clients don’t bother raising the phone for, because they are deemed impossible.&lt;/p&gt;
+
+&lt;p&gt;Machines will not steal every job, because there will always be human needs, and where there’s a need, there’s a job. Needs will increase, today’s luxury is tomorrow’s basic need, and the market will demand more contextual thinking, that which machines are not fit for.&lt;/p&gt;
+
+&lt;p&gt;“But A.I. is definitively a game-changer,” some say.&lt;/p&gt;
+
+&lt;p&gt;To this I like to point out, as Nassim Taleb puts in his book “Black Swan”: we are very bad at predicting the future. What we think won’t have any efect, does, and what we think will have great effect, doesn’t. Or at least not in the way we think.&lt;/p&gt;
+
+&lt;p&gt;Who would have thought the Internet to have such an effect? Or the steam engine? Or the printing press? And on the other hand, where’s our flying cars? Our interplanetary civilization? If you would have taken bets back in the 70’s on who would lead innovation 50 years hence, NASA would top the chart, and you’d be pressed to find anyone putting money on one William Gates and his friend Paul Allen, working overnight out of some garage in Albuquerque.&lt;/p&gt;
+
+&lt;p&gt;Who knows what A.I. will bring? How will it look like in 50 years? What type of comapnies will it enable, what needs will it satisfy? Or will it stay relevant at all, like our flying cars?&lt;/p&gt;
+
+&lt;p&gt;I am not enamoured with technology, nor do I dread it. I was not around in the 70’s to speculate, but I’m here now to take bets: if history’s worth anything, chances are it will be a net positive, and we will live in a better world because of it. Those who follow too closely the news cycle would do well to remember that we don’t live in a sci-fi movie.&lt;/p&gt;</content><author><name>Ian Mihura</name></author><category term="ai" /><category term="technology" /><category term="trade" /><category term="business" /><category term="economy" /><summary type="html">Every few years we fall into the same old argument: No, machines will not steal your job.</summary></entry><entry><title type="html">Liberty is not right-winged</title><link href="http://localhost:4000/liberty-is-not-right-winged/" rel="alternate" type="text/html" title="Liberty is not right-winged" /><published>2023-08-18T00:00:00+02:00</published><updated>2023-08-18T00:00:00+02:00</updated><id>http://localhost:4000/liberty-is-not-right-winged</id><content type="html" xml:base="http://localhost:4000/liberty-is-not-right-winged/">&lt;blockquote&gt;
+  &lt;p&gt;“Foreigners enjoy in the territory of the Nation all the civil rights of the citizen; they may exercise their industry, commerce and profession; own real estate, buy and alienate it; navigate the rivers and coasts; freely exercise their worship; testament and marry according to the laws.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Article 20 of the Argentine Constitution, 1853&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Unfortunately, we libertarians are grouped with the right. Nothing could be further from the truth. During the Spanish Civil War, libertarians fought alongside socialists and anarchists against violent facism, longing for the lost Liberal Triennium. Today we are grouped with the right-wing because governments are all socialist, and libertarians lie always uncomfortably against the State.&lt;/p&gt;
+
+&lt;p&gt;So speaks Santiago Abascal, leader of Spain’s far-right Vox party:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“They (the left) want to muzzle Spaniards while they collude with the enemies of Spain: those who assault our borders.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I am not right-wing. I love immigration, and all personal freedoms. But I am not a left-wing either. Neither during the Spanish Civil War, nor now, do I surrender into the bunch. Libertarians are anti-state, anti-violence, anti-control. We seek peace and market, material progress, industry and free labor, free movement, free thought, free speech and free religion.&lt;/p&gt;
+
+&lt;p&gt;Libertarians founded America. Hard-working immigrants, escaping oppressive governments, senseless wars, seeking to prosper by the work of their hands: true libertarians. Many know the American ethos of the Wild West: the frontier, the freedom of the plains, the cowboy. The old American way. Yet few know that it is also the Argentine ethos, and indeed, all of America’s ethos. The new world is the new frontier, the fertile desert waiting to be populated, the experiment of society founded by immigrants, which receives (or received) the world with open arms. Engraved in bronze under the statue of liberty in New York says Emma Lazarus:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Give me your tired, your poor,
+Your huddled masses yearning to breathe free”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;immigration-prejudices&quot;&gt;Immigration prejudices&lt;/h2&gt;
+
+&lt;p&gt;But even we Americans and libertarians, descendants of immigrants, how many prejudices and sophisms we suffer! Juan Bautista Alberdi, classical liberal thinker, author of the Bases (“Bases and starting points for the political organization of the Argentine Republic” 1852, guide of the Argentine Constitution), holds the maxim: “To govern is to populate”. But he himself suffered, like everyone else, from various prejudices. On immigration he wrote:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The free citizen of the United States is often the transformation of the free subject of free England, of free Switzerland, of free Belgium, of free Holland, of judicious and industrious Germany.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The judicious and industrious Germany? The same Nordic blond who was for the Romans the uncivilized barbarian? The Viking who was the terror of the Middle Ages? What was industrious Germany doing during the tercentenary wars of the Protestant Reformations? What was free Europe doing during the decade of the French terror? During the genocide of the Congo, perpetrated by Leopold II of Free Belgium? During the Western front of World War I? Where was “Protestant Germany, industrious, a friend of rest, of domestic life and of social and religious freedom” when the death camps were being erected in 1933?&lt;/p&gt;
+
+&lt;p&gt;Alberdi still writes:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“To populate is to rot, to corrupt, to degenerate, to poison a country, when instead of populating it with the flower of the working population of Europe, it is populated with the trash of backward or less cultured Europe.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;2 million Italians arrived in New York at the turn of the 20th century, 17% of the city’s population. How can “backward or less cultured Europe” found the capital of the world? Texas and California, two of the most productive states in the country, were Spanish colonies until the mid-19th century.&lt;/p&gt;
+
+&lt;p&gt;There are richer cultures than others, but every immigrant arrives the same: poor, tired, broken, sick, uneducated, and yearning to breathe free.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“The most fruitful and useful way in which foreign wealth can be introduced and acclimatized in a new country, is that of an immigration of intelligent and hard-working population.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;What immigrant is not hard-worker? The only one who lazes is the local, comfortable, rooted, friend of subsidies, parasite of the one who works: the Greek aristocrat who depended on his slaves, the nobleman who lives on taxes, the eternal European student looking for the next scholarship. Which immigrant is not a hard-worker? They work overtime to compete against corporations (who are monopolies, instrumental to the State), they supply the market on holidays, they work (or would work) for coins, they work and that is enough.&lt;/p&gt;
+
+&lt;p&gt;What else is there? That prejudice of European civilization represents nothing more than table manners, personal hygiene standards and politically correct phrases. The market does not care about all these fictions of “education”: they are fashions of manners. Did the Islamic Empire need them at the end of the first millennium to advance science, industry and enrich Asia Minor and Africa?&lt;/p&gt;
+
+&lt;p&gt;It doesn’t matter that Alberdi was a racist. I am not an Alberdist. The important thing was written in the Constitution under article 20 (quote at the beginning of the article). Alberdi was racist because the neighborhood opinion among the well-dressed porteños was racist. Because the “cabecitas negras” made noise and dirtied the sidewalks. The port smelled bad, the machines were full of oil and grease, and the ladies got their stockings dirty. But the Argentine Constitution didn’t give a damn, and proudly wrote articles 14 to 21 on commercial, industrial and labor freedoms, which are now so lacking.&lt;/p&gt;
+
+&lt;p&gt;Today we are once again invited to give a damn about manners, forms, political correctness, the “presidential image”, and marketing maxims. The role of the State is not to listen to the neighbor, to the populace, to the TV presenters, to see who smells bad and who does not speak right. The Argentine Constitution, as well as the American one, knew it well: the State must protect industry, commerce, private property, the labor of the worker. It must protect the worker from every ministry, union, mafia, army and psycho-bully that seeks to destroy (or “reorganize”).&lt;/p&gt;
+
+&lt;h2 id=&quot;america-is-libertarian&quot;&gt;America is libertarian&lt;/h2&gt;
+
+&lt;p&gt;The Argentine ethos was codified by Martin Fierro: he lived in peace until the army kidnapped him, dragged him to the other side of the Pampas, forced him to keep a fort and kill the Indian. They thus destroyed his life, his family and his work. Good were his days when he had peace and enjoyed his private life, his children and wife.&lt;/p&gt;
+
+&lt;p&gt;This is the American experience par excellence: there is peace and progress, there is family and work, until the State arrives to steal, destroy with illusions of grandeur and wearing a uniform, announcing inflation, monetary policies, expropriation and regulations.&lt;/p&gt;
+
+&lt;p&gt;For the rest of his life, Martin Fierro lived on the run as a deserter. The State persecuted him, instead of protecting his property and family. This is how the “barrani” merchant lives, the worker who prefers to be paid under the counter because otherwise he will not make ends meet, the one who hides merchandise so as not to declare it, the gangster wannabe who is angry because it is not legal for him to work: because he lacks a permit, because entrepreneurship is a bureaucratic nightmare, because there is no job that will employ him with the minimum wage, because he produces something ilegal.&lt;/p&gt;
+
+&lt;p&gt;The shantytowns are a breeding ground for opportunity, a land of promise. Filled with the raw force of young people, hungry. Full of energy, time, desire for the future: people, alas, with hands to work. Why is the cowboy a rebel? Because he has no choice. Because his house is not his, his work is illegal and his money is worthless. Not because the rest of the population condemns him to contempt, but because the State condemns him to slavery. “To be controlled in economic activity is to be controlled in everything”, (Hayek, 1944).&lt;/p&gt;
+
+&lt;p&gt;“To govern is to populate” says the Constitution. It should say “To govern is to let people work”. Today the frontiers are the slums and the poor worker. Yet the slum worker is not the barbarian, but the settler, the immigrant with a “little black head”. Today, as always, the immigrant, the poor is industry, is work, if we allow him to work at all costs. The young people who leave the country, those who are trapped in cycles of organized violence, those of us who have energy and time, announce to the State: We want to work! We want to undertake, we want to be owners, we want to progress, we want to open, assemble, sell, change, grow and enrich. Classical liberalism is the only idea that defends the individual in his work, against his sole enemy: the senseless majority.&lt;/p&gt;
+
+&lt;h2 id=&quot;i-am-libertarian&quot;&gt;I am libertarian&lt;/h2&gt;
+
+&lt;p&gt;I am not right-wing, and neither is the Argentine Constitution of 1853. Even though Alberdi has illiberal touches:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“To govern is to populate very well; but to populate is a science, and this science is none other than political economy, which considers population as an instrument of wealth and an element of prosperity. The main part of the art of populating is the art of distributing population. Sometimes, to increase it too much is the opposite of populating; it is to diminish and ruin the population of the country.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Rationality is socialist, the right-wing is socialist. It believes that it can, and must, control. That the role of the State is scientific. That reason can administer better than the impossible decentralized mind of the market. That the absolute indivisible individual is a tool for civilization, and not the other way around. And here we liberals separate ourselves from rationalists, empiricists and positivists. We have faith in the incomprehensible market, or at least, we have more faith in it than in the pretentious State.&lt;/p&gt;
+
+&lt;p&gt;Personally, I think Alberdi is (somewhat) liberal, and fortunately that is what filtered into the Constitution. His faith in the work of the individual and the market, and that optimism towards freedom comes through. Thus he writes:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Liberty is power, strength, ability to do or not to do what our will desires. As human strength and power reside in the intelligent and moral capacity of man rather than in his material or animal capacity, there is no other means of extending and propagating liberty, than to generalize and extend the conditions of liberty, which are education, industry, wealth, capacity, in short, in which consists the force which is called liberty.”&lt;/p&gt;
+&lt;/blockquote&gt;</content><author><name>Ian Mihura</name></author><category term="economy" /><category term="liberalism" /><category term="freedom" /><category term="america" /><category term="argentina" /><summary type="html">“Foreigners enjoy in the territory of the Nation all the civil rights of the citizen; they may exercise their industry, commerce and profession; own real estate, buy and alienate it; navigate the rivers and coasts; freely exercise their worship; testament and marry according to the laws.”</summary></entry></feed>
