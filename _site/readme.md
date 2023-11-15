@@ -6,5 +6,6 @@
 Host with `bundler exec jekyll serve`
 
 ### Ideas from
-* https://studiovedet.com/projects#brompton-dd
+* https://lexfridman.com/
 * https://www.christopherireland.net/
+* https://crispgm.com/image/nvim-telescope.png
