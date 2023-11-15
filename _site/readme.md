@@ -13,9 +13,9 @@ Host with `bundler exec jekyll serve`
 ### TODO
 * post: translation
 * post-list: filtering
-* post-list: more spacing, better preview
 * content for about page (link list)
 * content for home page (presentation, my photo)
-* navbar for mobile
-* podcasts (hide for now)
-* add section code with code projects
+* add code projects (content)
+* scroll to the top arrow/button
+* post-list: :hover preview (only desktop)
+* add favicon

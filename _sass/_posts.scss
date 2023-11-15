@@ -1,12 +1,9 @@
-.post-header {
-    margin: 50px;
-    max-width: 650px;
-}
-.post-title {
-    font-size: $font-large;
-}
-.post-content {
-    margin: 50px;
-    padding-bottom: 50px;
-    max-width: 650px;
+.tag-small {
+    background-color: $background-color-secondary;
+    padding: 2px 10px;
+    border-radius: 0px 100px 100px;
+
+    // &:hover {
+    //     background-color: $selection-background-color;
+    // }
 }

@@ -65,3 +65,22 @@ a:hover {
 ::-webkit-scrollbar-thumb:hover {
   background: $secondary-color; 
 }
+
+.header {
+    margin: 50px 10vw;
+    max-width: 650px;
+}
+
+.title {
+    font-size: $font-large;
+}
+
+.content {
+    margin: 50px 10vw;
+    padding-bottom: 50px;
+    max-width: 650px;
+}
+
+.list-single {
+    margin: 10px 10px 10px 0px;
+}

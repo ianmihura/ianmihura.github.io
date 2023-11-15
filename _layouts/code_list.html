@@ -3,18 +3,12 @@
     <body>
         {% include navbar.html %}
 
-        <div class="post-header">
-            <p class="post-title">
-                {{ page.title }}
-            </p>
-            {{ page.date | date_to_string}} | 
-            {% include addons/read_time.html %} |
-            {% if page.medium %}
-            <a href="{{ page.medium }}">Read story in medium</a>
-            {% endif %}
-        </div>
-        <div class="post-content">
-            {{ content }}
-        </div>
+        <ul class="content">
+            {% for post in site.code %}
+            <li>
+                <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
     </body>
 </html>
