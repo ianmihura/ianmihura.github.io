@@ -7,8 +7,8 @@ Host with `bundler exec jekyll serve`
 
 ### Ideas from
 * https://lexfridman.com/
-* https://www.christopherireland.net/
 * https://crispgm.com/image/nvim-telescope.png
+* https://term.m4tt72.com/
 
 ### TODO
 * post: translation
@@ -19,3 +19,4 @@ Host with `bundler exec jekyll serve`
 * scroll to the top arrow/button
 * post-list: :hover preview (only desktop)
 * add favicon
+* terminal
