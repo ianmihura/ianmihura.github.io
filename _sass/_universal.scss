@@ -1,0 +1,127 @@
+// Universal pure classes
+// Pure body, h1, p, a tags
+
+body {
+    color: $text-color;
+    font-size: $font-medium;
+    min-width: 320px;
+    line-height: 1.5;
+    font-family: 'Source Code Pro', monospace;
+    overflow-x: hidden;
+    // overflow-y: hidden;
+    min-height: 100%;
+    margin: 0;
+    visibility: visible;
+    background-color: $background-color;
+
+    // Surround border
+    margin: 5px;
+    border: solid 1.5px;
+    border-radius: 5px;
+}
+
+p, span, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.text-dark {
+    color: $text-color-dark;
+}
+
+hr {
+    border: 0.5px solid $line-color;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    background-color: $selection-background-color;
+    color: $selection-text-color;
+}
+
+.hidden {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.home-banner {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 10vw;
+    padding-bottom: 50px;
+    max-width: 900px;
+
+    &-text {
+        margin-left: 20px;
+    }
+
+    &-image {
+        max-width: 320px;
+        @media only screen and (max-width: 400px) {
+            max-width: 100%;
+        }
+    }
+
+    @media only screen and (max-width: 826px) {
+        flex-direction: column-reverse;
+        
+        &-text {
+            margin-bottom: 50px;
+            margin-left: 0;
+        }
+    }
+}
+
+::selection {
+    background: $selection-background-color;
+}
+
+// Custom Scrollbar
+// width
+::-webkit-scrollbar {
+  width: 5px;
+}
+ 
+// Handle
+::-webkit-scrollbar-thumb {
+  background: $line-color; 
+  border-radius: 10px;
+}
+
+// Handle on hover
+::-webkit-scrollbar-thumb:hover {
+  background: $secondary-color; 
+}
+
+.header {
+    margin: 50px 10vw;
+    max-width: 650px;
+}
+
+.title {
+    font-size: $font-large;
+}
+
+.content {
+    margin: 50px 10vw;
+    padding-bottom: 50px;
+    max-width: 650px;
+}
+
+.list-single {
+    margin: 10px 10px 10px 0px;
+}

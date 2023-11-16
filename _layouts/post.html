@@ -1,0 +1,21 @@
+<html lang="en">
+    {% include head.html %}
+    <body>
+        {% include navbar.html %}
+
+        <div class="header">
+            <p class="title">
+                {{ page.title }}
+            </p>
+            {{ page.date | date_to_string}} | 
+            {% include addons/read_time.html %} |
+            {% if page.medium %}
+            <a href="{{ page.medium }}" target="_blank">Read story in medium</a>
+            {% endif %}
+        </div>
+        <div class="content">
+            {{ content }}
+            <a href="/posts/">Back to stories</a>
+        </div>
+    </body>
+</html>

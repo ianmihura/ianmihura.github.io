@@ -1,0 +1,22 @@
+<html lang="en">
+    {% include head.html %}
+    <body>
+        {% include navbar.html %}
+
+        <h1 class="header">
+            Stories and other writings
+        </h1>
+
+        <ul class="content">
+            {% for post in site.posts %}
+            <li class="list-single">
+                ({{ post.date | date_to_string }})
+                <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                <span class="tag-small">
+                    {{ post.tags[0] }}
+                </span>
+            </li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>

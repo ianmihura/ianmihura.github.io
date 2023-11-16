@@ -1,0 +1,18 @@
+<html lang="en">
+    {% include head.html %}
+    <body>
+        {% include navbar.html %}
+        
+        <div class="home-banner">
+            <img class="home-banner-image" src="/assets/img/me.jpg" alt="me.jpg">
+            <div class="home-banner-text">
+                <h1>{{ site.author }}</h1>
+                <p>{{ site.tagline }}</p>
+                <br>
+                <p>{{ site.welcome }}</p>
+            </div>
+        </div>
+
+        {% include intro.html %}
+    </body>
+</html>
