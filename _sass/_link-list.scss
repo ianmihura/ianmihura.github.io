@@ -12,7 +12,7 @@
     .list {
         li {
             padding: 15px;
-            border: solid #aaaaaa 1px;
+            border: solid #aaaaaa 1.5px;
             cursor: pointer;
             
             &:after {
@@ -22,7 +22,7 @@
             }
             
             &:hover {
-                border: solid white 1px;
+                border: solid white 1.5px;
                 color: white;
             }
         }

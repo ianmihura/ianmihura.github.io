@@ -13,10 +13,19 @@ body {
     margin: 0;
     visibility: visible;
     background-color: $background-color;
+
+    // Surround border
+    margin: 5px;
+    border: solid 1.5px;
+    border-radius: 5px;
 }
 
 p, span, h1, h2, h3, h4, h5, h6 {
     font-family: 'Source Code Pro', monospace;
+}
+
+.text-dark {
+    color: $text-color-dark;
 }
 
 hr {
@@ -41,8 +50,40 @@ a:hover {
     display: none;
 }
 
+.flex {
+    display: flex;
+}
+
 .pointer {
     cursor: pointer;
+}
+
+.home-banner {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 10vw;
+    padding-bottom: 50px;
+    max-width: 900px;
+
+    &-text {
+        margin-left: 20px;
+    }
+
+    &-image {
+        max-width: 320px;
+        @media only screen and (max-width: 400px) {
+            max-width: 100%;
+        }
+    }
+
+    @media only screen and (max-width: 826px) {
+        flex-direction: column-reverse;
+        
+        &-text {
+            margin-bottom: 50px;
+            margin-left: 0;
+        }
+    }
 }
 
 ::selection {

@@ -1,13 +1,19 @@
 title: Ian
 author: Ian Mihura
-description: >-
+cv_description: >-
   Lifelong learner. Passionate about technology and the ways stuff gets built. 
   From webapps, deep learning, hashing algorithms, to video encoding protocols 
   and financial markets, my path is quite a divergent one, making me skilled 
   in a wide range of technologies. I tend to work in positions where I can learn. 
   Personality: My main strength is learning on the spot and finding fast solutions. 
   On the other hand, It has been difficult for me to ask for help when I need it.
-description_short: Developer & SysAdmin. Probably bussy studying.
+welcome: >-
+  You have landed in my Home. What are you looking for?
+  There isn't much, you see, just what my hands have crafted.
+  Please, do come in and look around. Even if it is a humble corner,
+  there are things of all sorts. You may yet find that which
+  resonates. Make yourself at Home.
+tagline: Developer & Writer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ianmihura.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:title/
