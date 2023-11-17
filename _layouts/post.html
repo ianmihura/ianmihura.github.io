@@ -7,11 +7,36 @@
             <p class="title">
                 {{ page.title }}
             </p>
+
             {{ page.date | date_to_string}} | 
-            {% include addons/read_time.html %} |
+
+            {% assign wpm = site.words_per_minute | append: '.0' %}
+            {% assign readtime = content | strip_html | number_of_words | divided_by:wpm | round %}
+            {{ readtime }} min read
+
+            <!-- Medium -->
             {% if page.medium %}
-            <a href="{{ page.medium }}" target="_blank">Read story in medium</a>
+            | <a href="{{ page.medium }}" target="_blank">Read story in medium ↗</a>
             {% endif %}
+
+            <!-- Translations -->
+            {% if page.i18n %}
+            {% if page.language == "en" %}
+            {% assign language = "Spanish" %}
+            {% else %}
+            {% assign language = "English" %}
+            {% endif %}
+            <br>
+            <a href="{{ page.i18n  }}">Story also in {{ language }}</a>
+            {% endif %}
+
+            <div class="post-tags">
+                {% for tag in page.tags %}
+                <span class="tag-small">
+                    {{ tag }}
+                </span>
+                {% endfor %}
+            </div>
         </div>
         <div class="content">
             {{ content }}

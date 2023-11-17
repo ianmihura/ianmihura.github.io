@@ -62,6 +62,8 @@ a:hover {
 
     &-text {
         margin-left: 20px;
+        text-align: justify;
+        text-justify: inter-word;
     }
 
     &-image {
@@ -132,10 +134,17 @@ a:hover {
 .tag-small {
     background-color: $background-color-secondary;
     padding: 2px 10px;
+    margin: 5px;
+    line-height: 1.75em;
     border-radius: 0px 100px 100px;
     max-width: fit-content;
+    box-decoration-break: clone;
 
     // &:hover {
     //     background-color: $selection-background-color;
     // }
+}
+
+.post-tags {
+    margin-top: 10px;
 }

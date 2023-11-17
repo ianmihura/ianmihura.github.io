@@ -5,6 +5,7 @@ date: 2023-11-12
 excerpt:
 tags: [ai, technology, trade, business, economy]
 medium: https://medium.com/@mihura.ian/no-a-i-wont-steal-your-job-2d068dd5c128
+language: en
 ---
 
 Every few years we fall into the same old argument: No, machines will not steal your job.

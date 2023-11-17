@@ -5,6 +5,8 @@ date: 2023-08-18
 excerpt:
 tags: [economy, liberalism, freedom, america, argentina]
 medium: https://medium.com/@mihura.ian/liberty-is-not-right-winged-8cbc20adf34f
+language: en
+i18n: /libertad-no-es-de-derecha/
 ---
 
 > "Foreigners enjoy in the territory of the Nation all the civil rights of the citizen; they may exercise their industry, commerce and profession; own real estate, buy and alienate it; navigate the rivers and coasts; freely exercise their worship; testament and marry according to the laws."
