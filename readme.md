@@ -11,12 +11,12 @@ Host with `bundler exec jekyll serve`
 * https://term.m4tt72.com/
 
 ### TODO
-* post-list: filtering
-    add page or tag to normal page
 * add code projects (content)
     lmc js & c++
     dh & calculator
     RetroFF
     pings
-* post-list: :hover preview (only desktop)
-* terminal ?
+* :hover on post will preview (only desktop)
+* terminal ? what for?
+* post-list: filtering
+    add page or tag to normal page

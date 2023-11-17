@@ -22,12 +22,12 @@
             <!-- Translations -->
             {% if page.i18n %}
             {% if page.language == "en" %}
-            {% assign language = "Spanish" %}
+            {% assign read_in = "Read in Spanish" %}
             {% else %}
-            {% assign language = "English" %}
+            {% assign read_in = "Leer en inglés" %}
             {% endif %}
             <br>
-            <a href="{{ page.i18n  }}">Story also in {{ language }}</a>
+            <a href="{{ page.i18n  }}">{{ read_in }}</a>
             {% endif %}
 
             <div class="post-tags">
