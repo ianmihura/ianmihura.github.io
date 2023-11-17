@@ -148,3 +148,19 @@ a:hover {
 .post-tags {
     margin-top: 10px;
 }
+
+.back-to-top {
+    position: fixed;
+    bottom: 50px;
+    right: 10vw;
+    padding: 0 10px;
+    font-size: 25px;
+    background-color: $text-color;
+    color: $background-color;
+    display: none;
+    &:hover {
+        background-color: $background-color;        
+        color: $text-color;
+        cursor: pointer;
+    }
+}

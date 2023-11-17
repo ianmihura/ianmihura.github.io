@@ -11,7 +11,6 @@ Host with `bundler exec jekyll serve`
 * https://term.m4tt72.com/
 
 ### TODO
-* add seo tags to head (twitter, whatsapp)
 * post-list: filtering
     add page or tag to normal page
 * add code projects (content)
@@ -19,6 +18,5 @@ Host with `bundler exec jekyll serve`
     dh & calculator
     RetroFF
     pings
-* scroll to top arrow/button (in post)
 * post-list: :hover preview (only desktop)
 * terminal ?
