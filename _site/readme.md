@@ -18,6 +18,6 @@ Host with `bundler exec jekyll serve`
 * post-list: :hover preview (only desktop)
 * add favicon
 * terminal?
-* fix border body
 * copy terminal-style
-* change name about -> contact/find me
+* add seo tags to head (twitter, whatsapp)
+* 

@@ -118,5 +118,22 @@ a:hover {
 }
 
 .list-single {
-    margin: 10px 10px 10px 0px;
+    margin: 15px 10px 10px 0px;
+    
+    @media only screen and (max-width: 650px) {
+        display: flex;
+        flex-direction: column;
+        margin: 25px 10px 10px 0px;
+    }
+}
+
+.tag-small {
+    background-color: $background-color-secondary;
+    padding: 2px 10px;
+    border-radius: 0px 100px 100px;
+    max-width: fit-content;
+
+    // &:hover {
+    //     background-color: $selection-background-color;
+    // }
 }

@@ -19,4 +19,5 @@ Host with `bundler exec jekyll serve`
 * add favicon
 * terminal?
 * copy terminal-style
-* change name about -> contact/find me
+* add seo tags to head (twitter, whatsapp)
+* 
