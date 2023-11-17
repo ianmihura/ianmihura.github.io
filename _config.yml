@@ -1,4 +1,4 @@
-title: Ian
+title: Ian Mihura
 author: Ian Mihura
 cv_description: >-
   Lifelong learner. Passionate about technology and the ways stuff gets built. 
@@ -7,6 +7,9 @@ cv_description: >-
   in a wide range of technologies. I tend to work in positions where I can learn. 
   Personality: My main strength is learning on the spot and finding fast solutions. 
   On the other hand, It has been difficult for me to ask for help when I need it.
+description: >-
+  Developer & Writer. Welcome to my Home. Here I store stories and other things.
+  There's a bit of everything, but don't expect much of anything.
 welcome: >-
   You have landed in my Home. What do you seek?
   There isn't much, you see, just what my hands have crafted.
@@ -15,7 +18,7 @@ welcome: >-
   resonates. Make yourself at Home.
 tagline: Developer & Writer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ianmihura.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: https://ianmihura.github.io
 permalink: /:title/
 words_per_minute: 220
 
