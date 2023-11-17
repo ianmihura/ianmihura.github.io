@@ -8,11 +8,15 @@
                 {{ page.title }}
             </p>
 
-            {{ page.date | date_to_string}} | 
+            {% if page.hide_date != true %}
+            {{ page.date | date_to_string}} 
+            {% endif %}
 
             {% assign wpm = site.words_per_minute | append: '.0' %}
             {% assign readtime = content | strip_html | number_of_words | divided_by:wpm | round %}
-            {{ readtime }} min read
+            {% if readtime > 0 %}
+            | {{ readtime }} min read
+            {% endif %}
 
             <!-- Medium -->
             {% if page.medium %}
@@ -38,6 +42,7 @@
                 {% endfor %}
             </div>
         </div>
+
         <div class="content">
             {{ content }}
             <a href="/posts/">Back to stories</a>
