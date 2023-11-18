@@ -20,3 +20,5 @@ Host with `bundler exec jekyll serve`
 * terminal ? what for?
 * post-list: filtering
     add page or tag to normal page
+* image gibbelins width
+* navbar height in mobile 
