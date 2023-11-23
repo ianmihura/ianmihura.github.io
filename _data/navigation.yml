@@ -2,11 +2,11 @@
   url: /
 - title: Stories
   url: /posts/
-# - title: Podcasts
-#   url: /podcasts/
-# - title: Code
-#   url: /code/
 - title: Gibbelins
   url: /gibbelins/
+# - title: Podcasts
+#   url: /podcasts/
+- title: Code
+  url: /code/
 - title: Contact
   url: /contact/

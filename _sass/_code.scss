@@ -1,0 +1,16 @@
+.iframe-container {
+    padding-bottom: 66.66%;
+    padding-top: 25px;
+    height: 0;
+
+    margin-bottom: 50px;
+    width: 1131px;
+    height: 627px;
+
+    iframe {
+        width: 1131px;
+        height: 627px;
+        resize: both;
+        overflow: auto;
+    }
+}

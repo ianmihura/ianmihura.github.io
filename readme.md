@@ -14,9 +14,17 @@ Host with `bundler exec jekyll serve`
 * add code projects (content)
     lmc js & c++
     dh & calculator
+        translate to english
+        publish in medium
+        refactor server non-dh
+        refactor server dh
     RetroFF
     pings
 * :hover on post will preview (only desktop)
-* terminal ? what for?
 * post-list: filtering
     add page or tag to normal page
+* click images: preview
+* not my stories
+
+* Typeface (bold & italic)
+* order scss
