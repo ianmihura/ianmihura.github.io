@@ -24,6 +24,8 @@ Encriptación de extremo a extremo, es un método de asegurar secretos en una re
 
 En este artículo vamos a aprender una posible implementación del E2EE.
 
+> La verdad os hará libres
+
 ## XOR
 Comencemos con lo básico. La operación *or exclusivo* (*xor*) es una operación booleana con la siguiente tabla de valor:
 
@@ -73,7 +75,7 @@ OTP es un protocolo de clave simétrica, es decir, la misma clave se usa para en
 
 Asumamos que tenemos una aplicación de mensajería, como puede ser Signal, hosteada en un servidor. Alice y Bob son amigos que quieren charlar, y van a usar nuestra app. Sabemos que el internet es un lugar inseguro, asique encriptamos los mensajes antes de enviarlos.
 
-Una manera fácil de encriptar esos datos es con claves simétricas (como OTP) entre cada usuario y el servidor. En el momento de conexión inicial, Alice envía un número pseudo-random al servidor y así se establece una clave simétrica KAS (Key-Alice-Server). De nuevo . En un caso real, esta clave viajaría encriptada con una clave asimétrica. Ahora, cada vez que Alice quiera enviar un mensaje a Bob:
+Una manera fácil de encriptar esos datos es con claves simétricas (como OTP) entre cada usuario y el servidor. En el momento de conexión inicial, Alice envía un número pseudo-random al servidor y así se establece una clave simétrica KAS (Key-Alice-Server). En un caso real, esta clave viajaría encriptada con una clave asimétrica. Ahora, cada vez que Alice quiera enviar un mensaje a Bob:
 1. Alice encripta su mensaje con su clave KAS.
 2. El ciphertext viaja por internet al servidor.
 3. El servidor desencripta el mensaje con la clave KAS.
@@ -83,6 +85,7 @@ Una manera fácil de encriptar esos datos es con claves simétricas (como OTP) e
 
 Acá hay un ejemplo de este sistema. El caso empieza desde zero, asique deberán comenzar con el proceso de conexión inicial (crear y compartir KAS y KBS), luego pueden proceder a enviarse mensajes encriptados.
 
+Es mejor usar la interfaz en una computadora de escritorio.
 <div class="iframe-container">
     <iframe src="{{ site.url }}/assets/code/dh/non-dh.html" frameborder="0"></iframe>
 </div>
@@ -126,7 +129,7 @@ Una vez que crearon su secreto compartido K, ahora cada usuario es responsable d
 
 Aquí hay una implementación de exactamente esto, para experimentar. Cualquier duda, repasen los pasos que fuimos describiendo arriba.
 
-Ejemplo para probar:
+Es mejor usar la interfaz en una computadora de escritorio.
 <div class="iframe-container">
     <iframe src="{{ site.url }}/assets/code/dh/dh.html" frameborder="0"></iframe>
 </div>

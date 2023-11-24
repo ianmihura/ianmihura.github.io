@@ -101,6 +101,10 @@
 
 <p>En este artículo vamos a aprender una posible implementación del E2EE.</p>
 
+<blockquote>
+  <p>La verdad os hará libres</p>
+</blockquote>
+
 <h2 id="xor">XOR</h2>
 <p>Comencemos con lo básico. La operación <em>or exclusivo</em> (<em>xor</em>) es una operación booleana con la siguiente tabla de valor:</p>
 
@@ -149,7 +153,7 @@
 
 <p>Asumamos que tenemos una aplicación de mensajería, como puede ser Signal, hosteada en un servidor. Alice y Bob son amigos que quieren charlar, y van a usar nuestra app. Sabemos que el internet es un lugar inseguro, asique encriptamos los mensajes antes de enviarlos.</p>
 
-<p>Una manera fácil de encriptar esos datos es con claves simétricas (como OTP) entre cada usuario y el servidor. En el momento de conexión inicial, Alice envía un número pseudo-random al servidor y así se establece una clave simétrica KAS (Key-Alice-Server). De nuevo . En un caso real, esta clave viajaría encriptada con una clave asimétrica. Ahora, cada vez que Alice quiera enviar un mensaje a Bob:</p>
+<p>Una manera fácil de encriptar esos datos es con claves simétricas (como OTP) entre cada usuario y el servidor. En el momento de conexión inicial, Alice envía un número pseudo-random al servidor y así se establece una clave simétrica KAS (Key-Alice-Server). En un caso real, esta clave viajaría encriptada con una clave asimétrica. Ahora, cada vez que Alice quiera enviar un mensaje a Bob:</p>
 <ol>
   <li>Alice encripta su mensaje con su clave KAS.</li>
   <li>El ciphertext viaja por internet al servidor.</li>
@@ -161,6 +165,7 @@
 
 <p>Acá hay un ejemplo de este sistema. El caso empieza desde zero, asique deberán comenzar con el proceso de conexión inicial (crear y compartir KAS y KBS), luego pueden proceder a enviarse mensajes encriptados.</p>
 
+<p>Es mejor usar la interfaz en una computadora de escritorio.</p>
 <div class="iframe-container">
     <iframe src="http://localhost:4000/assets/code/dh/non-dh.html" frameborder="0"></iframe>
 </div>
@@ -222,7 +227,7 @@
 
 <p>Aquí hay una implementación de exactamente esto, para experimentar. Cualquier duda, repasen los pasos que fuimos describiendo arriba.</p>
 
-<p>Ejemplo para probar:</p>
+<p>Es mejor usar la interfaz en una computadora de escritorio.</p>
 <div class="iframe-container">
     <iframe src="http://localhost:4000/assets/code/dh/dh.html" frameborder="0"></iframe>
 </div>
