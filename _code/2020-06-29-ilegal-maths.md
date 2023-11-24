@@ -1,12 +1,13 @@
 ---
 layout: post
-title: When Math is Ilegal
+title: When Math is Illegal
 description: Encryption is essentially math with peculiar properties, invented or discovered. There's still institutions that fight against encryption, for our security. What does this mean?
 date: 2020-06-29
-tags: [encriptado, seguridad informatica, privacidad, tecnología]
+tags: [encryption, information security, privacy, technology]
 image: dh.png
 language: en
 i18n: /matematicas-ilegales/
+# medium: https://medium.com/@mihura.ian/no-a-i-wont-steal-your-job-2d068dd5c128
 ---
 
 Encryption is essentially math. Math, that is, with peculiar properties that allow, among other things, to keep secrets and guarantee veracity of data. It works always and always the same, and has accompanied the growth of the Internet.
@@ -102,7 +103,7 @@ This is why *End-to-end-encription* (E2EE) was created: so that only Alice and B
 
 Whitfield Diffie and Martin Hellman created one of the first and most widely used symmetric key-sharing protocols called [Diffie-Hellman](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange). 
 
-Let's assume that Alice and Bob communicate over an insecure medium (the Internet) and want to share a secret. First they must agree on some public numbers: (p) = a very large prime number, (G) = a generator of the cycle `Zp*`. We will not explain what it is and how [G](https://www.mtholyoke.edu/courses/mpeterso/math114/class16.html) is obtained because it would take a whole other article, suffice it to say that G is very special and `G < p`. In general these numbers are standard: everybody uses the same ones.
+Let's assume that Alice and Bob communicate over an insecure medium (the Internet) and want to share a secret. First they must agree on some public numbers: (p) = a very large prime number, (G) = a generator of the cycle `Zp*`. We will not explain what it is and [how G is obtained](https://www.mtholyoke.edu/courses/mpeterso/math114/class16.html) because it would take a whole other article, suffice it to say that G is very special and `G < p`. In general these numbers are standard: everybody uses the same ones.
 
 To communicate, each does the following:
 1. Alice and Bob choose the private part of their key. 
@@ -140,7 +141,7 @@ In real life, a symmetric K key is usually created every few minutes, or even fo
 ## Backdoors
 A backdoor is a way to encode a broken link in an otherwise good algorithm, so that we can decrypt the ciphertext without the need for the secret key. Backdoors are sometimes found by hackers, and sometimes they are created along with the original design.
 
-There are many ways to create backdoors. Examples exist even for [Diffie-Hellman] protocol (https://eprint.iacr.org/2016/644.pdf). One idea is to choose a `p` and `G` with "special" properties called *nothing-up-my-sleeve* numbers. One such famous case occurred in 1975, when the [NSA created the DES standard](https://en.wikipedia.org/wiki/Data_Encryption_Standard#NSA's_involvement_in_the_design), along with a set of arbitrary generator numbers, saying "no other generators meet the standard", without further comment. It turned out that those numbers were susceptible to an exploit that they knew about.
+There are many ways to create backdoors. Examples exist even for [Diffie-Hellman protocol](https://eprint.iacr.org/2016/644.pdf). One idea is to choose a `p` and `G` with "special" properties called *nothing-up-my-sleeve* numbers. One such famous case occurred in 1975, when the [NSA created the DES standard](https://en.wikipedia.org/wiki/Data_Encryption_Standard#NSA's_involvement_in_the_design), along with a set of arbitrary generator numbers, saying "no other generators meet the standard", without further comment. It turned out that those numbers were susceptible to an exploit that they knew about.
 
 > Security of a system is as strong as its weakest link.
 
@@ -155,8 +156,6 @@ Mathematics is a truly democratic technology, a blind justice, she knows no loya
 
 ---
 
-> This article was first published in Spanish in https://filosofiadelfuturo.org/dh/
->
 > A couple of resources and recommendations:
 >
 > One of the richest books available on cryptography: [A Graduate Course in Applied Cryptography, by Dan Boneh and Victor Shoup](http://toc.cryptobook.us/)
@@ -164,6 +163,8 @@ Mathematics is a truly democratic technology, a blind justice, she knows no loya
 > A book with a very good introduction to all the more mathematical topics, starting from the basics of modulus and divisibility, and ending by building the SHA256 protocols, and more complex topics [A computational introduction to Number Theory and Algebra, by Victor Shoup](https://shoup.net/ntb/ntb-v2.pdf)
 >
 > Internet is full of online courses to learn more about this topic, because after all, cryptography was born and grew up with the Internet. A very good course, designed and run by Dan Boneh is [this online course](https://www.coursera.org/learn/crypto). If you want to dive right in, this is a great place to start.
+>
+> This article was first published in Spanish in https://filosofiadelfuturo.org/dh/
 
 <script>
     function getByteArray(string) {
