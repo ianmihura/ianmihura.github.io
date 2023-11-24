@@ -1,0 +1,307 @@
+<html lang="en">
+    <head>
+    <title>When Math is Ilegal</title>
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon_3.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&amp;display=swap" rel="stylesheet">
+    <script src="/assets/js/main.js"></script>
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <meta name="description" content="Encryption is essentially math with peculiar properties, invented or discovered. Hay instituciones que luchan contra la encriptación, para nuestra seguridad. Qué significa esto?">
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="When Math is Ilegal" />
+    <meta property="og:title" content="When Math is Ilegal" />
+    <meta property="og:description" content="Encryption is essentially math with peculiar properties, invented or discovered. Hay instituciones que luchan contra la encriptación, para nuestra seguridad. Qué significa esto?">
+    <meta property="og:image" content="/assets/img/me.jpg" />
+    <meta property="url" content="http://localhost:4000" />
+    <meta property="og:updated_time" content="1700248939" />
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@ianmihura" />
+    <meta name="twitter:creator" content="@ianmihura" />
+</head>
+
+    <body>
+        <nav>
+    
+    <a href="http://localhost:4000/">Home</a>
+    
+    <a href="http://localhost:4000/posts/">Stories</a>
+    
+    <a href="http://localhost:4000/gibbelins/">Gibbelins</a>
+    
+    <a href="http://localhost:4000/code/">Code</a>
+    
+    <a href="http://localhost:4000/contact/">Contact</a>
+    
+</nav>
+
+
+        <div class="header">
+            <p class="title">
+                When Math is Ilegal
+            </p>
+
+            
+            29 Jun 2020 
+            
+
+            
+            
+            
+            | 8 min read
+            
+
+            <!-- Medium -->
+            
+
+            <!-- Translations -->
+            
+
+            <div class="post-tags">
+                
+                <span class="tag-small">
+                    encriptado
+                </span>
+                
+                <span class="tag-small">
+                    seguridad informatica
+                </span>
+                
+                <span class="tag-small">
+                    privacidad
+                </span>
+                
+                <span class="tag-small">
+                    tecnología
+                </span>
+                
+            </div>
+        </div>
+
+        <div class="content">
+            <p>Encryption is essentially math. Math, that is, with peculiar properties that allow, among other things, to keep secrets and guarantee veracity of data. It works always and always the same, and has accompanied the growth of the Internet.</p>
+
+<p>However, there are institutions that fight against encryption with the idea that “there are criminals who use it to carry out their misdeeds”.</p>
+
+<p>Which is true. Encryption, anonymity and privacy allow for shady systems: cryptocurrencies, the deep web and private messaging. Granted, no one seeks to ban encryption per se; what some advocate is banning these irregular spaces.</p>
+
+<p>How? By proposing “broken” encryption: algorithms with backdoors so political agents can open them when necessary, for our security.</p>
+
+<p>We use instant messaging every day and all day: WhatsApp, Discord, Zoom, Slack. how private are they really? Signal is said to be much more secure because it has robust E2EE by default, something Zoom only enabled on October 28, 2023, and WhatsApp implements <a href="https://arstechnica.com/gadgets/2021/09/whatsapp-end-to-end-encrypted-messages-arent-that-private-after-all/">with certain reservations</a>.</p>
+
+<p>What is E2EE? How does it work? Is it a good idea to create backdoors?</p>
+
+<h2 id="ent-to-end-encryption-e2ee">Ent-to-End-Encryption (E2EE)</h2>
+<p>End-to-end encryption is a method of securing secrets in an insecure network. It is something like inventing an undecipherable language with your listener, just by sharing a couple of numbers.</p>
+
+<p>In this article we are going to learn a possible implementation of E2EE.</p>
+
+<blockquote>
+  <p>The truth will set you free</p>
+</blockquote>
+
+<h2 id="xor">XOR</h2>
+<p>Let’s start with the basics. The <em>exclusive or</em> (<em>xor</em>) operation is a boolean operation with the following value table:</p>
+
+<blockquote>
+  <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>xor | 0 1
+----+-----
+ 0  | 0 1
+ 1  | 1 0
+</code></pre></div>  </div>
+</blockquote>
+
+<p>It is the most used operation in cryptography. There’s a running joke that says: “the only thing cryptographers do is <em>xor</em> operations”. And you’d be surprised how much of that is true: the vast majority of encryption and hashing protocols we use boil down to no more than shuffled <em>xor</em>.</p>
+
+<p>Why is it used so much? Two reasons.</p>
+
+<p>Randomness: each bit has a 50% chance of resulting in any other value. That is, if I give you a 1, there is 50% probability that the result will be 1 or 0, and vice versa. So, if we use any string of bits and operate it with a trully random number, we produce a trully random result.</p>
+
+<p>Invertibility: that is, we can easily undo the operation applying it twice. Let’s see an example, if I operate two threads <code class="language-plaintext highlighter-rouge">m = 11011000</code> and <code class="language-plaintext highlighter-rouge">k = 10100111</code>, I get <code class="language-plaintext highlighter-rouge">m xor k = c = 01111111</code>. Now, if I operate this result <code class="language-plaintext highlighter-rouge">c</code> by any of the products, the result is the other product. That is, <code class="language-plaintext highlighter-rouge">m xor k = c</code> and <code class="language-plaintext highlighter-rouge">c xor k = m</code>.</p>
+
+<h2 id="one-time-pad-otp">One Time Pad (OTP)</h2>
+
+<p>So we come to one of the most basic encryption protocols: <a href="https://en.wikipedia.org/wiki/One-time_pad">One Time Pad</a> (OTP). If we want to encrypt a message (m), we generate a key (k) of the same length as the message, and operate with xor to produce a <em>ciphertext</em> (c). You can try it below.</p>
+
+<div class="ui form">
+    <div class="fields">
+        <div class="six wide field">
+            <input id="calc-otp-payload" type="text" placeholder="Message" />
+        </div>
+        <button class="ui right labeled four wide field icon button" onclick="EncryptOTP()">
+            <i class="key icon"></i>
+            Encrypt
+        </button>
+        <div class="six wide field">
+            <input id="calc-otp-key" type="number" placeholder="Key (numbers only)" />
+        </div>
+    </div>
+    <span id="calc-otp-error" style="color:red"></span>
+</div>
+
+<p>Because of the properties of <em>xor</em>, this encryption protocol is very secure. How secure? It is as secure as security gets. It is the benchmark that all algorithms use to measure their security.</p>
+
+<p>But only if the pad is used well. For one thing, the keys must be the same size as the messages. In addition, a new key must be generated for each message (hence the name of the algorithm). The big negative point of this algorithm is its cost, and its fragility.</p>
+
+<h2 id="symetric-key">Symetric Key</h2>
+<p>OTP is a symmetric key protocol, that is, the same key is used for encryption and decryption.</p>
+
+<p>Let’s assume that we have a messaging application, such as Signal, hosted on a server. Alice and Bob are friends who want to chat, and they are going to use our app. We know that the Internet is an insecure place, so we encrypt the messages before sending them.</p>
+
+<p>An easy way to encrypt that data is with symmetric keys (like OTP) between each user and the server. At the initial connection time, Alice sends a pseudo-random number to the server (we will call it Key-Alice-Server: KAS) establishing a symmetric Bob will do the same, establishing his own secret key (Key-Bob-Server: KBA). Now, every time Alice wants to send a message to Bob:</p>
+
+<ol>
+  <li>Alice encrypts her message with her KAS key.</li>
+  <li>The ciphertext travels over the Internet to the server.</li>
+  <li>The server decrypts the message with the KAS key.</li>
+  <li>The server encrypts the message with the KBS key.</li>
+  <li>The new cipertext travels over the Internet to Bob.</li>
+  <li>Bob decrypts the message with the KBS key.</li>
+</ol>
+
+<p>Here is an example of this system. The case starts from zero, so you should start with the initial connection process (create and share KAS and KBS), then you can proceed to send encrypted messages to each other.</p>
+
+<p>It’s better to use the interface in a desktop PC.</p>
+<div class="iframe-container">
+    <iframe src="http://localhost:4000/assets/code/dh/non-dh.html" frameborder="0"></iframe>
+</div>
+
+<p>I hope you have seen the security problem with this system.</p>
+
+<p>The server reads all our messages! Zero privacy. We must trust that the server and the corporation don’t read our messages, don’t sell them to a third party and are not hacked. We are creating a huge <em>single point of failure</em>, and with large corporations handling valuable information, the question is not “if” they will be hacked or sold to the government, but “when” and “how many times”.</p>
+
+<h2 id="diffiehellman">Diffie–Hellman</h2>
+<p>This is why <em>End-to-end-encription</em> (E2EE) was created: so that only Alice and Bob can read their messages, and the server remains an intermediary who handles indecipherable ciphertexts. But, if the server, by definition, reads everything we send it, how can Alice send anything to Bob that the server itself cannot decrypt?</p>
+
+<p>Whitfield Diffie and Martin Hellman created one of the first and most widely used symmetric key-sharing protocols called <a href="https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange">Diffie-Hellman</a>.</p>
+
+<p>Let’s assume that Alice and Bob communicate over an insecure medium (the Internet) and want to share a secret. First they must agree on some public numbers: (p) = a very large prime number, (G) = a generator of the cycle <code class="language-plaintext highlighter-rouge">Zp*</code>. We will not explain what it is and how <a href="https://www.mtholyoke.edu/courses/mpeterso/math114/class16.html">G</a> is obtained because it would take a whole other article, suffice it to say that G is very special and <code class="language-plaintext highlighter-rouge">G &lt; p</code>. In general these numbers are standard: everybody uses the same ones.</p>
+
+<p>To communicate, each does the following:</p>
+<ol>
+  <li>Alice and Bob choose the private part of their key.
+    <ul>
+      <li>Alice chooses a random number <code class="language-plaintext highlighter-rouge">(a)</code> such that <code class="language-plaintext highlighter-rouge">(a) &lt; p</code>.</li>
+      <li>Bob does the same: <code class="language-plaintext highlighter-rouge">(b) &lt; p</code>.</li>
+    </ul>
+  </li>
+  <li>Alice and Bob compute their public keys:
+    <ul>
+      <li>Alice computes <code class="language-plaintext highlighter-rouge">(A) = G^a mod p</code>.</li>
+      <li>Bob computes <code class="language-plaintext highlighter-rouge">(B) = G^b mod p</code>.</li>
+    </ul>
+  </li>
+  <li>Alice and Bob send each other their public number.
+    <ul>
+      <li>Alice sends <code class="language-plaintext highlighter-rouge">(A)</code> to Bob.</li>
+      <li>Bob sends <code class="language-plaintext highlighter-rouge">(B)</code> to Alice.</li>
+    </ul>
+  </li>
+  <li>Alice and Bob receive each other’s public number, which they use to calculate the shared secret:
+    <ul>
+      <li>Alice uses Bob’s number to calculate <code class="language-plaintext highlighter-rouge">(K) = B^a (mod p)</code>.</li>
+      <li>Bob does the same, calculates <code class="language-plaintext highlighter-rouge">(K) = A^b (mod p)</code>.</li>
+    </ul>
+  </li>
+</ol>
+
+<p>What happened? Alice and Bob now share a key <code class="language-plaintext highlighter-rouge">K = B^a = A^b:</code>.</p>
+
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">K = (G^a)^b = (G^b)^a = G^(ab) (mod p)</code></p>
+</blockquote>
+
+<p>What about the server? The server only saw the public keys <code class="language-plaintext highlighter-rouge">(A)</code> and <code class="language-plaintext highlighter-rouge">(B)</code>. What can it do with this? Fortunately, not much. The closest it can get is to somehtings like <code class="language-plaintext highlighter-rouge">K' = B*A</code> but this is very different from that shared secret they calculated on their own:</p>
+
+<blockquote>
+  <p><code class="language-plaintext highlighter-rouge">B*A = (G^a) * (G^b) = G^(a+b) ≠ G^(ab) (mod p)</code></p>
+</blockquote>
+
+<p>There is no efficient way to compute K with only A and B. Moreover, because p is prime and by the properties of G, computing K is a <a href="https://es.wikipedia.org/wiki/Clases_de_complejidad_P_y_NP">NP problem</a> called <a href="https://es.wikipedia.org/wiki/Logaritmo_discreto">discrete logarithm problem</a>.</p>
+
+<p>Once Alice and Bob have created their shared secret K, each user is now responsible for encrypting and decrypting messages with this symmetric secret, before sending them to the server.</p>
+
+<p>Here is an implementation. If you have any doubts, go through the steps we described above. It’s better to use the interface in a desktop PC.</p>
+<div class="iframe-container">
+    <iframe src="http://localhost:4000/assets/code/dh/dh.html" frameborder="0"></iframe>
+</div>
+
+<p>In real life, a symmetric K key is usually created every few minutes, or even for every message! Still, this does not hide metadata: sender, receiver, the timestamps or message size. There are more complex ways to hide these, which surpass the E2EE concept.</p>
+
+<h2 id="backdoors">Backdoors</h2>
+<p>A backdoor is a way to encode a broken link in an otherwise good algorithm, so that we can decrypt the ciphertext without the need for the secret key. Backdoors are sometimes found by hackers, and sometimes they are created along with the original design.</p>
+
+<p>There are many ways to create backdoors. Examples exist even for [Diffie-Hellman] protocol (https://eprint.iacr.org/2016/644.pdf). One idea is to choose a <code class="language-plaintext highlighter-rouge">p</code> and <code class="language-plaintext highlighter-rouge">G</code> with “special” properties called <em>nothing-up-my-sleeve</em> numbers. One such famous case occurred in 1975, when the <a href="https://en.wikipedia.org/wiki/Data_Encryption_Standard#NSA's_involvement_in_the_design">NSA created the DES standard</a>, along with a set of arbitrary generator numbers, saying “no other generators meet the standard”, without further comment. It turned out that those numbers were susceptible to an exploit that they knew about.</p>
+
+<blockquote>
+  <p>Security of a system is as strong as its weakest link.</p>
+</blockquote>
+
+<p>This maxim of security is as true as it is hard. We can have all the security we desire, a house with an iron door, blocked with an alphanumeric password, fingerprint and iris reader, that if we leave the back door open, burglars still get in. Creating backdoors to a system, through negligence or in the name of some arbitrary justice, creates weak exploitable links.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>In the name of our security we are called upon, from time to time, to surrender our privacy and freedom. And we give it up because we are affraid and trust that they will act in our benefit.</p>
+
+<p>The truth is that, even if they do act in our benefit today, nothing assures that they won’t do it tomorrow, or that tomorrow they won’t be hacked.</p>
+
+<p>Mathematics is a truly democratic technology, a blind justice, she knows no loyalties or interests, the great equalizer. Having created a weapon of astronomical independence, are we going to give it up out of fear and ignorance?</p>
+
+<hr />
+
+<blockquote>
+  <p>This article was first published in Spanish in https://filosofiadelfuturo.org/dh/</p>
+
+  <p>A couple of resources and recommendations:</p>
+
+  <p>One of the richest books available on cryptography: <a href="http://toc.cryptobook.us/">A Graduate Course in Applied Cryptography, by Dan Boneh and Victor Shoup</a></p>
+
+  <p>A book with a very good introduction to all the more mathematical topics, starting from the basics of modulus and divisibility, and ending by building the SHA256 protocols, and more complex topics <a href="https://shoup.net/ntb/ntb-v2.pdf">A computational introduction to Number Theory and Algebra, by Victor Shoup</a></p>
+
+  <p>Internet is full of online courses to learn more about this topic, because after all, cryptography was born and grew up with the Internet. A very good course, designed and run by Dan Boneh is <a href="https://www.coursera.org/learn/crypto">this online course</a>. If you want to dive right in, this is a great place to start.</p>
+</blockquote>
+
+<script>
+    function getByteArray(string) {
+        string = string.toString();
+        let bytes = [];
+        for (let i = 0; i < string.length; i++)
+            bytes.push(string.charCodeAt(i));
+
+        return bytes;
+    };
+    function otp(string, key) {
+        let byteString = getByteArray(string);
+        const byteKey = getByteArray(key);
+
+        if (byteString.length > byteKey.length)
+            throw new Error("key too short!")
+
+        byteString = byteString.map((value, index) =>
+            value ^ byteKey[index]);
+
+        return byteString.map(x => String.fromCharCode(x)).join("");
+    };
+    function EncryptOTP() {
+        try {
+            const key = document.getElementById("calc-otp-key")
+            const message = document.getElementById("calc-otp-payload")
+            const cipher = otp(message.value, key.value)
+            message.value = cipher
+            document.getElementById("calc-otp-error").innerHTML = "";
+        } catch {
+            document.getElementById("calc-otp-error").innerHTML = "Key too short!";
+        }
+    }
+</script>
+
+
+            <a href="/posts/">Back to stories</a>
+        </div>
+        <div class="back-to-top">↑</div>
+    </body>
+</html>
