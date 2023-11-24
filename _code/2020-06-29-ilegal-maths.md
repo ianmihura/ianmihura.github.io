@@ -1,13 +1,13 @@
 ---
 layout: post
-title: When Math is Illegal
+title: When Math becomes Illegal
 description: Encryption is essentially math with peculiar properties, invented or discovered. There's still institutions that fight against encryption, for our security. What does this mean?
 date: 2020-06-29
 tags: [encryption, information security, privacy, technology]
 image: dh.png
 language: en
 i18n: /matematicas-ilegales/
-# medium: https://medium.com/@mihura.ian/no-a-i-wont-steal-your-job-2d068dd5c128
+medium: https://medium.com/@mihura.ian/when-math-becomes-illegal-190df1935a88
 ---
 
 Encryption is essentially math. Math, that is, with peculiar properties that allow, among other things, to keep secrets and guarantee veracity of data. It works always and always the same, and has accompanied the growth of the Internet.
