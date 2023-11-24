@@ -5,6 +5,8 @@ description: La encriptación no es más que cuentas matemáticas. Cuentas con p
 date: 2020-06-29
 tags: [encriptado, seguridad informatica, privacidad, tecnología]
 image: dh.png
+language: es
+i18n: /ilegal-maths/
 ---
 
 La encriptación no es más que cuentas matemáticas. Cuentas con propiedades particulares, inventadas o descubiertas, según quien pregunte. Son cuentas que permiten, entre otras cosas, mantener secretos y verificar datos. Funcionan siempre y siempre igual, y acompañaron la ceración y el crecimiento de internet.
