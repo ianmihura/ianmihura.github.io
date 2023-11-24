@@ -1,5 +1,6 @@
 ---
 layout: post
+published: false
 title: Cuando las matemáticas son ilegales
 description: La encriptación no es más que cuentas matemáticas. Cuentas con propiedades particulares, inventadas o descubiertas. Hay instituciones que luchan contra la encriptación, para nuestra seguridad. Qué significa esto?
 date: 2020-06-29
