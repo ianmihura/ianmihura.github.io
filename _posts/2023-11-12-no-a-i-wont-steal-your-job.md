@@ -16,13 +16,13 @@ The other day a friend of mine told me a story that very much illustrates this. 
 
 Unfortunately, he pays too much attention to the news cycle. The other day he confessed to me he’s afraid that A.I. will take his job.
 
-“It is the end for me,” he said, “What I do is automatizable.”
+> ### “It is the end for me,” he said, “What I do is automatizable.”
 
 It is true. One part of his work is automatizable. Some days he just takes requests through a system and log them in another. He’s a cog in the machine already.
 
 But that’s not all he does. He spends his day surveilling logistics, verifying that no incidents happen and all clients are happy. But incidents happen, and when they do, his creativity kicks in.
 
-So, the story goes, there was an incident with a request that came in boiling hot.
+### So, the story:
 
 “We need 5 tons of acetic acid in Munich, day after tomorrow!” the sales guy told him.
 
@@ -60,7 +60,7 @@ So he lastly called the sales guy who had started all this.
 
 “It’ll have to do. Thanks, you are a miracle worker.”
 
-So, what is the moral of this story?
+> ### So, what is the moral of this story?
 
 It seems that my friend still plays somewhat of a creative role. At least this part of the job won’t be automatized, right?
 
@@ -76,7 +76,7 @@ It is unsurprising that my friend tells me: those parts of his job that are auto
 
 Machines will not steal every job, because there will always be human needs, and where there’s a need, there’s a job. Needs will increase, today’s luxury is tomorrow’s basic need, and the market will demand more contextual thinking, that which machines are not fit for.
 
-“But A.I. is definitively a game-changer,” some say.
+> ### “But A.I. is definitively a game-changer,” some say.
 
 To this I like to point out, as Nassim Taleb puts in his book “Black Swan”: we are very bad at predicting the future. What we think won’t have any efect, does, and what we think will have great effect, doesn’t. Or at least not in the way we think.
 

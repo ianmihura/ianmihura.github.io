@@ -23,8 +23,9 @@ Host with `bundler exec jekyll serve`
 * :hover on post will preview (only desktop)
 * post-list: filtering
     add page or tag to normal page
+    filter by language
 * click images: preview
-* not my stories
+* not my stories (podcast)
 
-* Typeface (bold & italic)
+* Typeface (accomodate bold & italic)
 * order scss

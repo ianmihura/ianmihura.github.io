@@ -1,6 +1,6 @@
 <html lang="en">
     <head>
-    <title>When Math is Ilegal</title>
+    <title>When Math becomes Illegal</title>
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon_3.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
@@ -10,11 +10,11 @@
     <script src="/assets/js/main.js"></script>
     <link rel="stylesheet" href="/assets/css/style.css">
 
-    <meta name="description" content="Encryption is essentially math with peculiar properties, invented or discovered. Hay instituciones que luchan contra la encriptación, para nuestra seguridad. Qué significa esto?">
+    <meta name="description" content="Encryption is essentially math with peculiar properties, invented or discovered. There's still institutions that fight against encryption, for our security. What does this mean?">
     <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="When Math is Ilegal" />
-    <meta property="og:title" content="When Math is Ilegal" />
-    <meta property="og:description" content="Encryption is essentially math with peculiar properties, invented or discovered. Hay instituciones que luchan contra la encriptación, para nuestra seguridad. Qué significa esto?">
+    <meta property="og:site_name" content="When Math becomes Illegal" />
+    <meta property="og:title" content="When Math becomes Illegal" />
+    <meta property="og:description" content="Encryption is essentially math with peculiar properties, invented or discovered. There's still institutions that fight against encryption, for our security. What does this mean?">
     <meta property="og:image" content="/assets/img/me.jpg" />
     <meta property="url" content="http://localhost:4000" />
     <meta property="og:updated_time" content="1700248939" />
@@ -43,7 +43,7 @@
 
         <div class="header">
             <p class="title">
-                When Math is Ilegal
+                When Math becomes Illegal
             </p>
 
             
@@ -58,6 +58,8 @@
 
             <!-- Medium -->
             
+            | <a href="https://medium.com/@mihura.ian/when-math-becomes-illegal-190df1935a88" target="_blank">Read story in medium ↗</a>
+            
 
             <!-- Translations -->
             
@@ -65,19 +67,19 @@
             <div class="post-tags">
                 
                 <span class="tag-small">
-                    encriptado
+                    encryption
                 </span>
                 
                 <span class="tag-small">
-                    seguridad informatica
+                    information security
                 </span>
                 
                 <span class="tag-small">
-                    privacidad
+                    privacy
                 </span>
                 
                 <span class="tag-small">
-                    tecnología
+                    technology
                 </span>
                 
             </div>
@@ -180,7 +182,7 @@
 
 <p>Whitfield Diffie and Martin Hellman created one of the first and most widely used symmetric key-sharing protocols called <a href="https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange">Diffie-Hellman</a>.</p>
 
-<p>Let’s assume that Alice and Bob communicate over an insecure medium (the Internet) and want to share a secret. First they must agree on some public numbers: (p) = a very large prime number, (G) = a generator of the cycle <code class="language-plaintext highlighter-rouge">Zp*</code>. We will not explain what it is and how <a href="https://www.mtholyoke.edu/courses/mpeterso/math114/class16.html">G</a> is obtained because it would take a whole other article, suffice it to say that G is very special and <code class="language-plaintext highlighter-rouge">G &lt; p</code>. In general these numbers are standard: everybody uses the same ones.</p>
+<p>Let’s assume that Alice and Bob communicate over an insecure medium (the Internet) and want to share a secret. First they must agree on some public numbers: (p) = a very large prime number, (G) = a generator of the cycle <code class="language-plaintext highlighter-rouge">Zp*</code>. We will not explain what it is and <a href="https://www.mtholyoke.edu/courses/mpeterso/math114/class16.html">how G is obtained</a> because it would take a whole other article, suffice it to say that G is very special and <code class="language-plaintext highlighter-rouge">G &lt; p</code>. In general these numbers are standard: everybody uses the same ones.</p>
 
 <p>To communicate, each does the following:</p>
 <ol>
@@ -236,7 +238,7 @@
 <h2 id="backdoors">Backdoors</h2>
 <p>A backdoor is a way to encode a broken link in an otherwise good algorithm, so that we can decrypt the ciphertext without the need for the secret key. Backdoors are sometimes found by hackers, and sometimes they are created along with the original design.</p>
 
-<p>There are many ways to create backdoors. Examples exist even for [Diffie-Hellman] protocol (https://eprint.iacr.org/2016/644.pdf). One idea is to choose a <code class="language-plaintext highlighter-rouge">p</code> and <code class="language-plaintext highlighter-rouge">G</code> with “special” properties called <em>nothing-up-my-sleeve</em> numbers. One such famous case occurred in 1975, when the <a href="https://en.wikipedia.org/wiki/Data_Encryption_Standard#NSA's_involvement_in_the_design">NSA created the DES standard</a>, along with a set of arbitrary generator numbers, saying “no other generators meet the standard”, without further comment. It turned out that those numbers were susceptible to an exploit that they knew about.</p>
+<p>There are many ways to create backdoors. Examples exist even for <a href="https://eprint.iacr.org/2016/644.pdf">Diffie-Hellman protocol</a>. One idea is to choose a <code class="language-plaintext highlighter-rouge">p</code> and <code class="language-plaintext highlighter-rouge">G</code> with “special” properties called <em>nothing-up-my-sleeve</em> numbers. One such famous case occurred in 1975, when the <a href="https://en.wikipedia.org/wiki/Data_Encryption_Standard#NSA's_involvement_in_the_design">NSA created the DES standard</a>, along with a set of arbitrary generator numbers, saying “no other generators meet the standard”, without further comment. It turned out that those numbers were susceptible to an exploit that they knew about.</p>
 
 <blockquote>
   <p>Security of a system is as strong as its weakest link.</p>
@@ -254,8 +256,6 @@
 <hr />
 
 <blockquote>
-  <p>This article was first published in Spanish in https://filosofiadelfuturo.org/dh/</p>
-
   <p>A couple of resources and recommendations:</p>
 
   <p>One of the richest books available on cryptography: <a href="http://toc.cryptobook.us/">A Graduate Course in Applied Cryptography, by Dan Boneh and Victor Shoup</a></p>
@@ -263,6 +263,8 @@
   <p>A book with a very good introduction to all the more mathematical topics, starting from the basics of modulus and divisibility, and ending by building the SHA256 protocols, and more complex topics <a href="https://shoup.net/ntb/ntb-v2.pdf">A computational introduction to Number Theory and Algebra, by Victor Shoup</a></p>
 
   <p>Internet is full of online courses to learn more about this topic, because after all, cryptography was born and grew up with the Internet. A very good course, designed and run by Dan Boneh is <a href="https://www.coursera.org/learn/crypto">this online course</a>. If you want to dive right in, this is a great place to start.</p>
+
+  <p>This article was first published in Spanish in https://filosofiadelfuturo.org/dh/</p>
 </blockquote>
 
 <script>

@@ -1,0 +1,139 @@
+<html lang="en">
+    <head>
+    <title>Don't test too much</title>
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon_3.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&amp;display=swap" rel="stylesheet">
+    <script src="/assets/js/main.js"></script>
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <meta name="description" content="">
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Don't test too much" />
+    <meta property="og:title" content="Don't test too much" />
+    <meta property="og:description" content="">
+    <meta property="og:image" content="/assets/img/me.jpg" />
+    <meta property="url" content="http://localhost:4000" />
+    <meta property="og:updated_time" content="1700248939" />
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@ianmihura" />
+    <meta name="twitter:creator" content="@ianmihura" />
+</head>
+
+    <body>
+        <nav>
+    
+    <a href="http://localhost:4000/">Home</a>
+    
+    <a href="http://localhost:4000/posts/">Stories</a>
+    
+    <a href="http://localhost:4000/gibbelins/">Gibbelins</a>
+    
+    <a href="http://localhost:4000/code/">Code</a>
+    
+    <a href="http://localhost:4000/contact/">Contact</a>
+    
+</nav>
+
+
+        <div class="header">
+            <p class="title">
+                Don't test too much
+            </p>
+
+            
+            08 May 2024 
+            
+
+            
+            
+            
+            | 3 min read
+            
+
+            <!-- Medium -->
+            
+            | <a href="https://medium.com/@mihura.ian/dont-test-too-much-90a3ecbea80f" target="_blank">Read story in medium ↗</a>
+            
+
+            <!-- Translations -->
+            
+
+            <div class="post-tags">
+                
+                <span class="tag-small">
+                    coding
+                </span>
+                
+                <span class="tag-small">
+                    TDD
+                </span>
+                
+                <span class="tag-small">
+                    testing
+                </span>
+                
+                <span class="tag-small">
+                    business
+                </span>
+                
+                <span class="tag-small">
+                    code
+                </span>
+                
+            </div>
+        </div>
+
+        <div class="content">
+            <p>Over-testing exists, let’s not delude ourselves, and it does not have to do with laziness or rookie-ness.</p>
+
+<h2 id="cost-benefit">Cost-benefit</h2>
+
+<p>Everything in engineering implies a cost-benefit balance. So tests also imply a cost we assume for a future benefit. The cost of time and energy invested in writing the test (and the time that will be invested in maintaining it), and the benefit of a faster development and debugging and better issue detection.</p>
+
+<p>Right test coverage is a balance between time spent and value added, considering also the criticality of the feature being tested, and the chance that the test will catch a relevant bug.</p>
+
+<h2 id="features-are-assets-code-is-liability">Features are assets, code is liability</h2>
+
+<p>So the old saying goes. As engineers we aim at producing value: if we want our tools to be used we make features, this is what the user cares and pays for, it’s the asset they buy.</p>
+
+<p>On the other hand we write code that needs to be maintained, like an infrastructure that supports our features. Every line of code is like a liability, or future debt, that enables the features.</p>
+
+<h2 id="dont-let-tests-become-liabilities">Don’t let tests become liabilities</h2>
+
+<p>Tests are great, they help us automate feature verification (something we should otherwise have to do manually), they help us develop fast and confidently, and at times they document behavior.</p>
+
+<p>But tests bring no new features to the user, thus they are kind-of liabilities.</p>
+
+<p>Well, tests might not bring features to the user, but they can bring features to the developer. In this sense they are like a tool, and tools are assets. But they bring no new features to the user, and a one must keep this top-of-mind.</p>
+
+<p>There’s no rule that says when tests become liabilities, other than “when they’re no longer useful”. This is a judgement that each programmer must make on the spot. But it is a valid judgement, and one we should be doing more.</p>
+
+<h2 id="tests-are-not-like-brakes-on-a-car">Tests are not like brakes on a car</h2>
+
+<p><em>(So the metaphor goes: brakes on a car slow you down, but allow you to drive faster).</em></p>
+
+<p>This is a weird metaphor. Brakes are features of the car, for the user, tests are not. Brakes are not a compromise, we don’t go slower now to go faster later. Brakes exist to go slower and that’s all, there is no investment in the future, beside keeping yourself alive.</p>
+
+<p>At most tests are a brake in your deployment pipeline, as they slow down, or stop, delivery. Though I wouldn’t say this metaphor works as it is usually meant (to encourage TDD).</p>
+
+<h2 id="bottom-line-tests-make-you-code-quicker">Bottom line: tests make you code quicker?</h2>
+
+<p>We have been taught, by what now seem like a Gang of Fanatics, that we should code everything, write our tests before we write our code (TDD) and aim at covering 100% of your code base. As if all code deserved to be tested!</p>
+
+<p>They say that this will make us code quicker in the long run. Well, that is, if we write the correct tests.</p>
+
+<p>Anyway, I think this argument misses the point. Testing the right amount is not about coding quicker, it’s about who’s paying for your code, what’s relevant for you to be doing, and how important it is that the code does not fail in said way. Great engineering considers cost and functionality first. We don’t have infinite time to re-write everything every time specs change, so be considerate with your company’s time.</p>
+
+<p>P.S. if you ever feel compelled to fight someone else on how they structure their workflow, take a minute to touch some grass first.</p>
+
+            <a href="/posts/">Back to stories</a>
+        </div>
+        <div class="back-to-top">↑</div>
+    </body>
+</html>

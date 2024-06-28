@@ -6,7 +6,8 @@ body {
     font-size: $font-medium;
     min-width: 320px;
     line-height: 1.5;
-    font-family: 'Source Code Pro', monospace;
+    // font-family: 'Source Code Pro', monospace;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
     overflow-x: hidden;
     // overflow-y: hidden;
     min-height: 100%;
@@ -15,8 +16,9 @@ body {
     background-color: $background-color;
 }
 
-p, span, h1, h2, h3, h4, h5, h6 {
-    font-family: 'Source Code Pro', monospace;
+p, span, a, nav, h1, h2, h3, h4, h5, h6 {
+    // font-family: 'Source Code Pro', monospace;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 .text-dark {

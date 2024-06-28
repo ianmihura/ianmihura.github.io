@@ -1,4 +1,160 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-11-24T12:19:51+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ian Mihura</title><subtitle>Developer &amp; Writer. Welcome to my Home. Here I store stories and other things. There&apos;s a bit of everything, but don&apos;t expect much of anything.</subtitle><author><name>Ian Mihura</name></author><entry><title type="html">The Demise of the Gibbelins</title><link href="http://localhost:4000/gibbelins/" rel="alternate" type="text/html" title="The Demise of the Gibbelins" /><published>2023-11-13T00:00:00+01:00</published><updated>2023-11-13T00:00:00+01:00</updated><id>http://localhost:4000/demise-of-the-gibbelins</id><content type="html" xml:base="http://localhost:4000/gibbelins/">&lt;p&gt;The man-eating, gold-hoarding, treacherous Gibbelins first appear in the short story &lt;a href=&quot;https://www.gutenberg.org/files/7477/7477-h/7477-h.htm#THE_HOARD_OF_THE_GIBBELINS&quot;&gt;“The Hoard of the Gibbelins”&lt;/a&gt;, by Lord Dunsany (1912), wherein ambitious Alderic seeks (and fails) to rob the Enemy of their gold. He is not the first knight to try, but his plan differs greatly: he captures a dragon and rides it to their layer. He then swims, spends the night breaking into the tower with a mighty pickaxe, and finds the gems. Unfortunately the Gibbelins immediately find, capture, and kill him.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-28T14:30:27+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ian Mihura</title><subtitle>Developer &amp; Writer. Welcome to my Home. Here I store stories and other things. There&apos;s a bit of everything, but don&apos;t expect much of anything.</subtitle><author><name>Ian Mihura</name></author><entry><title type="html">Have you tried restarting your Computer?</title><link href="http://localhost:4000/tech-touch/" rel="alternate" type="text/html" title="Have you tried restarting your Computer?" /><published>2024-05-15T00:00:00+02:00</published><updated>2024-05-15T00:00:00+02:00</updated><id>http://localhost:4000/tech-touch</id><content type="html" xml:base="http://localhost:4000/tech-touch/">&lt;blockquote&gt;
+  &lt;p&gt;“I’m trying to click the button, but it doesn’t work.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Refresh the page and try again.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I tried it already. Can you give it a look?”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I walk over to the user, refresh the page and alas, the button works.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I swear I did the same thing!”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“I guess it’s the tech touch.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;No, I don’t know what I did. And yes, I do believe you restarted the page as I said. The thing is, I might have the tech touch.&lt;/p&gt;
+
+&lt;h2 id=&quot;some-people-just-have-it&quot;&gt;Some people just have it&lt;/h2&gt;
+
+&lt;p&gt;And some people don’t. It’s not something you can fake, but it’s not something you’re born with, either. It’s strictly something you practice.&lt;/p&gt;
+
+&lt;p&gt;You can learn it, but you gotta hone it. What you learn is not as important as how much time and effort you dedicate. Actually, don’t learn: practice, with real environments, and shoot yourself in the foot.&lt;/p&gt;
+
+&lt;p&gt;OK, but really, what should you learn if you wanna have the tech touch? Everything. At least enough to be able to ask the right questions. Best thing I can say is: be a Jack of all trades.&lt;/p&gt;
+
+&lt;p&gt;But don’t try to cover too much too soon, or you’ll muddy yourself up. Don’t do as you did in high school to memorize formulas, try to learn intuition, build a mental model and think as a computer: before knowing how to fix something you gotta know what is broken, and to know what is broken you need to discern if something is broken. Learn how to see broken things, be keen and pay attention.&lt;/p&gt;
+
+&lt;h2 id=&quot;go-deep&quot;&gt;Go deep&lt;/h2&gt;
+
+&lt;p&gt;Paradoxically, if you want to learn a swath of things, just pick one project and dive deep. Grab a thing you always felt curious about, webRTC, compilers, blockchain, signals, concurrency, torrent protocol, shaders, assembly langs, anything. Do it and find roadblocks. After enough of those you’ll probably be more comfortable navigating around your computer.&lt;/p&gt;
+
+&lt;p&gt;The tech touch is something that arises once you have enough comfort and experience.&lt;/p&gt;
+
+&lt;h2 id=&quot;its-just-like-magic&quot;&gt;It’s just like magic&lt;/h2&gt;
+
+&lt;p&gt;Some people say the tech touch is just like magic. It feels like magic to the uninitiated, but we know it’s not magic, just like a magician knows their tricks are not magic!&lt;/p&gt;
+
+&lt;p&gt;But I think the tech touch is kinda magical. When does the magic appear? Any good magician was once an apprentice, and to become a good magician, he must have practiced. Unbeknownst to him, that’s when the real magic started to happen. A good magician doesn’t invent (or bend) laws of physics, he just gets good at them. He becomes an expert.&lt;/p&gt;
+
+&lt;p&gt;Then can he make you believe in magic, only after he believes it himself. He then knows how to do the trick, he can do the trick, but most of all, he has practiced the trick.&lt;/p&gt;
+
+&lt;p&gt;The magician is not a machine, his trick is not a strict program: he’s actually so good at it that he feels comfortable exploring. Sometimes he moves his hand a bit further out, sometimes he uses his other pocket, sometimes he changes the order of things, enough so that if something goes wrong, the trick does not fail.&lt;/p&gt;
+
+&lt;p&gt;Computers are usually hard problems, even when they work correctly. Knowing your way around them is like inhabiting all the magic tricks, while some of them are failing.&lt;/p&gt;
+
+&lt;h2 id=&quot;pay-attention&quot;&gt;Pay attention&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;“I cannot send the email to the client!”&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Where can I start debuging this? From the button that the user clicks to the SMTP server, there’s more than a dozen things that can fail.&lt;/p&gt;
+
+&lt;p&gt;Sometimes we have no better option than to just follow the trail, try to find logs or replay the incident on our side. But if you know your way around, you’ll find the solution faster. Having the tech touch is all about being able to find the solution faster (or even, which is truly magical: being able to pinpoint exactly where the problem is without looking at the system).&lt;/p&gt;
+
+&lt;p&gt;Well, you need to know yourself around first. This means time spend nosing around, walk the walk. But then, experience is not all, you also have to be paying attention, because you’re looking for something.&lt;/p&gt;
+
+&lt;p&gt;Did this happen before? Who is reporting the issue? Did I see any error notification right before or after the issue was reported? What are my colleges working on? What piece of the workflow was changed recently?&lt;/p&gt;
+
+&lt;p&gt;Seeing how the user interacts with it can give you a million clues: what explorer are they using? Is there anything peculiar about their workflow? How many of these do they do a day? When’s the last time they logged in the app, or restarted the machine? Might they be running an old version? Ask precise questions.&lt;/p&gt;
+
+&lt;p&gt;And all the while, pay attention: many times I spotted the solution out of the corner of my eye.&lt;/p&gt;
+
+&lt;h2 id=&quot;try-stuff-out&quot;&gt;Try stuff out&lt;/h2&gt;
+
+&lt;p&gt;Back to the first example: I truly believe the user restarted the thing as I said, but I may mean many things by restart: closing the tab, closing the explorer, erasing cookies. Apps and computers are state machines, refreshing them once is not the same as refreshing them 20 times, which is definitively not the same as deleting cache, restarting your PC, reinstalling, or even taking the battery out of the motherboard.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-copy-and-paste&quot;&gt;How to copy and paste&lt;/h2&gt;
+
+&lt;p&gt;A note to those of us who have the tech touch, be patient with the uninitiated. People do not live plugged-in as we might, and we take for granted things that are definitively not obvious. I’ll close this with a short story.&lt;/p&gt;
+
+&lt;p&gt;While I was working as customer support, I received the strangest call: “I cannot copy and past a text.” I went over to the user and told him to show me what he was doing. He began his demonstration:&lt;/p&gt;
+
+&lt;p&gt;“Well, I select the text and click control+c, just like you guys told me to. Then I unplug the mouse,” he effectively unplugged the mouse, “And very carefully take it to my other computer, I plug it in, and, see! I cannot paste it here!”&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“Well,” I said to myself, “Maybe there’s a good idea for a startup right there.”&lt;/em&gt;&lt;/p&gt;</content><author><name>Ian Mihura</name></author><category term="coding" /><category term="skills" /><category term="learning" /><summary type="html">“I’m trying to click the button, but it doesn’t work.”</summary></entry><entry><title type="html">Don’t test too much</title><link href="http://localhost:4000/dont-test-too-much-copy/" rel="alternate" type="text/html" title="Don’t test too much" /><published>2024-05-08T00:00:00+02:00</published><updated>2024-05-08T00:00:00+02:00</updated><id>http://localhost:4000/dont-test-too-much%20copy</id><content type="html" xml:base="http://localhost:4000/dont-test-too-much-copy/">&lt;p&gt;Over-testing exists, let’s not delude ourselves, and it does not have to do with laziness or rookie-ness.&lt;/p&gt;
+
+&lt;h2 id=&quot;cost-benefit&quot;&gt;Cost-benefit&lt;/h2&gt;
+
+&lt;p&gt;Everything in engineering implies a cost-benefit balance. So tests also imply a cost we assume for a future benefit. The cost of time and energy invested in writing the test (and the time that will be invested in maintaining it), and the benefit of a faster development and debugging and better issue detection.&lt;/p&gt;
+
+&lt;p&gt;Right test coverage is a balance between time spent and value added, considering also the criticality of the feature being tested, and the chance that the test will catch a relevant bug.&lt;/p&gt;
+
+&lt;h2 id=&quot;features-are-assets-code-is-liability&quot;&gt;Features are assets, code is liability&lt;/h2&gt;
+
+&lt;p&gt;So the old saying goes. As engineers we aim at producing value: if we want our tools to be used we make features, this is what the user cares and pays for, it’s the asset they buy.&lt;/p&gt;
+
+&lt;p&gt;On the other hand we write code that needs to be maintained, like an infrastructure that supports our features. Every line of code is like a liability, or future debt, that enables the features.&lt;/p&gt;
+
+&lt;h2 id=&quot;dont-let-tests-become-liabilities&quot;&gt;Don’t let tests become liabilities&lt;/h2&gt;
+
+&lt;p&gt;Tests are great, they help us automate feature verification (something we should otherwise have to do manually), they help us develop fast and confidently, and at times they document behavior.&lt;/p&gt;
+
+&lt;p&gt;But tests bring no new features to the user, thus they are kind-of liabilities.&lt;/p&gt;
+
+&lt;p&gt;Well, tests might not bring features to the user, but they can bring features to the developer. In this sense they are like a tool, and tools are assets. But they bring no new features to the user, and a one must keep this top-of-mind.&lt;/p&gt;
+
+&lt;p&gt;There’s no rule that says when tests become liabilities, other than “when they’re no longer useful”. This is a judgement that each programmer must make on the spot. But it is a valid judgement, and one we should be doing more.&lt;/p&gt;
+
+&lt;h2 id=&quot;tests-are-not-like-brakes-on-a-car&quot;&gt;Tests are not like brakes on a car&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;(So the metaphor goes: brakes on a car slow you down, but allow you to drive faster).&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This is a weird metaphor. Brakes are features of the car, for the user, tests are not. Brakes are not a compromise, we don’t go slower now to go faster later. Brakes exist to go slower and that’s all, there is no investment in the future, beside keeping yourself alive.&lt;/p&gt;
+
+&lt;p&gt;At most tests are a brake in your deployment pipeline, as they slow down, or stop, delivery. Though I wouldn’t say this metaphor works as it is usually meant (to encourage TDD).&lt;/p&gt;
+
+&lt;h2 id=&quot;bottom-line-tests-make-you-code-quicker&quot;&gt;Bottom line: tests make you code quicker?&lt;/h2&gt;
+
+&lt;p&gt;We have been taught, by what now seem like a Gang of Fanatics, that we should code everything, write our tests before we write our code (TDD) and aim at covering 100% of your code base. As if all code deserved to be tested!&lt;/p&gt;
+
+&lt;p&gt;They say that this will make us code quicker in the long run. Well, that is, if we write the correct tests.&lt;/p&gt;
+
+&lt;p&gt;Anyway, I think this argument misses the point. Testing the right amount is not about coding quicker, it’s about who’s paying for your code, what’s relevant for you to be doing, and how important it is that the code does not fail in said way. Great engineering considers cost and functionality first. We don’t have infinite time to re-write everything every time specs change, so be considerate with your company’s time.&lt;/p&gt;
+
+&lt;p&gt;P.S. if you ever feel compelled to fight someone else on how they structure their workflow, take a minute to touch some grass first.&lt;/p&gt;</content><author><name>Ian Mihura</name></author><category term="coding" /><category term="TDD" /><category term="testing" /><category term="business" /><category term="code" /><summary type="html">Over-testing exists, let’s not delude ourselves, and it does not have to do with laziness or rookie-ness.</summary></entry><entry><title type="html">Why everyone should want to be a boss</title><link href="http://localhost:4000/why-everyone-wants-to-be-a-boss/" rel="alternate" type="text/html" title="Why everyone should want to be a boss" /><published>2024-03-21T00:00:00+01:00</published><updated>2024-03-21T00:00:00+01:00</updated><id>http://localhost:4000/why-everyone-wants-to-be-a-boss</id><content type="html" xml:base="http://localhost:4000/why-everyone-wants-to-be-a-boss/">&lt;p&gt;I was recently invited to take the lead of the team I work with. Our boss had served his time and, being the programmer with most seniority, I was naturally set to step up. I gladly accepted the challenge.&lt;/p&gt;
+
+&lt;p&gt;Later that week one of my teammates disclosed to me that he was happy I was taking the role because he was next in line and he didn’t want to become tech lead, he said he’d “rather never go into management altogether”.&lt;/p&gt;
+
+&lt;p&gt;Agreed, we are not all made to be leaders in the workplace. Most of us don’t prefer it and won’t enjoy it. This is especially true for techies: we love fixing things and investigating how things work, and we prefer to work with things rather than people.&lt;/p&gt;
+
+&lt;p&gt;I confessed to my colleague that I also didn’t want to go into management forever. I love coding and there’s still a myriad of things to learn, I wouldn’t want to stay on the other side of the industry.&lt;/p&gt;
+
+&lt;h1 id=&quot;why-did-i-accept-the-position-then&quot;&gt;Why did I accept the position then?&lt;/h1&gt;
+
+&lt;p&gt;Well, to start off, my job leads me to wherever I’m valued the most, and right now the company needs me as tech lead. But beyond the economical incentive, it started becoming clear that there are many good reasons to feel motivated to accept this challenge, at least once in my career. Here are some reasons I can think:
+Photo by Ryoji Iwata on Unsplash&lt;/p&gt;
+
+&lt;h1 id=&quot;1-knowing-how-to-lead-will-make-you-better-at-following&quot;&gt;1. Knowing how to lead will make you better at following&lt;/h1&gt;
+
+&lt;p&gt;There’s a stereotype that we as techies feel our work is the only real work, and managers don’t actually do much. This is patently false: most leaders work overtime and make hard decisions constantly, on top of being responsible for the work of their team. To be a good team player we must have empathy with our leaders, and the best way is to walk a mile in their shoes.&lt;/p&gt;
+
+&lt;h1 id=&quot;2-bridge-the-gap-with-management&quot;&gt;2. Bridge the gap with management&lt;/h1&gt;
+
+&lt;p&gt;In a similar note, we often shy away from our leaders. We enjoy a bout of uninterrupted work, but we dislike meetings, especially the “How is the task going?” type.&lt;/p&gt;
+
+&lt;p&gt;When I asked the (outgoing) team lead about the best way to manage the relationship with his boss (the CEO) he said: “Have a meeting with her once a week, maybe more. Be the one who starts the conversation, don’t make her have to chase you. Keep her in the loop, be proactive.”&lt;/p&gt;
+
+&lt;p&gt;I think this applies to everyone’s relationship with their boss, but somehow having more important people as your boss makes it more unavoidable.&lt;/p&gt;
+
+&lt;h1 id=&quot;3-broaden-your-view-on-the-project&quot;&gt;3. Broaden your view on the project&lt;/h1&gt;
+
+&lt;p&gt;As Jocko Willink would say: take a step back, look at the big picture. Having a leader’s perspective means you get to think beyond the immediate. This is why leaders most times isolate themselves physically, in different offices, not because they feel superior, but to detach from the day-to-day.&lt;/p&gt;
+
+&lt;h1 id=&quot;4-leading-will-teach-you-about-yourself&quot;&gt;4. Leading will teach you about yourself&lt;/h1&gt;
+
+&lt;p&gt;You don’t know who you are until you lead others. If nothing else, this is a great opportunity for personal development. You get the chance to take the reins of a team working on something you know and love. This is a unique opportunity to practice being an adult.&lt;/p&gt;
+
+&lt;h1 id=&quot;lastly-you-can-always-step-down&quot;&gt;Lastly, you can always step down&lt;/h1&gt;
+
+&lt;p&gt;After this experience as tech lead, I will probably go back to software development because I love programming. But, who knows, the future might yet surprise us.&lt;/p&gt;</content><author><name>Ian Mihura</name></author><category term="leadership" /><category term="career" /><category term="management" /><category term="business" /><summary type="html">I was recently invited to take the lead of the team I work with. Our boss had served his time and, being the programmer with most seniority, I was naturally set to step up. I gladly accepted the challenge.</summary></entry><entry><title type="html">The Demise of the Gibbelins</title><link href="http://localhost:4000/gibbelins/" rel="alternate" type="text/html" title="The Demise of the Gibbelins" /><published>2023-11-13T00:00:00+01:00</published><updated>2023-11-13T00:00:00+01:00</updated><id>http://localhost:4000/demise-of-the-gibbelins</id><content type="html" xml:base="http://localhost:4000/gibbelins/">&lt;p&gt;The man-eating, gold-hoarding, treacherous Gibbelins first appear in the short story &lt;a href=&quot;https://www.gutenberg.org/files/7477/7477-h/7477-h.htm#THE_HOARD_OF_THE_GIBBELINS&quot;&gt;“The Hoard of the Gibbelins”&lt;/a&gt;, by Lord Dunsany (1912), wherein ambitious Alderic seeks (and fails) to rob the Enemy of their gold. He is not the first knight to try, but his plan differs greatly: he captures a dragon and rides it to their layer. He then swims, spends the night breaking into the tower with a mighty pickaxe, and finds the gems. Unfortunately the Gibbelins immediately find, capture, and kill him.&lt;/p&gt;
 
 &lt;p&gt;“The Demise of the Gibbelins” starts off right after this adventure, when the ill-fated news arrives in the town of Alderic.&lt;/p&gt;
 
@@ -21,13 +177,15 @@
 
 &lt;p&gt;Unfortunately, he pays too much attention to the news cycle. The other day he confessed to me he’s afraid that A.I. will take his job.&lt;/p&gt;
 
-&lt;p&gt;“It is the end for me,” he said, “What I do is automatizable.”&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;h3 id=&quot;it-is-the-end-for-me-he-said-what-i-do-is-automatizable&quot;&gt;“It is the end for me,” he said, “What I do is automatizable.”&lt;/h3&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;It is true. One part of his work is automatizable. Some days he just takes requests through a system and log them in another. He’s a cog in the machine already.&lt;/p&gt;
 
 &lt;p&gt;But that’s not all he does. He spends his day surveilling logistics, verifying that no incidents happen and all clients are happy. But incidents happen, and when they do, his creativity kicks in.&lt;/p&gt;
 
-&lt;p&gt;So, the story goes, there was an incident with a request that came in boiling hot.&lt;/p&gt;
+&lt;h3 id=&quot;so-the-story&quot;&gt;So, the story:&lt;/h3&gt;
 
 &lt;p&gt;“We need 5 tons of acetic acid in Munich, day after tomorrow!” the sales guy told him.&lt;/p&gt;
 
@@ -65,7 +223,9 @@
 
 &lt;p&gt;“It’ll have to do. Thanks, you are a miracle worker.”&lt;/p&gt;
 
-&lt;p&gt;So, what is the moral of this story?&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;h3 id=&quot;so-what-is-the-moral-of-this-story&quot;&gt;So, what is the moral of this story?&lt;/h3&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;It seems that my friend still plays somewhat of a creative role. At least this part of the job won’t be automatized, right?&lt;/p&gt;
 
@@ -81,7 +241,9 @@
 
 &lt;p&gt;Machines will not steal every job, because there will always be human needs, and where there’s a need, there’s a job. Needs will increase, today’s luxury is tomorrow’s basic need, and the market will demand more contextual thinking, that which machines are not fit for.&lt;/p&gt;
 
-&lt;p&gt;“But A.I. is definitively a game-changer,” some say.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;h3 id=&quot;but-ai-is-definitively-a-game-changer-some-say&quot;&gt;“But A.I. is definitively a game-changer,” some say.&lt;/h3&gt;
+&lt;/blockquote&gt;
 
 &lt;p&gt;To this I like to point out, as Nassim Taleb puts in his book “Black Swan”: we are very bad at predicting the future. What we think won’t have any efect, does, and what we think will have great effect, doesn’t. Or at least not in the way we think.&lt;/p&gt;
 
