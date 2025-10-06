@@ -5,11 +5,6 @@
 
 Host with `bundler exec jekyll serve`
 
-### Ideas from
-* https://lexfridman.com/
-* https://crispgm.com/image/nvim-telescope.png
-* https://term.m4tt72.com/
-
 ### TODO
 * add code projects (content)
     lmc js & c++
@@ -25,7 +20,6 @@ Host with `bundler exec jekyll serve`
     add page or tag to normal page
     filter by language
 * click images: preview
-* not my stories (podcast)
 
 * Typeface (accomodate bold & italic)
 * order scss
