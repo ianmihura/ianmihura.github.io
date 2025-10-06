@@ -9,11 +9,11 @@ language: en
 
 This is a 2 player version of the solitaire called [Royal Assassin](https://boardgamegeek.com/boardgame/149845/royal-assassin). Make sure you understand the solo version before reading this variation.
 
-### Cards
+## Cards
 
 Best played with 2 full decks, can be played with one deck.
 
-### Setup
+## Setup
 
 Each player setups up their noble families, similarly to the solo version. In contrast with it, the noble families they present will be their allies rather than their enemies.
 
@@ -21,13 +21,13 @@ During the setup players build up their own reserve pile (stack of cards facing 
 
 Otherwise, the fresh deck and the discard pile are shared. 
 
-### Rounds
+## Rounds
 
 Instead of playing one card at a time, each player draws 3 cards from their deck, and plays one card per turn. They play alternatively until they have no more cards in the hand. Then players draw 3 more cards, and so on.
 
 In each turn the player can choose to:
 
-### Attack
+## Attack
 
 To attack enemy’s families the player places a card in an enemy’s family pile. Same general rules as in the solitaire:
 
@@ -53,7 +53,7 @@ Royalty vs royalty: Pieces of royalty can kill other pieces of royalty, given th
 - There are no ongoing attacks (no number cards in front of it)
 - The corresponding color
 
-### Defend
+## Defend
 
 To defend one of their families, the player places a card in one of the piles. These families don’t need to be under attack to be defended (in contrast with the solitaire version). Also, a defense that exceeds an attack does not wipe away the ongoing attack. Only an exact sum of zero wipes away the pile. For example:
 
@@ -65,18 +65,18 @@ To defend one of their families, the player places a card in one of the piles. T
 
 (Note that the defense has been re-balanced giving a slight advantage to the defender).
 
-### Other actions
+## Other actions
 
 - Present royal figures as in the solitaire version
 - If nothing else possible, discard to the reserve pile
 
-### Shared and not shared
+## Shared and not shared
 
 Players share a discard pile and a deck to draw new cards from.
 
 Players do not share a reserve deck (face-up pile to place unusable cards, and draw defenses/attackers from) nor Jokers.
 
-### Endgame
+## Endgame
 
 The player to completely wipe the other player wins.
 
