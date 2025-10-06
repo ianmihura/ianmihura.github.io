@@ -3,7 +3,7 @@ layout: post
 title: Tricky Poker
 date: 2025-09-19
 excerpt: A game played by tricks with no trump suit, inspired by the famous game Poker and the Latin American game Truco. 
-tags: [truco, poker, betting, tactics]
+tags: [betting, truco, poker, tactics]
 language: en
 ---
 
