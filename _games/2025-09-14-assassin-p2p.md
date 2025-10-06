@@ -7,7 +7,7 @@ tags: [battle, epic story, 2 decks, short]
 language: en
 ---
 
-This is a 2 player version of the solitaire called Royal Assassin: https://boardgamegeek.com/boardgame/149845/royal-assassin. Make sure you understand the solo version before reading this variation.
+This is a 2 player version of the solitaire called [Royal Assassin](https://boardgamegeek.com/boardgame/149845/royal-assassin). Make sure you understand the solo version before reading this variation.
 
 ### Cards
 
