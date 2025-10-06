@@ -20,7 +20,7 @@ tagline: Developer & Writer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://ianmihura.github.io
 permalink: /:title/
-words_per_minute: 220
+words_per_minute: 175
 
 email: mihura.ian@gmail.com
 twitter_link: https://twitter.com/ianmihura
