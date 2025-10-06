@@ -37,7 +37,24 @@
             {% endfor %}
         </ul>
 
+        <h1 class="header">
+            Code
+        </h1>
+        <p class="header">
+            Some code pet projects, or articles about technical subjects.
+        </p>
 
+        <ul class="content">
+            {% for post in site.code %}
+            <li class="list-single">
+                ({{ post.date | date_to_string }})
+                <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                <span class="tag-small">
+                    {{ post.tags[0] }}
+                </span>
+            </li>
+            {% endfor %}
+        </ul>
 
         <h1 class="header">
             Find me in the inter-webs
