@@ -4,11 +4,14 @@
         {% include navbar.html %}
 
         <h1 class="header">
-            Stories and other writings
+            Games
         </h1>
+        <h3>
+            Mostly card games, inspired by stock trading, betting and strategy
+        </h3>
 
         <ul class="content">
-            {% for post in site.posts %}
+            {% for post in site.games %}
             <li class="list-single">
                 {% if post.hide_date %}
                 (coming soon)
