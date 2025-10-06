@@ -46,6 +46,9 @@ collections:
   code:
     output: true
     permalink: /:title/
+  games:
+    output: true
+    permalink: /:title/
 
 sass:
   sass_dir: _sass
