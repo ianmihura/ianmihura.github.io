@@ -2,8 +2,8 @@
 layout: post
 title: Royal Assassin p2p
 date: 2025-09-14
-excerpt: Two noble families _
-tags: [battle, epic story, 2 decks, short]
+excerpt: The crown is yours, and there's peace within the kingdom at last. But beyond your lands, a rival threatens your reign. Its king seeks to crush you before your power grows. This time, you're not alone, the lords that were once your enemies will stand by you in battle. With the four fiefdoms' armies and the Joker’s hand guiding the unseen war, you prepare to strike first.
+tags: [battle, epic story, 2 decks, solitaire]
 language: en
 ---
 
