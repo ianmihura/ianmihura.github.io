@@ -1,12 +1,10 @@
 - title: Home
   url: /
-- title: Stories
-  url: /posts/
-- title: Gibbelins
-  url: /gibbelins/
-# - title: Podcasts
-#   url: /podcasts/
+- title: Posts
+  url: https://medium.com/@mihura.ian
 - title: Code
   url: /code/
+- title: Games
+  url: /games/
 - title: Contact
   url: /contact/
