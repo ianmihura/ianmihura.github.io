@@ -2,11 +2,11 @@
   url: /
 - title: Games
   url: /games/
-- title: Contact
-  url: /contact/
-- title: Posts 🗗
-  url: https://medium.com/@mihura.ian
 - title: Code
   url: /code/
+- title: Posts 🗗
+  url: https://medium.com/@mihura.ian
 - title: Github 🗗
   url: https://github.com/ianmihura
+- title: Contact
+  url: /contact/

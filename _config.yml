@@ -15,6 +15,10 @@ welcome: >-
   Please, do come in and look around. Even if it is a humble corner,
   there are things of all sorts. You may yet find that which
   resonates. Make yourself at Home.
+other: >-
+  I'm grateful coding is a viable career path, because honestly, I'd be doing it even if it wasn't.
+  I love building stuff and fixing stuff. The long process of crafting something big. Chipping away, smoothing the edges. And the mysterious meandering path of debugging, detective-like.
+  Yes, that's what I get up in the morning for.
 tagline: Developer & Writer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://ianmihura.github.io
