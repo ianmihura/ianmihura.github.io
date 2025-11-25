@@ -1,420 +1,420 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-06-28T14:30:27+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ian Mihura</title><subtitle>Developer &amp; Writer. Welcome to my Home. Here I store stories and other things. There&apos;s a bit of everything, but don&apos;t expect much of anything.</subtitle><author><name>Ian Mihura</name></author><entry><title type="html">Have you tried restarting your Computer?</title><link href="http://localhost:4000/tech-touch/" rel="alternate" type="text/html" title="Have you tried restarting your Computer?" /><published>2024-05-15T00:00:00+02:00</published><updated>2024-05-15T00:00:00+02:00</updated><id>http://localhost:4000/tech-touch</id><content type="html" xml:base="http://localhost:4000/tech-touch/">&lt;blockquote&gt;
-  &lt;p&gt;“I’m trying to click the button, but it doesn’t work.”&lt;/p&gt;
-&lt;/blockquote&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-11-25T23:22:42+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ian Mihura</title><subtitle>Developer &amp; Writer. Welcome to my Home. Here I store stories and other things. There&apos;s a bit of everything, but don&apos;t expect much of anything.</subtitle><author><name>Ian Mihura</name></author><entry><title type="html">Have you tried restarting your Computer?</title><link href="http://localhost:4000/tech-touch/" rel="alternate" type="text/html" title="Have you tried restarting your Computer?" /><published>2024-05-15T00:00:00+02:00</published><updated>2024-05-15T00:00:00+02:00</updated><id>http://localhost:4000/tech-touch</id><content type="html" xml:base="http://localhost:4000/tech-touch/"><![CDATA[<blockquote>
+  <p>“I’m trying to click the button, but it doesn’t work.”</p>
+</blockquote>
 
-&lt;blockquote&gt;
-  &lt;p&gt;“Refresh the page and try again.”&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <p>“Refresh the page and try again.”</p>
+</blockquote>
 
-&lt;blockquote&gt;
-  &lt;p&gt;“I tried it already. Can you give it a look?”&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <p>“I tried it already. Can you give it a look?”</p>
+</blockquote>
 
-&lt;blockquote&gt;
-  &lt;p&gt;I walk over to the user, refresh the page and alas, the button works.&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <p>I walk over to the user, refresh the page and alas, the button works.</p>
+</blockquote>
 
-&lt;blockquote&gt;
-  &lt;p&gt;“I swear I did the same thing!”&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <p>“I swear I did the same thing!”</p>
+</blockquote>
 
-&lt;blockquote&gt;
-  &lt;p&gt;“I guess it’s the tech touch.”&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <p>“I guess it’s the tech touch.”</p>
+</blockquote>
 
-&lt;p&gt;No, I don’t know what I did. And yes, I do believe you restarted the page as I said. The thing is, I might have the tech touch.&lt;/p&gt;
+<p>No, I don’t know what I did. And yes, I do believe you restarted the page as I said. The thing is, I might have the tech touch.</p>
 
-&lt;h2 id=&quot;some-people-just-have-it&quot;&gt;Some people just have it&lt;/h2&gt;
+<h2 id="some-people-just-have-it">Some people just have it</h2>
 
-&lt;p&gt;And some people don’t. It’s not something you can fake, but it’s not something you’re born with, either. It’s strictly something you practice.&lt;/p&gt;
+<p>And some people don’t. It’s not something you can fake, but it’s not something you’re born with, either. It’s strictly something you practice.</p>
 
-&lt;p&gt;You can learn it, but you gotta hone it. What you learn is not as important as how much time and effort you dedicate. Actually, don’t learn: practice, with real environments, and shoot yourself in the foot.&lt;/p&gt;
+<p>You can learn it, but you gotta hone it. What you learn is not as important as how much time and effort you dedicate. Actually, don’t learn: practice, with real environments, and shoot yourself in the foot.</p>
 
-&lt;p&gt;OK, but really, what should you learn if you wanna have the tech touch? Everything. At least enough to be able to ask the right questions. Best thing I can say is: be a Jack of all trades.&lt;/p&gt;
+<p>OK, but really, what should you learn if you wanna have the tech touch? Everything. At least enough to be able to ask the right questions. Best thing I can say is: be a Jack of all trades.</p>
 
-&lt;p&gt;But don’t try to cover too much too soon, or you’ll muddy yourself up. Don’t do as you did in high school to memorize formulas, try to learn intuition, build a mental model and think as a computer: before knowing how to fix something you gotta know what is broken, and to know what is broken you need to discern if something is broken. Learn how to see broken things, be keen and pay attention.&lt;/p&gt;
+<p>But don’t try to cover too much too soon, or you’ll muddy yourself up. Don’t do as you did in high school to memorize formulas, try to learn intuition, build a mental model and think as a computer: before knowing how to fix something you gotta know what is broken, and to know what is broken you need to discern if something is broken. Learn how to see broken things, be keen and pay attention.</p>
 
-&lt;h2 id=&quot;go-deep&quot;&gt;Go deep&lt;/h2&gt;
+<h2 id="go-deep">Go deep</h2>
 
-&lt;p&gt;Paradoxically, if you want to learn a swath of things, just pick one project and dive deep. Grab a thing you always felt curious about, webRTC, compilers, blockchain, signals, concurrency, torrent protocol, shaders, assembly langs, anything. Do it and find roadblocks. After enough of those you’ll probably be more comfortable navigating around your computer.&lt;/p&gt;
+<p>Paradoxically, if you want to learn a swath of things, just pick one project and dive deep. Grab a thing you always felt curious about, webRTC, compilers, blockchain, signals, concurrency, torrent protocol, shaders, assembly langs, anything. Do it and find roadblocks. After enough of those you’ll probably be more comfortable navigating around your computer.</p>
 
-&lt;p&gt;The tech touch is something that arises once you have enough comfort and experience.&lt;/p&gt;
+<p>The tech touch is something that arises once you have enough comfort and experience.</p>
 
-&lt;h2 id=&quot;its-just-like-magic&quot;&gt;It’s just like magic&lt;/h2&gt;
+<h2 id="its-just-like-magic">It’s just like magic</h2>
 
-&lt;p&gt;Some people say the tech touch is just like magic. It feels like magic to the uninitiated, but we know it’s not magic, just like a magician knows their tricks are not magic!&lt;/p&gt;
+<p>Some people say the tech touch is just like magic. It feels like magic to the uninitiated, but we know it’s not magic, just like a magician knows their tricks are not magic!</p>
 
-&lt;p&gt;But I think the tech touch is kinda magical. When does the magic appear? Any good magician was once an apprentice, and to become a good magician, he must have practiced. Unbeknownst to him, that’s when the real magic started to happen. A good magician doesn’t invent (or bend) laws of physics, he just gets good at them. He becomes an expert.&lt;/p&gt;
+<p>But I think the tech touch is kinda magical. When does the magic appear? Any good magician was once an apprentice, and to become a good magician, he must have practiced. Unbeknownst to him, that’s when the real magic started to happen. A good magician doesn’t invent (or bend) laws of physics, he just gets good at them. He becomes an expert.</p>
 
-&lt;p&gt;Then can he make you believe in magic, only after he believes it himself. He then knows how to do the trick, he can do the trick, but most of all, he has practiced the trick.&lt;/p&gt;
+<p>Then can he make you believe in magic, only after he believes it himself. He then knows how to do the trick, he can do the trick, but most of all, he has practiced the trick.</p>
 
-&lt;p&gt;The magician is not a machine, his trick is not a strict program: he’s actually so good at it that he feels comfortable exploring. Sometimes he moves his hand a bit further out, sometimes he uses his other pocket, sometimes he changes the order of things, enough so that if something goes wrong, the trick does not fail.&lt;/p&gt;
+<p>The magician is not a machine, his trick is not a strict program: he’s actually so good at it that he feels comfortable exploring. Sometimes he moves his hand a bit further out, sometimes he uses his other pocket, sometimes he changes the order of things, enough so that if something goes wrong, the trick does not fail.</p>
 
-&lt;p&gt;Computers are usually hard problems, even when they work correctly. Knowing your way around them is like inhabiting all the magic tricks, while some of them are failing.&lt;/p&gt;
+<p>Computers are usually hard problems, even when they work correctly. Knowing your way around them is like inhabiting all the magic tricks, while some of them are failing.</p>
 
-&lt;h2 id=&quot;pay-attention&quot;&gt;Pay attention&lt;/h2&gt;
-&lt;p&gt;&lt;em&gt;“I cannot send the email to the client!”&lt;/em&gt;&lt;/p&gt;
+<h2 id="pay-attention">Pay attention</h2>
+<p><em>“I cannot send the email to the client!”</em></p>
 
-&lt;p&gt;Where can I start debuging this? From the button that the user clicks to the SMTP server, there’s more than a dozen things that can fail.&lt;/p&gt;
+<p>Where can I start debuging this? From the button that the user clicks to the SMTP server, there’s more than a dozen things that can fail.</p>
 
-&lt;p&gt;Sometimes we have no better option than to just follow the trail, try to find logs or replay the incident on our side. But if you know your way around, you’ll find the solution faster. Having the tech touch is all about being able to find the solution faster (or even, which is truly magical: being able to pinpoint exactly where the problem is without looking at the system).&lt;/p&gt;
+<p>Sometimes we have no better option than to just follow the trail, try to find logs or replay the incident on our side. But if you know your way around, you’ll find the solution faster. Having the tech touch is all about being able to find the solution faster (or even, which is truly magical: being able to pinpoint exactly where the problem is without looking at the system).</p>
 
-&lt;p&gt;Well, you need to know yourself around first. This means time spend nosing around, walk the walk. But then, experience is not all, you also have to be paying attention, because you’re looking for something.&lt;/p&gt;
+<p>Well, you need to know yourself around first. This means time spend nosing around, walk the walk. But then, experience is not all, you also have to be paying attention, because you’re looking for something.</p>
 
-&lt;p&gt;Did this happen before? Who is reporting the issue? Did I see any error notification right before or after the issue was reported? What are my colleges working on? What piece of the workflow was changed recently?&lt;/p&gt;
+<p>Did this happen before? Who is reporting the issue? Did I see any error notification right before or after the issue was reported? What are my colleges working on? What piece of the workflow was changed recently?</p>
 
-&lt;p&gt;Seeing how the user interacts with it can give you a million clues: what explorer are they using? Is there anything peculiar about their workflow? How many of these do they do a day? When’s the last time they logged in the app, or restarted the machine? Might they be running an old version? Ask precise questions.&lt;/p&gt;
+<p>Seeing how the user interacts with it can give you a million clues: what explorer are they using? Is there anything peculiar about their workflow? How many of these do they do a day? When’s the last time they logged in the app, or restarted the machine? Might they be running an old version? Ask precise questions.</p>
 
-&lt;p&gt;And all the while, pay attention: many times I spotted the solution out of the corner of my eye.&lt;/p&gt;
+<p>And all the while, pay attention: many times I spotted the solution out of the corner of my eye.</p>
 
-&lt;h2 id=&quot;try-stuff-out&quot;&gt;Try stuff out&lt;/h2&gt;
+<h2 id="try-stuff-out">Try stuff out</h2>
 
-&lt;p&gt;Back to the first example: I truly believe the user restarted the thing as I said, but I may mean many things by restart: closing the tab, closing the explorer, erasing cookies. Apps and computers are state machines, refreshing them once is not the same as refreshing them 20 times, which is definitively not the same as deleting cache, restarting your PC, reinstalling, or even taking the battery out of the motherboard.&lt;/p&gt;
+<p>Back to the first example: I truly believe the user restarted the thing as I said, but I may mean many things by restart: closing the tab, closing the explorer, erasing cookies. Apps and computers are state machines, refreshing them once is not the same as refreshing them 20 times, which is definitively not the same as deleting cache, restarting your PC, reinstalling, or even taking the battery out of the motherboard.</p>
 
-&lt;h2 id=&quot;how-to-copy-and-paste&quot;&gt;How to copy and paste&lt;/h2&gt;
+<h2 id="how-to-copy-and-paste">How to copy and paste</h2>
 
-&lt;p&gt;A note to those of us who have the tech touch, be patient with the uninitiated. People do not live plugged-in as we might, and we take for granted things that are definitively not obvious. I’ll close this with a short story.&lt;/p&gt;
+<p>A note to those of us who have the tech touch, be patient with the uninitiated. People do not live plugged-in as we might, and we take for granted things that are definitively not obvious. I’ll close this with a short story.</p>
 
-&lt;p&gt;While I was working as customer support, I received the strangest call: “I cannot copy and past a text.” I went over to the user and told him to show me what he was doing. He began his demonstration:&lt;/p&gt;
+<p>While I was working as customer support, I received the strangest call: “I cannot copy and past a text.” I went over to the user and told him to show me what he was doing. He began his demonstration:</p>
 
-&lt;p&gt;“Well, I select the text and click control+c, just like you guys told me to. Then I unplug the mouse,” he effectively unplugged the mouse, “And very carefully take it to my other computer, I plug it in, and, see! I cannot paste it here!”&lt;/p&gt;
+<p>“Well, I select the text and click control+c, just like you guys told me to. Then I unplug the mouse,” he effectively unplugged the mouse, “And very carefully take it to my other computer, I plug it in, and, see! I cannot paste it here!”</p>
 
-&lt;p&gt;&lt;em&gt;“Well,” I said to myself, “Maybe there’s a good idea for a startup right there.”&lt;/em&gt;&lt;/p&gt;</content><author><name>Ian Mihura</name></author><category term="coding" /><category term="skills" /><category term="learning" /><summary type="html">“I’m trying to click the button, but it doesn’t work.”</summary></entry><entry><title type="html">Don’t test too much</title><link href="http://localhost:4000/dont-test-too-much-copy/" rel="alternate" type="text/html" title="Don’t test too much" /><published>2024-05-08T00:00:00+02:00</published><updated>2024-05-08T00:00:00+02:00</updated><id>http://localhost:4000/dont-test-too-much%20copy</id><content type="html" xml:base="http://localhost:4000/dont-test-too-much-copy/">&lt;p&gt;Over-testing exists, let’s not delude ourselves, and it does not have to do with laziness or rookie-ness.&lt;/p&gt;
+<p><em>“Well,” I said to myself, “Maybe there’s a good idea for a startup right there.”</em></p>]]></content><author><name>Ian Mihura</name></author><category term="coding" /><category term="skills" /><category term="learning" /><summary type="html"><![CDATA[“I’m trying to click the button, but it doesn’t work.”]]></summary></entry><entry><title type="html">Don’t test too much</title><link href="http://localhost:4000/dont-test-too-much-copy/" rel="alternate" type="text/html" title="Don’t test too much" /><published>2024-05-08T00:00:00+02:00</published><updated>2024-05-08T00:00:00+02:00</updated><id>http://localhost:4000/dont-test-too-much%20copy</id><content type="html" xml:base="http://localhost:4000/dont-test-too-much-copy/"><![CDATA[<p>Over-testing exists, let’s not delude ourselves, and it does not have to do with laziness or rookie-ness.</p>
 
-&lt;h2 id=&quot;cost-benefit&quot;&gt;Cost-benefit&lt;/h2&gt;
+<h2 id="cost-benefit">Cost-benefit</h2>
 
-&lt;p&gt;Everything in engineering implies a cost-benefit balance. So tests also imply a cost we assume for a future benefit. The cost of time and energy invested in writing the test (and the time that will be invested in maintaining it), and the benefit of a faster development and debugging and better issue detection.&lt;/p&gt;
+<p>Everything in engineering implies a cost-benefit balance. So tests also imply a cost we assume for a future benefit. The cost of time and energy invested in writing the test (and the time that will be invested in maintaining it), and the benefit of a faster development and debugging and better issue detection.</p>
 
-&lt;p&gt;Right test coverage is a balance between time spent and value added, considering also the criticality of the feature being tested, and the chance that the test will catch a relevant bug.&lt;/p&gt;
+<p>Right test coverage is a balance between time spent and value added, considering also the criticality of the feature being tested, and the chance that the test will catch a relevant bug.</p>
 
-&lt;h2 id=&quot;features-are-assets-code-is-liability&quot;&gt;Features are assets, code is liability&lt;/h2&gt;
+<h2 id="features-are-assets-code-is-liability">Features are assets, code is liability</h2>
 
-&lt;p&gt;So the old saying goes. As engineers we aim at producing value: if we want our tools to be used we make features, this is what the user cares and pays for, it’s the asset they buy.&lt;/p&gt;
+<p>So the old saying goes. As engineers we aim at producing value: if we want our tools to be used we make features, this is what the user cares and pays for, it’s the asset they buy.</p>
 
-&lt;p&gt;On the other hand we write code that needs to be maintained, like an infrastructure that supports our features. Every line of code is like a liability, or future debt, that enables the features.&lt;/p&gt;
+<p>On the other hand we write code that needs to be maintained, like an infrastructure that supports our features. Every line of code is like a liability, or future debt, that enables the features.</p>
 
-&lt;h2 id=&quot;dont-let-tests-become-liabilities&quot;&gt;Don’t let tests become liabilities&lt;/h2&gt;
+<h2 id="dont-let-tests-become-liabilities">Don’t let tests become liabilities</h2>
 
-&lt;p&gt;Tests are great, they help us automate feature verification (something we should otherwise have to do manually), they help us develop fast and confidently, and at times they document behavior.&lt;/p&gt;
+<p>Tests are great, they help us automate feature verification (something we should otherwise have to do manually), they help us develop fast and confidently, and at times they document behavior.</p>
 
-&lt;p&gt;But tests bring no new features to the user, thus they are kind-of liabilities.&lt;/p&gt;
+<p>But tests bring no new features to the user, thus they are kind-of liabilities.</p>
 
-&lt;p&gt;Well, tests might not bring features to the user, but they can bring features to the developer. In this sense they are like a tool, and tools are assets. But they bring no new features to the user, and a one must keep this top-of-mind.&lt;/p&gt;
+<p>Well, tests might not bring features to the user, but they can bring features to the developer. In this sense they are like a tool, and tools are assets. But they bring no new features to the user, and a one must keep this top-of-mind.</p>
 
-&lt;p&gt;There’s no rule that says when tests become liabilities, other than “when they’re no longer useful”. This is a judgement that each programmer must make on the spot. But it is a valid judgement, and one we should be doing more.&lt;/p&gt;
+<p>There’s no rule that says when tests become liabilities, other than “when they’re no longer useful”. This is a judgement that each programmer must make on the spot. But it is a valid judgement, and one we should be doing more.</p>
 
-&lt;h2 id=&quot;tests-are-not-like-brakes-on-a-car&quot;&gt;Tests are not like brakes on a car&lt;/h2&gt;
+<h2 id="tests-are-not-like-brakes-on-a-car">Tests are not like brakes on a car</h2>
 
-&lt;p&gt;&lt;em&gt;(So the metaphor goes: brakes on a car slow you down, but allow you to drive faster).&lt;/em&gt;&lt;/p&gt;
+<p><em>(So the metaphor goes: brakes on a car slow you down, but allow you to drive faster).</em></p>
 
-&lt;p&gt;This is a weird metaphor. Brakes are features of the car, for the user, tests are not. Brakes are not a compromise, we don’t go slower now to go faster later. Brakes exist to go slower and that’s all, there is no investment in the future, beside keeping yourself alive.&lt;/p&gt;
+<p>This is a weird metaphor. Brakes are features of the car, for the user, tests are not. Brakes are not a compromise, we don’t go slower now to go faster later. Brakes exist to go slower and that’s all, there is no investment in the future, beside keeping yourself alive.</p>
 
-&lt;p&gt;At most tests are a brake in your deployment pipeline, as they slow down, or stop, delivery. Though I wouldn’t say this metaphor works as it is usually meant (to encourage TDD).&lt;/p&gt;
+<p>At most tests are a brake in your deployment pipeline, as they slow down, or stop, delivery. Though I wouldn’t say this metaphor works as it is usually meant (to encourage TDD).</p>
 
-&lt;h2 id=&quot;bottom-line-tests-make-you-code-quicker&quot;&gt;Bottom line: tests make you code quicker?&lt;/h2&gt;
+<h2 id="bottom-line-tests-make-you-code-quicker">Bottom line: tests make you code quicker?</h2>
 
-&lt;p&gt;We have been taught, by what now seem like a Gang of Fanatics, that we should code everything, write our tests before we write our code (TDD) and aim at covering 100% of your code base. As if all code deserved to be tested!&lt;/p&gt;
+<p>We have been taught, by what now seem like a Gang of Fanatics, that we should code everything, write our tests before we write our code (TDD) and aim at covering 100% of your code base. As if all code deserved to be tested!</p>
 
-&lt;p&gt;They say that this will make us code quicker in the long run. Well, that is, if we write the correct tests.&lt;/p&gt;
+<p>They say that this will make us code quicker in the long run. Well, that is, if we write the correct tests.</p>
 
-&lt;p&gt;Anyway, I think this argument misses the point. Testing the right amount is not about coding quicker, it’s about who’s paying for your code, what’s relevant for you to be doing, and how important it is that the code does not fail in said way. Great engineering considers cost and functionality first. We don’t have infinite time to re-write everything every time specs change, so be considerate with your company’s time.&lt;/p&gt;
+<p>Anyway, I think this argument misses the point. Testing the right amount is not about coding quicker, it’s about who’s paying for your code, what’s relevant for you to be doing, and how important it is that the code does not fail in said way. Great engineering considers cost and functionality first. We don’t have infinite time to re-write everything every time specs change, so be considerate with your company’s time.</p>
 
-&lt;p&gt;P.S. if you ever feel compelled to fight someone else on how they structure their workflow, take a minute to touch some grass first.&lt;/p&gt;</content><author><name>Ian Mihura</name></author><category term="coding" /><category term="TDD" /><category term="testing" /><category term="business" /><category term="code" /><summary type="html">Over-testing exists, let’s not delude ourselves, and it does not have to do with laziness or rookie-ness.</summary></entry><entry><title type="html">Why everyone should want to be a boss</title><link href="http://localhost:4000/why-everyone-wants-to-be-a-boss/" rel="alternate" type="text/html" title="Why everyone should want to be a boss" /><published>2024-03-21T00:00:00+01:00</published><updated>2024-03-21T00:00:00+01:00</updated><id>http://localhost:4000/why-everyone-wants-to-be-a-boss</id><content type="html" xml:base="http://localhost:4000/why-everyone-wants-to-be-a-boss/">&lt;p&gt;I was recently invited to take the lead of the team I work with. Our boss had served his time and, being the programmer with most seniority, I was naturally set to step up. I gladly accepted the challenge.&lt;/p&gt;
+<p>P.S. if you ever feel compelled to fight someone else on how they structure their workflow, take a minute to touch some grass first.</p>]]></content><author><name>Ian Mihura</name></author><category term="coding" /><category term="TDD" /><category term="testing" /><category term="business" /><category term="code" /><summary type="html"><![CDATA[Over-testing exists, let’s not delude ourselves, and it does not have to do with laziness or rookie-ness.]]></summary></entry><entry><title type="html">Why everyone should want to be a boss</title><link href="http://localhost:4000/why-everyone-wants-to-be-a-boss/" rel="alternate" type="text/html" title="Why everyone should want to be a boss" /><published>2024-03-21T00:00:00+01:00</published><updated>2024-03-21T00:00:00+01:00</updated><id>http://localhost:4000/why-everyone-wants-to-be-a-boss</id><content type="html" xml:base="http://localhost:4000/why-everyone-wants-to-be-a-boss/"><![CDATA[<p>I was recently invited to take the lead of the team I work with. Our boss had served his time and, being the programmer with most seniority, I was naturally set to step up. I gladly accepted the challenge.</p>
 
-&lt;p&gt;Later that week one of my teammates disclosed to me that he was happy I was taking the role because he was next in line and he didn’t want to become tech lead, he said he’d “rather never go into management altogether”.&lt;/p&gt;
+<p>Later that week one of my teammates disclosed to me that he was happy I was taking the role because he was next in line and he didn’t want to become tech lead, he said he’d “rather never go into management altogether”.</p>
 
-&lt;p&gt;Agreed, we are not all made to be leaders in the workplace. Most of us don’t prefer it and won’t enjoy it. This is especially true for techies: we love fixing things and investigating how things work, and we prefer to work with things rather than people.&lt;/p&gt;
+<p>Agreed, we are not all made to be leaders in the workplace. Most of us don’t prefer it and won’t enjoy it. This is especially true for techies: we love fixing things and investigating how things work, and we prefer to work with things rather than people.</p>
 
-&lt;p&gt;I confessed to my colleague that I also didn’t want to go into management forever. I love coding and there’s still a myriad of things to learn, I wouldn’t want to stay on the other side of the industry.&lt;/p&gt;
+<p>I confessed to my colleague that I also didn’t want to go into management forever. I love coding and there’s still a myriad of things to learn, I wouldn’t want to stay on the other side of the industry.</p>
 
-&lt;h1 id=&quot;why-did-i-accept-the-position-then&quot;&gt;Why did I accept the position then?&lt;/h1&gt;
+<h1 id="why-did-i-accept-the-position-then">Why did I accept the position then?</h1>
 
-&lt;p&gt;Well, to start off, my job leads me to wherever I’m valued the most, and right now the company needs me as tech lead. But beyond the economical incentive, it started becoming clear that there are many good reasons to feel motivated to accept this challenge, at least once in my career. Here are some reasons I can think:
-Photo by Ryoji Iwata on Unsplash&lt;/p&gt;
+<p>Well, to start off, my job leads me to wherever I’m valued the most, and right now the company needs me as tech lead. But beyond the economical incentive, it started becoming clear that there are many good reasons to feel motivated to accept this challenge, at least once in my career. Here are some reasons I can think:
+Photo by Ryoji Iwata on Unsplash</p>
 
-&lt;h1 id=&quot;1-knowing-how-to-lead-will-make-you-better-at-following&quot;&gt;1. Knowing how to lead will make you better at following&lt;/h1&gt;
+<h1 id="1-knowing-how-to-lead-will-make-you-better-at-following">1. Knowing how to lead will make you better at following</h1>
 
-&lt;p&gt;There’s a stereotype that we as techies feel our work is the only real work, and managers don’t actually do much. This is patently false: most leaders work overtime and make hard decisions constantly, on top of being responsible for the work of their team. To be a good team player we must have empathy with our leaders, and the best way is to walk a mile in their shoes.&lt;/p&gt;
+<p>There’s a stereotype that we as techies feel our work is the only real work, and managers don’t actually do much. This is patently false: most leaders work overtime and make hard decisions constantly, on top of being responsible for the work of their team. To be a good team player we must have empathy with our leaders, and the best way is to walk a mile in their shoes.</p>
 
-&lt;h1 id=&quot;2-bridge-the-gap-with-management&quot;&gt;2. Bridge the gap with management&lt;/h1&gt;
+<h1 id="2-bridge-the-gap-with-management">2. Bridge the gap with management</h1>
 
-&lt;p&gt;In a similar note, we often shy away from our leaders. We enjoy a bout of uninterrupted work, but we dislike meetings, especially the “How is the task going?” type.&lt;/p&gt;
+<p>In a similar note, we often shy away from our leaders. We enjoy a bout of uninterrupted work, but we dislike meetings, especially the “How is the task going?” type.</p>
 
-&lt;p&gt;When I asked the (outgoing) team lead about the best way to manage the relationship with his boss (the CEO) he said: “Have a meeting with her once a week, maybe more. Be the one who starts the conversation, don’t make her have to chase you. Keep her in the loop, be proactive.”&lt;/p&gt;
+<p>When I asked the (outgoing) team lead about the best way to manage the relationship with his boss (the CEO) he said: “Have a meeting with her once a week, maybe more. Be the one who starts the conversation, don’t make her have to chase you. Keep her in the loop, be proactive.”</p>
 
-&lt;p&gt;I think this applies to everyone’s relationship with their boss, but somehow having more important people as your boss makes it more unavoidable.&lt;/p&gt;
+<p>I think this applies to everyone’s relationship with their boss, but somehow having more important people as your boss makes it more unavoidable.</p>
 
-&lt;h1 id=&quot;3-broaden-your-view-on-the-project&quot;&gt;3. Broaden your view on the project&lt;/h1&gt;
+<h1 id="3-broaden-your-view-on-the-project">3. Broaden your view on the project</h1>
 
-&lt;p&gt;As Jocko Willink would say: take a step back, look at the big picture. Having a leader’s perspective means you get to think beyond the immediate. This is why leaders most times isolate themselves physically, in different offices, not because they feel superior, but to detach from the day-to-day.&lt;/p&gt;
+<p>As Jocko Willink would say: take a step back, look at the big picture. Having a leader’s perspective means you get to think beyond the immediate. This is why leaders most times isolate themselves physically, in different offices, not because they feel superior, but to detach from the day-to-day.</p>
 
-&lt;h1 id=&quot;4-leading-will-teach-you-about-yourself&quot;&gt;4. Leading will teach you about yourself&lt;/h1&gt;
+<h1 id="4-leading-will-teach-you-about-yourself">4. Leading will teach you about yourself</h1>
 
-&lt;p&gt;You don’t know who you are until you lead others. If nothing else, this is a great opportunity for personal development. You get the chance to take the reins of a team working on something you know and love. This is a unique opportunity to practice being an adult.&lt;/p&gt;
+<p>You don’t know who you are until you lead others. If nothing else, this is a great opportunity for personal development. You get the chance to take the reins of a team working on something you know and love. This is a unique opportunity to practice being an adult.</p>
 
-&lt;h1 id=&quot;lastly-you-can-always-step-down&quot;&gt;Lastly, you can always step down&lt;/h1&gt;
+<h1 id="lastly-you-can-always-step-down">Lastly, you can always step down</h1>
 
-&lt;p&gt;After this experience as tech lead, I will probably go back to software development because I love programming. But, who knows, the future might yet surprise us.&lt;/p&gt;</content><author><name>Ian Mihura</name></author><category term="leadership" /><category term="career" /><category term="management" /><category term="business" /><summary type="html">I was recently invited to take the lead of the team I work with. Our boss had served his time and, being the programmer with most seniority, I was naturally set to step up. I gladly accepted the challenge.</summary></entry><entry><title type="html">The Demise of the Gibbelins</title><link href="http://localhost:4000/gibbelins/" rel="alternate" type="text/html" title="The Demise of the Gibbelins" /><published>2023-11-13T00:00:00+01:00</published><updated>2023-11-13T00:00:00+01:00</updated><id>http://localhost:4000/demise-of-the-gibbelins</id><content type="html" xml:base="http://localhost:4000/gibbelins/">&lt;p&gt;The man-eating, gold-hoarding, treacherous Gibbelins first appear in the short story &lt;a href=&quot;https://www.gutenberg.org/files/7477/7477-h/7477-h.htm#THE_HOARD_OF_THE_GIBBELINS&quot;&gt;“The Hoard of the Gibbelins”&lt;/a&gt;, by Lord Dunsany (1912), wherein ambitious Alderic seeks (and fails) to rob the Enemy of their gold. He is not the first knight to try, but his plan differs greatly: he captures a dragon and rides it to their layer. He then swims, spends the night breaking into the tower with a mighty pickaxe, and finds the gems. Unfortunately the Gibbelins immediately find, capture, and kill him.&lt;/p&gt;
+<p>After this experience as tech lead, I will probably go back to software development because I love programming. But, who knows, the future might yet surprise us.</p>]]></content><author><name>Ian Mihura</name></author><category term="leadership" /><category term="career" /><category term="management" /><category term="business" /><summary type="html"><![CDATA[I was recently invited to take the lead of the team I work with. Our boss had served his time and, being the programmer with most seniority, I was naturally set to step up. I gladly accepted the challenge.]]></summary></entry><entry><title type="html">The Demise of the Gibbelins</title><link href="http://localhost:4000/gibbelins/" rel="alternate" type="text/html" title="The Demise of the Gibbelins" /><published>2023-11-13T00:00:00+01:00</published><updated>2023-11-13T00:00:00+01:00</updated><id>http://localhost:4000/demise-of-the-gibbelins</id><content type="html" xml:base="http://localhost:4000/gibbelins/"><![CDATA[<p>The man-eating, gold-hoarding, treacherous Gibbelins first appear in the short story <a href="https://www.gutenberg.org/files/7477/7477-h/7477-h.htm#THE_HOARD_OF_THE_GIBBELINS">“The Hoard of the Gibbelins”</a>, by Lord Dunsany (1912), wherein ambitious Alderic seeks (and fails) to rob the Enemy of their gold. He is not the first knight to try, but his plan differs greatly: he captures a dragon and rides it to their layer. He then swims, spends the night breaking into the tower with a mighty pickaxe, and finds the gems. Unfortunately the Gibbelins immediately find, capture, and kill him.</p>
 
-&lt;p&gt;“The Demise of the Gibbelins” starts off right after this adventure, when the ill-fated news arrives in the town of Alderic.&lt;/p&gt;
+<p>“The Demise of the Gibbelins” starts off right after this adventure, when the ill-fated news arrives in the town of Alderic.</p>
 
-&lt;p&gt;Coming soon…&lt;/p&gt;
+<p>Coming soon…</p>
 
-&lt;p&gt;&lt;img src=&quot;/assets/img/map_scanned.jpg&quot; alt=&quot;Map of the Gibbelins&quot; /&gt;&lt;/p&gt;
+<p><img src="/assets/img/map_scanned.jpg" alt="Map of the Gibbelins" /></p>
 
-&lt;style&gt;
+<style>
     img {
         max-width: 850px;
         @media only screen and (max-width: 980px) {
             max-width: 80vw;
         }
     }
-&lt;/style&gt;</content><author><name>Ian Mihura</name></author><category term="fantasy" /><summary type="html">The man-eating, gold-hoarding, treacherous Gibbelins first appear in the short story “The Hoard of the Gibbelins”, by Lord Dunsany (1912), wherein ambitious Alderic seeks (and fails) to rob the Enemy of their gold. He is not the first knight to try, but his plan differs greatly: he captures a dragon and rides it to their layer. He then swims, spends the night breaking into the tower with a mighty pickaxe, and finds the gems. Unfortunately the Gibbelins immediately find, capture, and kill him.</summary></entry><entry><title type="html">No, A.I. won’t steal your job</title><link href="http://localhost:4000/no-a-i-wont-steal-your-job/" rel="alternate" type="text/html" title="No, A.I. won’t steal your job" /><published>2023-11-12T00:00:00+01:00</published><updated>2023-11-12T00:00:00+01:00</updated><id>http://localhost:4000/no-a-i-wont-steal-your-job</id><content type="html" xml:base="http://localhost:4000/no-a-i-wont-steal-your-job/">&lt;p&gt;Every few years we fall into the same old argument: No, machines will not steal your job.&lt;/p&gt;
+</style>]]></content><author><name>Ian Mihura</name></author><category term="fantasy" /><summary type="html"><![CDATA[The man-eating, gold-hoarding, treacherous Gibbelins first appear in the short story “The Hoard of the Gibbelins”, by Lord Dunsany (1912), wherein ambitious Alderic seeks (and fails) to rob the Enemy of their gold. He is not the first knight to try, but his plan differs greatly: he captures a dragon and rides it to their layer. He then swims, spends the night breaking into the tower with a mighty pickaxe, and finds the gems. Unfortunately the Gibbelins immediately find, capture, and kill him.]]></summary></entry><entry><title type="html">No, A.I. won’t steal your job</title><link href="http://localhost:4000/no-a-i-wont-steal-your-job/" rel="alternate" type="text/html" title="No, A.I. won’t steal your job" /><published>2023-11-12T00:00:00+01:00</published><updated>2023-11-12T00:00:00+01:00</updated><id>http://localhost:4000/no-a-i-wont-steal-your-job</id><content type="html" xml:base="http://localhost:4000/no-a-i-wont-steal-your-job/"><![CDATA[<p>Every few years we fall into the same old argument: No, machines will not steal your job.</p>
 
-&lt;p&gt;They might take this job you are doing right now, but they will not take away every job.&lt;/p&gt;
+<p>They might take this job you are doing right now, but they will not take away every job.</p>
 
-&lt;p&gt;The other day a friend of mine told me a story that very much illustrates this. He works in a company that trades chemical products internationally. Clients send requests through an integrated CRM and he arranges the delivery.&lt;/p&gt;
+<p>The other day a friend of mine told me a story that very much illustrates this. He works in a company that trades chemical products internationally. Clients send requests through an integrated CRM and he arranges the delivery.</p>
 
-&lt;p&gt;Unfortunately, he pays too much attention to the news cycle. The other day he confessed to me he’s afraid that A.I. will take his job.&lt;/p&gt;
+<p>Unfortunately, he pays too much attention to the news cycle. The other day he confessed to me he’s afraid that A.I. will take his job.</p>
 
-&lt;blockquote&gt;
-  &lt;h3 id=&quot;it-is-the-end-for-me-he-said-what-i-do-is-automatizable&quot;&gt;“It is the end for me,” he said, “What I do is automatizable.”&lt;/h3&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <h3 id="it-is-the-end-for-me-he-said-what-i-do-is-automatizable">“It is the end for me,” he said, “What I do is automatizable.”</h3>
+</blockquote>
 
-&lt;p&gt;It is true. One part of his work is automatizable. Some days he just takes requests through a system and log them in another. He’s a cog in the machine already.&lt;/p&gt;
+<p>It is true. One part of his work is automatizable. Some days he just takes requests through a system and log them in another. He’s a cog in the machine already.</p>
 
-&lt;p&gt;But that’s not all he does. He spends his day surveilling logistics, verifying that no incidents happen and all clients are happy. But incidents happen, and when they do, his creativity kicks in.&lt;/p&gt;
+<p>But that’s not all he does. He spends his day surveilling logistics, verifying that no incidents happen and all clients are happy. But incidents happen, and when they do, his creativity kicks in.</p>
 
-&lt;h3 id=&quot;so-the-story&quot;&gt;So, the story:&lt;/h3&gt;
+<h3 id="so-the-story">So, the story:</h3>
 
-&lt;p&gt;“We need 5 tons of acetic acid in Munich, day after tomorrow!” the sales guy told him.&lt;/p&gt;
+<p>“We need 5 tons of acetic acid in Munich, day after tomorrow!” the sales guy told him.</p>
 
-&lt;p&gt;He bit his lip. How many times had he fought the sales team for accepting impossible schedules?&lt;/p&gt;
+<p>He bit his lip. How many times had he fought the sales team for accepting impossible schedules?</p>
 
-&lt;p&gt;“This is a highly explosive product,” he answered, “Our provider is in Spain. The amount of paperwork we need, even if the driver takes the long way around Switzerland. And who would do the trip? The guys at FriendlyTruck are all booked!”&lt;/p&gt;
+<p>“This is a highly explosive product,” he answered, “Our provider is in Spain. The amount of paperwork we need, even if the driver takes the long way around Switzerland. And who would do the trip? The guys at FriendlyTruck are all booked!”</p>
 
-&lt;p&gt;“Make it happen. This is a very important client,” he hung the phone.&lt;/p&gt;
+<p>“Make it happen. This is a very important client,” he hung the phone.</p>
 
-&lt;p&gt;Looking around he thought hard, until a lightbulb switched: there’s a ship fully packed with acid coming into Hamburg every month. They must have some stock there. He called his friends, and alas, they had almost 3 tons of acid still available.&lt;/p&gt;
+<p>Looking around he thought hard, until a lightbulb switched: there’s a ship fully packed with acid coming into Hamburg every month. They must have some stock there. He called his friends, and alas, they had almost 3 tons of acid still available.</p>
 
-&lt;p&gt;“Besides,” they told him, “we only sell 1 tonne per week.”&lt;/p&gt;
+<p>“Besides,” they told him, “we only sell 1 tonne per week.”</p>
 
-&lt;p&gt;Still he had to take it from Hamburg to Munich. He had little truck contacts in Germany, but he knew of a French guy that was already downloading his tank of acetone in that same yard. Unfortunately, acetone and acetic acid are incompatible. This means, if a truck has carried acetone, you need to clean the thing thoroughly first, which itself takes a whole day, and even then the truck would only be eligible to carry acetic acid a week later.&lt;/p&gt;
+<p>Still he had to take it from Hamburg to Munich. He had little truck contacts in Germany, but he knew of a French guy that was already downloading his tank of acetone in that same yard. Unfortunately, acetone and acetic acid are incompatible. This means, if a truck has carried acetone, you need to clean the thing thoroughly first, which itself takes a whole day, and even then the truck would only be eligible to carry acetic acid a week later.</p>
 
-&lt;p&gt;He looked some more, until he found a guy that was going to carry acetone from Hamburg to Warsaw that very day. The last piece of the puzzle.&lt;/p&gt;
+<p>He looked some more, until he found a guy that was going to carry acetone from Hamburg to Warsaw that very day. The last piece of the puzzle.</p>
 
-&lt;p&gt;He found the number and called him. A deep Polish voice answered. They mumbled for a while, but it was futile: the trucker only spoke Polish! After a while, somehow, my friend managed to tell the driver to reach for his phone and reconfirm the trip (while they were trying to understand each other, he had already changed it). It worked.&lt;/p&gt;
+<p>He found the number and called him. A deep Polish voice answered. They mumbled for a while, but it was futile: the trucker only spoke Polish! After a while, somehow, my friend managed to tell the driver to reach for his phone and reconfirm the trip (while they were trying to understand each other, he had already changed it). It worked.</p>
 
-&lt;p&gt;“Ah… Okay, okay. Monachium. Munchen, Munchen…” he said. This Polish trucker would load 2 tons of acetic acid to Munich (which was the maximum he dared borrow without asking first).&lt;/p&gt;
+<p>“Ah… Okay, okay. Monachium. Munchen, Munchen…” he said. This Polish trucker would load 2 tons of acetic acid to Munich (which was the maximum he dared borrow without asking first).</p>
 
-&lt;p&gt;My friend sighed. Hard part over! All that was left was to tie loose ends.&lt;/p&gt;
+<p>My friend sighed. Hard part over! All that was left was to tie loose ends.</p>
 
-&lt;p&gt;He called the French trucker downloading acetone. He told him to stop the download, and start loading up acetone again: his new job was to go to Warsaw with a full tank.&lt;/p&gt;
+<p>He called the French trucker downloading acetone. He told him to stop the download, and start loading up acetone again: his new job was to go to Warsaw with a full tank.</p>
 
-&lt;p&gt;He then called the guys at the yard. They were well stocked with acetone luckily, but the acetic acid was low.&lt;/p&gt;
+<p>He then called the guys at the yard. They were well stocked with acetone luckily, but the acetic acid was low.</p>
 
-&lt;p&gt;“Next sale is in a few days. That’s going to leave us dry. Not to mention if we make another small sale… When is next ship coming in?”&lt;/p&gt;
+<p>“Next sale is in a few days. That’s going to leave us dry. Not to mention if we make another small sale… When is next ship coming in?”</p>
 
-&lt;p&gt;“I can get you a truck with 2 tons of acetic acid by next week,” he assured them. In fact he had arranged a truck with 5 tons: 2 for the guys at Hamburg and the remaining 3 for the very important client.&lt;/p&gt;
+<p>“I can get you a truck with 2 tons of acetic acid by next week,” he assured them. In fact he had arranged a truck with 5 tons: 2 for the guys at Hamburg and the remaining 3 for the very important client.</p>
 
-&lt;p&gt;So he lastly called the sales guy who had started all this.&lt;/p&gt;
+<p>So he lastly called the sales guy who had started all this.</p>
 
-&lt;p&gt;“I got you a truck with 2 tons of acetic acid going out of Hamburg yard in a few hours. The other 3 will arrive next week.”&lt;/p&gt;
+<p>“I got you a truck with 2 tons of acetic acid going out of Hamburg yard in a few hours. The other 3 will arrive next week.”</p>
 
-&lt;p&gt;“It’ll have to do. Thanks, you are a miracle worker.”&lt;/p&gt;
+<p>“It’ll have to do. Thanks, you are a miracle worker.”</p>
 
-&lt;blockquote&gt;
-  &lt;h3 id=&quot;so-what-is-the-moral-of-this-story&quot;&gt;So, what is the moral of this story?&lt;/h3&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <h3 id="so-what-is-the-moral-of-this-story">So, what is the moral of this story?</h3>
+</blockquote>
 
-&lt;p&gt;It seems that my friend still plays somewhat of a creative role. At least this part of the job won’t be automatized, right?&lt;/p&gt;
+<p>It seems that my friend still plays somewhat of a creative role. At least this part of the job won’t be automatized, right?</p>
 
-&lt;p&gt;Well, no, that is not the full picture. With A.I., who knows, maybe they will be able to automatize this too. Even more so now that my friend has “discovered” this relationship of providers. He might as well be teaching the machines of the future how to solve complex problems.&lt;/p&gt;
+<p>Well, no, that is not the full picture. With A.I., who knows, maybe they will be able to automatize this too. Even more so now that my friend has “discovered” this relationship of providers. He might as well be teaching the machines of the future how to solve complex problems.</p>
 
-&lt;p&gt;No. There is still an element my friend missed in his story, related to the very important client. Why did the sales guy take the deal? He was making a bet, sure, but there is a deeper truth. If he did not take it, and if he routinely does not take “hot” deals, he, or perhaps the company itself, would fall out of business.&lt;/p&gt;
+<p>No. There is still an element my friend missed in his story, related to the very important client. Why did the sales guy take the deal? He was making a bet, sure, but there is a deeper truth. If he did not take it, and if he routinely does not take “hot” deals, he, or perhaps the company itself, would fall out of business.</p>
 
-&lt;p&gt;Why? The market has become more competitive, the customers more capricious. In the past it might have been rare to receive requests more urgent than a week, or a month. Imagine before the internet, and telephones, when international travel was a high risk adventure: shipments arrived when they arrived, if they arrived at all.&lt;/p&gt;
+<p>Why? The market has become more competitive, the customers more capricious. In the past it might have been rare to receive requests more urgent than a week, or a month. Imagine before the internet, and telephones, when international travel was a high risk adventure: shipments arrived when they arrived, if they arrived at all.</p>
 
-&lt;p&gt;Now the market has sophisticated. With more technology, companies like the very important client not only exist, but take their whole competitive advantage from being flexible. The high availability of stock allows whole industries to exist, and companies to make (previously) absurd requests, like the one in the story. Can a machine solve these absurd requests? Sure! Indeed the more, the better, for they enable more companies to benefit from this flexibility, allowing us to think broader and deeper on actual human needs.&lt;/p&gt;
+<p>Now the market has sophisticated. With more technology, companies like the very important client not only exist, but take their whole competitive advantage from being flexible. The high availability of stock allows whole industries to exist, and companies to make (previously) absurd requests, like the one in the story. Can a machine solve these absurd requests? Sure! Indeed the more, the better, for they enable more companies to benefit from this flexibility, allowing us to think broader and deeper on actual human needs.</p>
 
-&lt;p&gt;It is unsurprising that my friend tells me: those parts of his job that are automatizable are the ones he most hates doing. Why not automatize them? And free all his mental energy to solve complex problems like the one he just solved. The truth is, if he becomes good at it, the complex incidents will multiply, not reduce. Imagine all lost deals that the sales team have to turn down because they are just unfeasable. Or the amount of deals that clients don’t bother raising the phone for, because they are deemed impossible.&lt;/p&gt;
+<p>It is unsurprising that my friend tells me: those parts of his job that are automatizable are the ones he most hates doing. Why not automatize them? And free all his mental energy to solve complex problems like the one he just solved. The truth is, if he becomes good at it, the complex incidents will multiply, not reduce. Imagine all lost deals that the sales team have to turn down because they are just unfeasable. Or the amount of deals that clients don’t bother raising the phone for, because they are deemed impossible.</p>
 
-&lt;p&gt;Machines will not steal every job, because there will always be human needs, and where there’s a need, there’s a job. Needs will increase, today’s luxury is tomorrow’s basic need, and the market will demand more contextual thinking, that which machines are not fit for.&lt;/p&gt;
+<p>Machines will not steal every job, because there will always be human needs, and where there’s a need, there’s a job. Needs will increase, today’s luxury is tomorrow’s basic need, and the market will demand more contextual thinking, that which machines are not fit for.</p>
 
-&lt;blockquote&gt;
-  &lt;h3 id=&quot;but-ai-is-definitively-a-game-changer-some-say&quot;&gt;“But A.I. is definitively a game-changer,” some say.&lt;/h3&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <h3 id="but-ai-is-definitively-a-game-changer-some-say">“But A.I. is definitively a game-changer,” some say.</h3>
+</blockquote>
 
-&lt;p&gt;To this I like to point out, as Nassim Taleb puts in his book “Black Swan”: we are very bad at predicting the future. What we think won’t have any efect, does, and what we think will have great effect, doesn’t. Or at least not in the way we think.&lt;/p&gt;
+<p>To this I like to point out, as Nassim Taleb puts in his book “Black Swan”: we are very bad at predicting the future. What we think won’t have any efect, does, and what we think will have great effect, doesn’t. Or at least not in the way we think.</p>
 
-&lt;p&gt;Who would have thought the Internet to have such an effect? Or the steam engine? Or the printing press? And on the other hand, where’s our flying cars? Our interplanetary civilization? If you would have taken bets back in the 70’s on who would lead innovation 50 years hence, NASA would top the chart, and you’d be pressed to find anyone putting money on one William Gates and his friend Paul Allen, working overnight out of some garage in Albuquerque.&lt;/p&gt;
+<p>Who would have thought the Internet to have such an effect? Or the steam engine? Or the printing press? And on the other hand, where’s our flying cars? Our interplanetary civilization? If you would have taken bets back in the 70’s on who would lead innovation 50 years hence, NASA would top the chart, and you’d be pressed to find anyone putting money on one William Gates and his friend Paul Allen, working overnight out of some garage in Albuquerque.</p>
 
-&lt;p&gt;Who knows what A.I. will bring? How will it look like in 50 years? What type of comapnies will it enable, what needs will it satisfy? Or will it stay relevant at all, like our flying cars?&lt;/p&gt;
+<p>Who knows what A.I. will bring? How will it look like in 50 years? What type of comapnies will it enable, what needs will it satisfy? Or will it stay relevant at all, like our flying cars?</p>
 
-&lt;p&gt;I am not enamoured with technology, nor do I dread it. I was not around in the 70’s to speculate, but I’m here now to take bets: if history’s worth anything, chances are it will be a net positive, and we will live in a better world because of it. Those who follow too closely the news cycle would do well to remember that we don’t live in a sci-fi movie.&lt;/p&gt;</content><author><name>Ian Mihura</name></author><category term="ai" /><category term="technology" /><category term="trade" /><category term="business" /><category term="economy" /><summary type="html">Every few years we fall into the same old argument: No, machines will not steal your job.</summary></entry><entry><title type="html">La libertad no es de derecha</title><link href="http://localhost:4000/libertad-no-es-de-derecha/" rel="alternate" type="text/html" title="La libertad no es de derecha" /><published>2023-08-18T00:00:00+02:00</published><updated>2023-08-18T00:00:00+02:00</updated><id>http://localhost:4000/libertad-no-es-de-derecha</id><content type="html" xml:base="http://localhost:4000/libertad-no-es-de-derecha/">&lt;blockquote&gt;
-  &lt;p&gt;«Los extranjeros gozan en el territorio de la Nación de todos los derechos civiles del ciudadano; pueden ejercer su industria, comercio y profesión; poseer bienes raíces, comprarlos y enajenarlos; navegar los ríos y costas; ejercer libremente su culto; testar y casarse conforme a las leyes.»&lt;/p&gt;
-&lt;/blockquote&gt;
+<p>I am not enamoured with technology, nor do I dread it. I was not around in the 70’s to speculate, but I’m here now to take bets: if history’s worth anything, chances are it will be a net positive, and we will live in a better world because of it. Those who follow too closely the news cycle would do well to remember that we don’t live in a sci-fi movie.</p>]]></content><author><name>Ian Mihura</name></author><category term="ai" /><category term="technology" /><category term="trade" /><category term="business" /><category term="economy" /><summary type="html"><![CDATA[Every few years we fall into the same old argument: No, machines will not steal your job.]]></summary></entry><entry><title type="html">La libertad no es de derecha</title><link href="http://localhost:4000/libertad-no-es-de-derecha/" rel="alternate" type="text/html" title="La libertad no es de derecha" /><published>2023-08-18T00:00:00+02:00</published><updated>2023-08-18T00:00:00+02:00</updated><id>http://localhost:4000/libertad-no-es-de-derecha</id><content type="html" xml:base="http://localhost:4000/libertad-no-es-de-derecha/"><![CDATA[<blockquote>
+  <p>«Los extranjeros gozan en el territorio de la Nación de todos los derechos civiles del ciudadano; pueden ejercer su industria, comercio y profesión; poseer bienes raíces, comprarlos y enajenarlos; navegar los ríos y costas; ejercer libremente su culto; testar y casarse conforme a las leyes.»</p>
+</blockquote>
 
-&lt;blockquote&gt;
-  &lt;p&gt;Artículo 20 de la Constitución Argentina, 1853&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <p>Artículo 20 de la Constitución Argentina, 1853</p>
+</blockquote>
 
-&lt;p&gt;Por desgracia, los liberales estamos agrupados con la derecha. Nada más lejano de la realidad. Durante la guerra civil española, los liberales lucharon con los socialistas y anarquistas contra el violento facismo, añorando el Trienio Liberal perdido. Hoy nos agrupan con la derecha porque los gobiernos son todos socialistas, y los liberales siempre estamos incómodamente contra el Estado.&lt;/p&gt;
+<p>Por desgracia, los liberales estamos agrupados con la derecha. Nada más lejano de la realidad. Durante la guerra civil española, los liberales lucharon con los socialistas y anarquistas contra el violento facismo, añorando el Trienio Liberal perdido. Hoy nos agrupan con la derecha porque los gobiernos son todos socialistas, y los liberales siempre estamos incómodamente contra el Estado.</p>
 
-&lt;p&gt;Así habla Santiago Abascal, líder del partido Vox de ultraderecha de España:&lt;/p&gt;
+<p>Así habla Santiago Abascal, líder del partido Vox de ultraderecha de España:</p>
 
-&lt;blockquote&gt;
-  &lt;p&gt;“Quieren amordazar a los españoles mientras están con los enemigos de los españoles, que son los que asaltan nuestras fronteras.”&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <p>“Quieren amordazar a los españoles mientras están con los enemigos de los españoles, que son los que asaltan nuestras fronteras.”</p>
+</blockquote>
 
-&lt;p&gt;No soy de derecha. Me encanta la inmigración, y todas las libertades personales. Pero tampoco soy de izquierda. Ni durante la guerra civil española, ni ahora, transo con los que me agrupan. Los liberales somos anti Estado, anti violencia, anti control. Buscamos paz y mercado, progreso material, industria y trabajo libre, libre movimiento, libre pensamiento, libre expresión y libre religión.&lt;/p&gt;
+<p>No soy de derecha. Me encanta la inmigración, y todas las libertades personales. Pero tampoco soy de izquierda. Ni durante la guerra civil española, ni ahora, transo con los que me agrupan. Los liberales somos anti Estado, anti violencia, anti control. Buscamos paz y mercado, progreso material, industria y trabajo libre, libre movimiento, libre pensamiento, libre expresión y libre religión.</p>
 
-&lt;p&gt;Liberales fundaron América. Los inmigrantes trabajadores, escapando de gobviernos opresores, de guerras sin sentido, buscando prosperar con el trabajo de sus manos: los verdaderos liberales. Muchos conocen los preceptos estadounidenses, el ethos del lejano oeste: la frontera, la libertad del llano, el cowboy. Mucho hay ahí del ethos estadounidense. Pocos saben que también es el ethos argentino, y en realidad, americano. América es la nueva frontera, el desierto fecundo esperando ser poblado, el experimento de sociedad fundada por inmigrantes, que recibe (o recibía) con brazos abiertos al mundo. Grabado en bronce bajo la estatua de la libertad en Nueva York dice Emma Lazarus: “Tráiganme sus cansados, sus pobres, sus masas añorando respirar libres.”&lt;/p&gt;
+<p>Liberales fundaron América. Los inmigrantes trabajadores, escapando de gobviernos opresores, de guerras sin sentido, buscando prosperar con el trabajo de sus manos: los verdaderos liberales. Muchos conocen los preceptos estadounidenses, el ethos del lejano oeste: la frontera, la libertad del llano, el cowboy. Mucho hay ahí del ethos estadounidense. Pocos saben que también es el ethos argentino, y en realidad, americano. América es la nueva frontera, el desierto fecundo esperando ser poblado, el experimento de sociedad fundada por inmigrantes, que recibe (o recibía) con brazos abiertos al mundo. Grabado en bronce bajo la estatua de la libertad en Nueva York dice Emma Lazarus: “Tráiganme sus cansados, sus pobres, sus masas añorando respirar libres.”</p>
 
-&lt;blockquote&gt;
-  &lt;p&gt;“Give me your tired, your poor,
-Your huddled masses yearning to breathe free”&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <p>“Give me your tired, your poor,
+Your huddled masses yearning to breathe free”</p>
+</blockquote>
 
-&lt;h2 id=&quot;los-prejuicios-de-la-inmigración&quot;&gt;Los prejuicios de la inmigración&lt;/h2&gt;
+<h2 id="los-prejuicios-de-la-inmigración">Los prejuicios de la inmigración</h2>
 
-&lt;p&gt;Pero aún nosotros americanos y liberales, descendientes de inmigrantes, ¡cuántos prejuicios y sofismos sufrimos! Juan Bautista Alberdi, pensador liberal, autor de las Bases (“Bases y puntos de partida para la organización política de la República Argentina” 1852, guía de la Constitución Argentina), sostiene la máxima: “Gobernar es poblar”. Pero él mismo sufría, como todos, de varios prejuicios. Sobre la inmigración escribía:&lt;/p&gt;
+<p>Pero aún nosotros americanos y liberales, descendientes de inmigrantes, ¡cuántos prejuicios y sofismos sufrimos! Juan Bautista Alberdi, pensador liberal, autor de las Bases (“Bases y puntos de partida para la organización política de la República Argentina” 1852, guía de la Constitución Argentina), sostiene la máxima: “Gobernar es poblar”. Pero él mismo sufría, como todos, de varios prejuicios. Sobre la inmigración escribía:</p>
 
-&lt;blockquote&gt;
-  &lt;p&gt;“El ciudadano libre de los Estados Unidos es, a menudo, la transformación del súbdito libre de la libre Inglaterra, de la libre Suiza, de la libre Bélgica, de la libre Holanda, de la juiciosa y laboriosa Alemania.”&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <p>“El ciudadano libre de los Estados Unidos es, a menudo, la transformación del súbdito libre de la libre Inglaterra, de la libre Suiza, de la libre Bélgica, de la libre Holanda, de la juiciosa y laboriosa Alemania.”</p>
+</blockquote>
 
-&lt;p&gt;¿La juiciosa y laboriosa Alemania? ¿El mismo rubio nórdico que fue para los romanos el bárbaro incivilizado? ¿El vikingo que fue el terror de la Edad Media? ¿Qué hacía la laboriosa Alemania durante las guerras tricentenarias de las reformas protestantes? ¿Qué hacía la libre Europa durante la década del terror francés? ¿Durante el genocidio del Congo, autoría de Leopoldo II de la Libre Bélgica? ¿Durante el frente occidental de la Primera Guerra Mundial? ¿Dónde estaba la “Alemania protestante, laboriosa, amiga del reposo, de la vida doméstica y de la libertad social y religiosa” cuando se levantaban los campos de muerte en el 1933?&lt;/p&gt;
+<p>¿La juiciosa y laboriosa Alemania? ¿El mismo rubio nórdico que fue para los romanos el bárbaro incivilizado? ¿El vikingo que fue el terror de la Edad Media? ¿Qué hacía la laboriosa Alemania durante las guerras tricentenarias de las reformas protestantes? ¿Qué hacía la libre Europa durante la década del terror francés? ¿Durante el genocidio del Congo, autoría de Leopoldo II de la Libre Bélgica? ¿Durante el frente occidental de la Primera Guerra Mundial? ¿Dónde estaba la “Alemania protestante, laboriosa, amiga del reposo, de la vida doméstica y de la libertad social y religiosa” cuando se levantaban los campos de muerte en el 1933?</p>
 
-&lt;p&gt;Alberdi aún escribe:&lt;/p&gt;
+<p>Alberdi aún escribe:</p>
 
-&lt;blockquote&gt;
-  &lt;p&gt;“Poblar es apestar, corromper, degenerar, envenenar un país, cuando en vez de poblarlo con la flor de la población trabajadora de Europa, se le puebla con la basura de la Europa atrasada o menos culta.”&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <p>“Poblar es apestar, corromper, degenerar, envenenar un país, cuando en vez de poblarlo con la flor de la población trabajadora de Europa, se le puebla con la basura de la Europa atrasada o menos culta.”</p>
+</blockquote>
 
-&lt;p&gt;2 millones de italianos llegaron a Nueva York en el principio del siglo XX, 17% de la población de la ciudad. ¿Cómo puede la “Europa atrasada o menos culta” fundar la capital del mundo? Texas y California, dos de los estados más productivos del país, eran colonias españolas hasta mediados del siglo XIX.&lt;/p&gt;
+<p>2 millones de italianos llegaron a Nueva York en el principio del siglo XX, 17% de la población de la ciudad. ¿Cómo puede la “Europa atrasada o menos culta” fundar la capital del mundo? Texas y California, dos de los estados más productivos del país, eran colonias españolas hasta mediados del siglo XIX.</p>
 
-&lt;p&gt;Existen culturas más ricas que otras, pero todo inmigrante llega igual: pobre, cansado, roto, enfermo, inculto, y con hambre de mañana.&lt;/p&gt;
+<p>Existen culturas más ricas que otras, pero todo inmigrante llega igual: pobre, cansado, roto, enfermo, inculto, y con hambre de mañana.</p>
 
-&lt;blockquote&gt;
-  &lt;p&gt;“La forma más fecunda y útil en que la riqueza extranjera puede introducirse y aclimatarse en un país nuevo, es la de una inmigración de población inteligente y trabajadora”&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <p>“La forma más fecunda y útil en que la riqueza extranjera puede introducirse y aclimatarse en un país nuevo, es la de una inmigración de población inteligente y trabajadora”</p>
+</blockquote>
 
-&lt;p&gt;¿Qué inmigrante no es trabajador? El único que no trabaja es el local, cómodo, arraigado, amigo de los subsidios, parásito del que trabaja: el aristócrata griego que dependía de sus esclavos, el noble que vive de impuestos, el eterno estudiante europeo buscando la siguiente beca. ¿Qué inmigrante no es arduo trabajador? Trabaja a deshoras para competir contra las corporaciones (monopolios amigos del Estado), suple el mercado en feriados, trabajan (o trabajarían) por monedas.&lt;/p&gt;
+<p>¿Qué inmigrante no es trabajador? El único que no trabaja es el local, cómodo, arraigado, amigo de los subsidios, parásito del que trabaja: el aristócrata griego que dependía de sus esclavos, el noble que vive de impuestos, el eterno estudiante europeo buscando la siguiente beca. ¿Qué inmigrante no es arduo trabajador? Trabaja a deshoras para competir contra las corporaciones (monopolios amigos del Estado), suple el mercado en feriados, trabajan (o trabajarían) por monedas.</p>
 
-&lt;p&gt;Trabajan y es suficiente. ¿Qué más hay? Ese prejuicio de civilización europea no representa más que modales en la mesa, normas de higiene personal y frases políticamente correctas. Al mercado no le importan todas esas ficciones de “educación”: son modas de modales. ¿Acaso las necesitó el Imperio Islámico a fines del primer milenio para progresar la ciencia, industria y enriquecer Asia Menor y África?&lt;/p&gt;
+<p>Trabajan y es suficiente. ¿Qué más hay? Ese prejuicio de civilización europea no representa más que modales en la mesa, normas de higiene personal y frases políticamente correctas. Al mercado no le importan todas esas ficciones de “educación”: son modas de modales. ¿Acaso las necesitó el Imperio Islámico a fines del primer milenio para progresar la ciencia, industria y enriquecer Asia Menor y África?</p>
 
-&lt;p&gt;No importa que Alberdi haya sido racista. No soy Alberdista. Lo importante es que quedó escrito en la Constitución bajo el artículo 20 (cita al principio del artículo). Alberdi era racista porque la opinión vecinal entre los porteños bien vestidos era racista. Porque los “cabecitas negras” hacían ruido y ensuciaban las veredas. El puerto olía mal, las máquinas llenas de aceite y grasa, y a las señoras paquetas se les ensuciaban las medias. Pero a la Constitución le chupó un huevo, y orgullosamente escribieron los artículos 14 a 21 sobre las libertades comerciales, industriales y laborales, hoy tan faltantes.&lt;/p&gt;
+<p>No importa que Alberdi haya sido racista. No soy Alberdista. Lo importante es que quedó escrito en la Constitución bajo el artículo 20 (cita al principio del artículo). Alberdi era racista porque la opinión vecinal entre los porteños bien vestidos era racista. Porque los “cabecitas negras” hacían ruido y ensuciaban las veredas. El puerto olía mal, las máquinas llenas de aceite y grasa, y a las señoras paquetas se les ensuciaban las medias. Pero a la Constitución le chupó un huevo, y orgullosamente escribieron los artículos 14 a 21 sobre las libertades comerciales, industriales y laborales, hoy tan faltantes.</p>
 
-&lt;p&gt;Hoy de nuevo estamos invitados a que nos chupen un huevo los modales, las formas, lo políticamente correcto, la “imagen presidencial”, las máximas marketineras. El rol del Estado no es escuchar al vecino, al populacho, a los presentadores de tele, a ver quién huele mal y quién no habla inglés. La Constitución Argentina, así como la estadounidense, bien lo sabían: el Estado debe proteger la industria, el comercio, la propiedad privada, la labor del que hace. Debe proteger al trabajador de todo ministerio, sindicato, mafia, ejército y psicobolche que busque destruir (o “reorganizar”).&lt;/p&gt;
+<p>Hoy de nuevo estamos invitados a que nos chupen un huevo los modales, las formas, lo políticamente correcto, la “imagen presidencial”, las máximas marketineras. El rol del Estado no es escuchar al vecino, al populacho, a los presentadores de tele, a ver quién huele mal y quién no habla inglés. La Constitución Argentina, así como la estadounidense, bien lo sabían: el Estado debe proteger la industria, el comercio, la propiedad privada, la labor del que hace. Debe proteger al trabajador de todo ministerio, sindicato, mafia, ejército y psicobolche que busque destruir (o “reorganizar”).</p>
 
-&lt;h2 id=&quot;argentina-es-liberal&quot;&gt;Argentina es liberal&lt;/h2&gt;
+<h2 id="argentina-es-liberal">Argentina es liberal</h2>
 
-&lt;p&gt;El ethos argentino lo codificó el Martín Fierro: vivía en paz hasta que la tropilla lo raptó, lo arrastró a la otra punta de la Pampa, lo obligó a guardar un fuerte y a matar al indio. Destruyó así su vida, su familia y labor. Buenos eran sus días cuando tenía paz y disfrutaba su vida privada, sus hijos y mujer.&lt;/p&gt;
+<p>El ethos argentino lo codificó el Martín Fierro: vivía en paz hasta que la tropilla lo raptó, lo arrastró a la otra punta de la Pampa, lo obligó a guardar un fuerte y a matar al indio. Destruyó así su vida, su familia y labor. Buenos eran sus días cuando tenía paz y disfrutaba su vida privada, sus hijos y mujer.</p>
 
-&lt;p&gt;Así es la experiencia argentina por excelencia: hay paz y progreso, hay familia y trabajo, hasta que llega el Estado a robar, destruir con ilusiones de grandeza y vistiendo uniforme, anunciando inflación, políticas monetarias, expropiación y regulaciones.&lt;/p&gt;
+<p>Así es la experiencia argentina por excelencia: hay paz y progreso, hay familia y trabajo, hasta que llega el Estado a robar, destruir con ilusiones de grandeza y vistiendo uniforme, anunciando inflación, políticas monetarias, expropiación y regulaciones.</p>
 
-&lt;p&gt;El resto de su vida, Martin Fierro vivió prófugo por desertor. El Estado lo perseguía, en vez de proteger su propiedad y su familia. Así vive el comerciante barrani, el trabajador que prefiere que le paguen en negro porque sino no llega a fin de mes, el que comercia dólares, el que esconde mercadería para no declararla, el villero con bronca porque no le es legal trabajar: porque le falta algún permiso, porque emprender es una pesadilla burocrática, porque no hay trabajo que lo emplee con el sueldo mínimo.&lt;/p&gt;
+<p>El resto de su vida, Martin Fierro vivió prófugo por desertor. El Estado lo perseguía, en vez de proteger su propiedad y su familia. Así vive el comerciante barrani, el trabajador que prefiere que le paguen en negro porque sino no llega a fin de mes, el que comercia dólares, el que esconde mercadería para no declararla, el villero con bronca porque no le es legal trabajar: porque le falta algún permiso, porque emprender es una pesadilla burocrática, porque no hay trabajo que lo emplee con el sueldo mínimo.</p>
 
-&lt;p&gt;Las villas miseria son caldo de oportunidad, tierra de promesas. Fuerza bruta de jóvenes con necesidades, con hambre. Energía, tiempo, ganas de futuro: personas, al fin, con manos para laburar. ¿Por qué es matrero el gaucho? Porque no le queda otra. Porque su casa no es suya, su trabajo es ilegal y su dinero no vale nada. No porque el resto de la población los condena al desprecio, sino porque el Estado los condena a la esclavitud. “Ser controlados en la actividad económica es ser controlado en todo”, (Hayek, 1944).&lt;/p&gt;
+<p>Las villas miseria son caldo de oportunidad, tierra de promesas. Fuerza bruta de jóvenes con necesidades, con hambre. Energía, tiempo, ganas de futuro: personas, al fin, con manos para laburar. ¿Por qué es matrero el gaucho? Porque no le queda otra. Porque su casa no es suya, su trabajo es ilegal y su dinero no vale nada. No porque el resto de la población los condena al desprecio, sino porque el Estado los condena a la esclavitud. “Ser controlados en la actividad económica es ser controlado en todo”, (Hayek, 1944).</p>
 
-&lt;p&gt;“Gobernar es poblar” dice la Constitución. Debería decir “Gobernar es dejar trabajar”. Hoy las fronteras son las villas miseria y el trabajador en negro. Pero el villero no es el bárbaro, sino el colono, el inmigrante de “cabecita negra”. Hoy como siempre, el inmigrante, el pobre es industria, es trabajo, si le permitimos trabajar a toda costa. Los jóvenes que nos vamos del país, los que se quedan atrapados en ciclos de violencia organizada, los que tenemos energía y tiempo, anunciamos al Estado: ¡Queremos trabajar! Queremos emprender, queremos ser dueños, queremos progresar, queremos abrir, armar, vender, cambiar, hacer crecer y enriquecer. El liberalismo es la única idea que defiende al individuo en su trabajo, frente a su enemigo: la mayoría.&lt;/p&gt;
+<p>“Gobernar es poblar” dice la Constitución. Debería decir “Gobernar es dejar trabajar”. Hoy las fronteras son las villas miseria y el trabajador en negro. Pero el villero no es el bárbaro, sino el colono, el inmigrante de “cabecita negra”. Hoy como siempre, el inmigrante, el pobre es industria, es trabajo, si le permitimos trabajar a toda costa. Los jóvenes que nos vamos del país, los que se quedan atrapados en ciclos de violencia organizada, los que tenemos energía y tiempo, anunciamos al Estado: ¡Queremos trabajar! Queremos emprender, queremos ser dueños, queremos progresar, queremos abrir, armar, vender, cambiar, hacer crecer y enriquecer. El liberalismo es la única idea que defiende al individuo en su trabajo, frente a su enemigo: la mayoría.</p>
 
-&lt;h2 id=&quot;soy-liberal&quot;&gt;Soy liberal&lt;/h2&gt;
+<h2 id="soy-liberal">Soy liberal</h2>
 
-&lt;p&gt;No soy de derecha, y la Constitución Argentina de 1853 tampoco. Aunque Alberdi tenga dejes iliberales:&lt;/p&gt;
+<p>No soy de derecha, y la Constitución Argentina de 1853 tampoco. Aunque Alberdi tenga dejes iliberales:</p>
 
-&lt;blockquote&gt;
-  &lt;p&gt;“Gobernar es poblar muy bien; pero poblar es una ciencia, y esta ciencia no es otra cosa que la economía política, que considera la población como instrumento de riqueza y elemento de prosperidad. La parte principal del arte de poblar es el arte de distribuir la población. A veces, aumentarla demasiado es lo contrario de poblar; es disminuir y arruinar la población del país.”&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <p>“Gobernar es poblar muy bien; pero poblar es una ciencia, y esta ciencia no es otra cosa que la economía política, que considera la población como instrumento de riqueza y elemento de prosperidad. La parte principal del arte de poblar es el arte de distribuir la población. A veces, aumentarla demasiado es lo contrario de poblar; es disminuir y arruinar la población del país.”</p>
+</blockquote>
 
-&lt;p&gt;La racionalidad es socialista, la derecha es socialista. Ella cree que puede y debe controlar. Que el rol del Estado es científico. Que la razón puede administrar mejor que la imposible mente descentralizada del mercado. Que el absoluto indivisible individuo es una herramienta para la civilización, y no al revés. Y ahí nos separamos los liberales de los racionalistas, empiristas y positivistas. Nosotros tenemos fe en el incomprensible mercado, o por lo menos, le tenemos más fe que al pretencioso Estado.&lt;/p&gt;
+<p>La racionalidad es socialista, la derecha es socialista. Ella cree que puede y debe controlar. Que el rol del Estado es científico. Que la razón puede administrar mejor que la imposible mente descentralizada del mercado. Que el absoluto indivisible individuo es una herramienta para la civilización, y no al revés. Y ahí nos separamos los liberales de los racionalistas, empiristas y positivistas. Nosotros tenemos fe en el incomprensible mercado, o por lo menos, le tenemos más fe que al pretencioso Estado.</p>
 
-&lt;p&gt;Personalmente, creo que Alberdi es (un tanto) liberal, y por suerte es lo que se filtró a la Constitución. Su fe en el trabajo del individuo y el mercado, y ese optimismo hacia la libertad se perciben. Así escribe:&lt;/p&gt;
+<p>Personalmente, creo que Alberdi es (un tanto) liberal, y por suerte es lo que se filtró a la Constitución. Su fe en el trabajo del individuo y el mercado, y ese optimismo hacia la libertad se perciben. Así escribe:</p>
 
-&lt;blockquote&gt;
-  &lt;p&gt;“Libertad es poder, fuerza, capacidad de hacer o no hacer lo que nuestra voluntad desea. Como la fuerza y el poder humano residen en la capacidad inteligente y moral del hombre más que en su capacidad material o animal, no hay más medio de extender y propagar la libertad, que generalizar y extender las condiciones de la libertad, que son la educación, la industria, la riqueza, la capacidad, en fin, en que consiste la fuerza que se llama libertad.”&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>Ian Mihura</name></author><category term="economy" /><category term="liberalism" /><category term="freedom" /><category term="america" /><category term="argentina" /><summary type="html">«Los extranjeros gozan en el territorio de la Nación de todos los derechos civiles del ciudadano; pueden ejercer su industria, comercio y profesión; poseer bienes raíces, comprarlos y enajenarlos; navegar los ríos y costas; ejercer libremente su culto; testar y casarse conforme a las leyes.»</summary></entry><entry><title type="html">Liberty is not right-winged</title><link href="http://localhost:4000/liberty-is-not-right-winged/" rel="alternate" type="text/html" title="Liberty is not right-winged" /><published>2023-08-18T00:00:00+02:00</published><updated>2023-08-18T00:00:00+02:00</updated><id>http://localhost:4000/liberty-is-not-right-winged</id><content type="html" xml:base="http://localhost:4000/liberty-is-not-right-winged/">&lt;blockquote&gt;
-  &lt;p&gt;“Foreigners enjoy in the territory of the Nation all the civil rights of the citizen; they may exercise their industry, commerce and profession; own real estate, buy and alienate it; navigate the rivers and coasts; freely exercise their worship; testament and marry according to the laws.”&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <p>“Libertad es poder, fuerza, capacidad de hacer o no hacer lo que nuestra voluntad desea. Como la fuerza y el poder humano residen en la capacidad inteligente y moral del hombre más que en su capacidad material o animal, no hay más medio de extender y propagar la libertad, que generalizar y extender las condiciones de la libertad, que son la educación, la industria, la riqueza, la capacidad, en fin, en que consiste la fuerza que se llama libertad.”</p>
+</blockquote>]]></content><author><name>Ian Mihura</name></author><category term="economy" /><category term="liberalism" /><category term="freedom" /><category term="america" /><category term="argentina" /><summary type="html"><![CDATA[«Los extranjeros gozan en el territorio de la Nación de todos los derechos civiles del ciudadano; pueden ejercer su industria, comercio y profesión; poseer bienes raíces, comprarlos y enajenarlos; navegar los ríos y costas; ejercer libremente su culto; testar y casarse conforme a las leyes.»]]></summary></entry><entry><title type="html">Liberty is not right-winged</title><link href="http://localhost:4000/liberty-is-not-right-winged/" rel="alternate" type="text/html" title="Liberty is not right-winged" /><published>2023-08-18T00:00:00+02:00</published><updated>2023-08-18T00:00:00+02:00</updated><id>http://localhost:4000/liberty-is-not-right-winged</id><content type="html" xml:base="http://localhost:4000/liberty-is-not-right-winged/"><![CDATA[<blockquote>
+  <p>“Foreigners enjoy in the territory of the Nation all the civil rights of the citizen; they may exercise their industry, commerce and profession; own real estate, buy and alienate it; navigate the rivers and coasts; freely exercise their worship; testament and marry according to the laws.”</p>
+</blockquote>
 
-&lt;blockquote&gt;
-  &lt;p&gt;Article 20 of the Argentine Constitution, 1853&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <p>Article 20 of the Argentine Constitution, 1853</p>
+</blockquote>
 
-&lt;p&gt;Unfortunately, we libertarians are grouped with the right. Nothing could be further from the truth. During the Spanish Civil War, libertarians fought alongside socialists and anarchists against violent facism, longing for the lost Liberal Triennium. Today we are grouped with the right-wing because governments are all socialist, and libertarians lie always uncomfortably against the State.&lt;/p&gt;
+<p>Unfortunately, we libertarians are grouped with the right. Nothing could be further from the truth. During the Spanish Civil War, libertarians fought alongside socialists and anarchists against violent facism, longing for the lost Liberal Triennium. Today we are grouped with the right-wing because governments are all socialist, and libertarians lie always uncomfortably against the State.</p>
 
-&lt;p&gt;So speaks Santiago Abascal, leader of Spain’s far-right Vox party:&lt;/p&gt;
+<p>So speaks Santiago Abascal, leader of Spain’s far-right Vox party:</p>
 
-&lt;blockquote&gt;
-  &lt;p&gt;“They (the left) want to muzzle Spaniards while they collude with the enemies of Spain: those who assault our borders.”&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <p>“They (the left) want to muzzle Spaniards while they collude with the enemies of Spain: those who assault our borders.”</p>
+</blockquote>
 
-&lt;p&gt;I am not right-wing. I love immigration, and all personal freedoms. But I am not a left-wing either. Neither during the Spanish Civil War, nor now, do I surrender into the bunch. Libertarians are anti-state, anti-violence, anti-control. We seek peace and market, material progress, industry and free labor, free movement, free thought, free speech and free religion.&lt;/p&gt;
+<p>I am not right-wing. I love immigration, and all personal freedoms. But I am not a left-wing either. Neither during the Spanish Civil War, nor now, do I surrender into the bunch. Libertarians are anti-state, anti-violence, anti-control. We seek peace and market, material progress, industry and free labor, free movement, free thought, free speech and free religion.</p>
 
-&lt;p&gt;Libertarians founded America. Hard-working immigrants, escaping oppressive governments, senseless wars, seeking to prosper by the work of their hands: true libertarians. Many know the American ethos of the Wild West: the frontier, the freedom of the plains, the cowboy. The old American way. Yet few know that it is also the Argentine ethos, and indeed, all of America’s ethos. The new world is the new frontier, the fertile desert waiting to be populated, the experiment of society founded by immigrants, which receives (or received) the world with open arms. Engraved in bronze under the statue of liberty in New York says Emma Lazarus:&lt;/p&gt;
+<p>Libertarians founded America. Hard-working immigrants, escaping oppressive governments, senseless wars, seeking to prosper by the work of their hands: true libertarians. Many know the American ethos of the Wild West: the frontier, the freedom of the plains, the cowboy. The old American way. Yet few know that it is also the Argentine ethos, and indeed, all of America’s ethos. The new world is the new frontier, the fertile desert waiting to be populated, the experiment of society founded by immigrants, which receives (or received) the world with open arms. Engraved in bronze under the statue of liberty in New York says Emma Lazarus:</p>
 
-&lt;blockquote&gt;
-  &lt;p&gt;“Give me your tired, your poor,
-Your huddled masses yearning to breathe free”&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <p>“Give me your tired, your poor,
+Your huddled masses yearning to breathe free”</p>
+</blockquote>
 
-&lt;h2 id=&quot;immigration-prejudices&quot;&gt;Immigration prejudices&lt;/h2&gt;
+<h2 id="immigration-prejudices">Immigration prejudices</h2>
 
-&lt;p&gt;But even we Americans and libertarians, descendants of immigrants, how many prejudices and sophisms we suffer! Juan Bautista Alberdi, classical liberal thinker, author of the Bases (“Bases and starting points for the political organization of the Argentine Republic” 1852, guide of the Argentine Constitution), holds the maxim: “To govern is to populate”. But he himself suffered, like everyone else, from various prejudices. On immigration he wrote:&lt;/p&gt;
+<p>But even we Americans and libertarians, descendants of immigrants, how many prejudices and sophisms we suffer! Juan Bautista Alberdi, classical liberal thinker, author of the Bases (“Bases and starting points for the political organization of the Argentine Republic” 1852, guide of the Argentine Constitution), holds the maxim: “To govern is to populate”. But he himself suffered, like everyone else, from various prejudices. On immigration he wrote:</p>
 
-&lt;blockquote&gt;
-  &lt;p&gt;“The free citizen of the United States is often the transformation of the free subject of free England, of free Switzerland, of free Belgium, of free Holland, of judicious and industrious Germany.”&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <p>“The free citizen of the United States is often the transformation of the free subject of free England, of free Switzerland, of free Belgium, of free Holland, of judicious and industrious Germany.”</p>
+</blockquote>
 
-&lt;p&gt;The judicious and industrious Germany? The same Nordic blond who was for the Romans the uncivilized barbarian? The Viking who was the terror of the Middle Ages? What was industrious Germany doing during the tercentenary wars of the Protestant Reformations? What was free Europe doing during the decade of the French terror? During the genocide of the Congo, perpetrated by Leopold II of Free Belgium? During the Western front of World War I? Where was “Protestant Germany, industrious, a friend of rest, of domestic life and of social and religious freedom” when the death camps were being erected in 1933?&lt;/p&gt;
+<p>The judicious and industrious Germany? The same Nordic blond who was for the Romans the uncivilized barbarian? The Viking who was the terror of the Middle Ages? What was industrious Germany doing during the tercentenary wars of the Protestant Reformations? What was free Europe doing during the decade of the French terror? During the genocide of the Congo, perpetrated by Leopold II of Free Belgium? During the Western front of World War I? Where was “Protestant Germany, industrious, a friend of rest, of domestic life and of social and religious freedom” when the death camps were being erected in 1933?</p>
 
-&lt;p&gt;Alberdi still writes:&lt;/p&gt;
+<p>Alberdi still writes:</p>
 
-&lt;blockquote&gt;
-  &lt;p&gt;“To populate is to rot, to corrupt, to degenerate, to poison a country, when instead of populating it with the flower of the working population of Europe, it is populated with the trash of backward or less cultured Europe.”&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <p>“To populate is to rot, to corrupt, to degenerate, to poison a country, when instead of populating it with the flower of the working population of Europe, it is populated with the trash of backward or less cultured Europe.”</p>
+</blockquote>
 
-&lt;p&gt;2 million Italians arrived in New York at the turn of the 20th century, 17% of the city’s population. How can “backward or less cultured Europe” found the capital of the world? Texas and California, two of the most productive states in the country, were Spanish colonies until the mid-19th century.&lt;/p&gt;
+<p>2 million Italians arrived in New York at the turn of the 20th century, 17% of the city’s population. How can “backward or less cultured Europe” found the capital of the world? Texas and California, two of the most productive states in the country, were Spanish colonies until the mid-19th century.</p>
 
-&lt;p&gt;There are richer cultures than others, but every immigrant arrives the same: poor, tired, broken, sick, uneducated, and yearning to breathe free.&lt;/p&gt;
+<p>There are richer cultures than others, but every immigrant arrives the same: poor, tired, broken, sick, uneducated, and yearning to breathe free.</p>
 
-&lt;blockquote&gt;
-  &lt;p&gt;“The most fruitful and useful way in which foreign wealth can be introduced and acclimatized in a new country, is that of an immigration of intelligent and hard-working population.”&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <p>“The most fruitful and useful way in which foreign wealth can be introduced and acclimatized in a new country, is that of an immigration of intelligent and hard-working population.”</p>
+</blockquote>
 
-&lt;p&gt;What immigrant is not hard-worker? The only one who lazes is the local, comfortable, rooted, friend of subsidies, parasite of the one who works: the Greek aristocrat who depended on his slaves, the nobleman who lives on taxes, the eternal European student looking for the next scholarship. Which immigrant is not a hard-worker? They work overtime to compete against corporations (who are monopolies, instrumental to the State), they supply the market on holidays, they work (or would work) for coins, they work and that is enough.&lt;/p&gt;
+<p>What immigrant is not hard-worker? The only one who lazes is the local, comfortable, rooted, friend of subsidies, parasite of the one who works: the Greek aristocrat who depended on his slaves, the nobleman who lives on taxes, the eternal European student looking for the next scholarship. Which immigrant is not a hard-worker? They work overtime to compete against corporations (who are monopolies, instrumental to the State), they supply the market on holidays, they work (or would work) for coins, they work and that is enough.</p>
 
-&lt;p&gt;What else is there? That prejudice of European civilization represents nothing more than table manners, personal hygiene standards and politically correct phrases. The market does not care about all these fictions of “education”: they are fashions of manners. Did the Islamic Empire need them at the end of the first millennium to advance science, industry and enrich Asia Minor and Africa?&lt;/p&gt;
+<p>What else is there? That prejudice of European civilization represents nothing more than table manners, personal hygiene standards and politically correct phrases. The market does not care about all these fictions of “education”: they are fashions of manners. Did the Islamic Empire need them at the end of the first millennium to advance science, industry and enrich Asia Minor and Africa?</p>
 
-&lt;p&gt;It doesn’t matter that Alberdi was a racist. I am not an Alberdist. The important thing was written in the Constitution under article 20 (quote at the beginning of the article). Alberdi was racist because the neighborhood opinion among the well-dressed porteños was racist. Because the “cabecitas negras” made noise and dirtied the sidewalks. The port smelled bad, the machines were full of oil and grease, and the ladies got their stockings dirty. But the Argentine Constitution didn’t give a damn, and proudly wrote articles 14 to 21 on commercial, industrial and labor freedoms, which are now so lacking.&lt;/p&gt;
+<p>It doesn’t matter that Alberdi was a racist. I am not an Alberdist. The important thing was written in the Constitution under article 20 (quote at the beginning of the article). Alberdi was racist because the neighborhood opinion among the well-dressed porteños was racist. Because the “cabecitas negras” made noise and dirtied the sidewalks. The port smelled bad, the machines were full of oil and grease, and the ladies got their stockings dirty. But the Argentine Constitution didn’t give a damn, and proudly wrote articles 14 to 21 on commercial, industrial and labor freedoms, which are now so lacking.</p>
 
-&lt;p&gt;Today we are once again invited to give a damn about manners, forms, political correctness, the “presidential image”, and marketing maxims. The role of the State is not to listen to the neighbor, to the populace, to the TV presenters, to see who smells bad and who does not speak right. The Argentine Constitution, as well as the American one, knew it well: the State must protect industry, commerce, private property, the labor of the worker. It must protect the worker from every ministry, union, mafia, army and psycho-bully that seeks to destroy (or “reorganize”).&lt;/p&gt;
+<p>Today we are once again invited to give a damn about manners, forms, political correctness, the “presidential image”, and marketing maxims. The role of the State is not to listen to the neighbor, to the populace, to the TV presenters, to see who smells bad and who does not speak right. The Argentine Constitution, as well as the American one, knew it well: the State must protect industry, commerce, private property, the labor of the worker. It must protect the worker from every ministry, union, mafia, army and psycho-bully that seeks to destroy (or “reorganize”).</p>
 
-&lt;h2 id=&quot;america-is-libertarian&quot;&gt;America is libertarian&lt;/h2&gt;
+<h2 id="america-is-libertarian">America is libertarian</h2>
 
-&lt;p&gt;The Argentine ethos was codified by Martin Fierro: he lived in peace until the army kidnapped him, dragged him to the other side of the Pampas, forced him to keep a fort and kill the Indian. They thus destroyed his life, his family and his work. Good were his days when he had peace and enjoyed his private life, his children and wife.&lt;/p&gt;
+<p>The Argentine ethos was codified by Martin Fierro: he lived in peace until the army kidnapped him, dragged him to the other side of the Pampas, forced him to keep a fort and kill the Indian. They thus destroyed his life, his family and his work. Good were his days when he had peace and enjoyed his private life, his children and wife.</p>
 
-&lt;p&gt;This is the American experience par excellence: there is peace and progress, there is family and work, until the State arrives to steal, destroy with illusions of grandeur and wearing a uniform, announcing inflation, monetary policies, expropriation and regulations.&lt;/p&gt;
+<p>This is the American experience par excellence: there is peace and progress, there is family and work, until the State arrives to steal, destroy with illusions of grandeur and wearing a uniform, announcing inflation, monetary policies, expropriation and regulations.</p>
 
-&lt;p&gt;For the rest of his life, Martin Fierro lived on the run as a deserter. The State persecuted him, instead of protecting his property and family. This is how the “barrani” merchant lives, the worker who prefers to be paid under the counter because otherwise he will not make ends meet, the one who hides merchandise so as not to declare it, the gangster wannabe who is angry because it is not legal for him to work: because he lacks a permit, because entrepreneurship is a bureaucratic nightmare, because there is no job that will employ him with the minimum wage, because he produces something ilegal.&lt;/p&gt;
+<p>For the rest of his life, Martin Fierro lived on the run as a deserter. The State persecuted him, instead of protecting his property and family. This is how the “barrani” merchant lives, the worker who prefers to be paid under the counter because otherwise he will not make ends meet, the one who hides merchandise so as not to declare it, the gangster wannabe who is angry because it is not legal for him to work: because he lacks a permit, because entrepreneurship is a bureaucratic nightmare, because there is no job that will employ him with the minimum wage, because he produces something ilegal.</p>
 
-&lt;p&gt;The shantytowns are a breeding ground for opportunity, a land of promise. Filled with the raw force of young people, hungry. Full of energy, time, desire for the future: people, alas, with hands to work. Why is the cowboy a rebel? Because he has no choice. Because his house is not his, his work is illegal and his money is worthless. Not because the rest of the population condemns him to contempt, but because the State condemns him to slavery. “To be controlled in economic activity is to be controlled in everything”, (Hayek, 1944).&lt;/p&gt;
+<p>The shantytowns are a breeding ground for opportunity, a land of promise. Filled with the raw force of young people, hungry. Full of energy, time, desire for the future: people, alas, with hands to work. Why is the cowboy a rebel? Because he has no choice. Because his house is not his, his work is illegal and his money is worthless. Not because the rest of the population condemns him to contempt, but because the State condemns him to slavery. “To be controlled in economic activity is to be controlled in everything”, (Hayek, 1944).</p>
 
-&lt;p&gt;“To govern is to populate” says the Constitution. It should say “To govern is to let people work”. Today the frontiers are the slums and the poor worker. Yet the slum worker is not the barbarian, but the settler, the immigrant with a “little black head”. Today, as always, the immigrant, the poor is industry, is work, if we allow him to work at all costs. The young people who leave the country, those who are trapped in cycles of organized violence, those of us who have energy and time, announce to the State: We want to work! We want to undertake, we want to be owners, we want to progress, we want to open, assemble, sell, change, grow and enrich. Classical liberalism is the only idea that defends the individual in his work, against his sole enemy: the senseless majority.&lt;/p&gt;
+<p>“To govern is to populate” says the Constitution. It should say “To govern is to let people work”. Today the frontiers are the slums and the poor worker. Yet the slum worker is not the barbarian, but the settler, the immigrant with a “little black head”. Today, as always, the immigrant, the poor is industry, is work, if we allow him to work at all costs. The young people who leave the country, those who are trapped in cycles of organized violence, those of us who have energy and time, announce to the State: We want to work! We want to undertake, we want to be owners, we want to progress, we want to open, assemble, sell, change, grow and enrich. Classical liberalism is the only idea that defends the individual in his work, against his sole enemy: the senseless majority.</p>
 
-&lt;h2 id=&quot;i-am-libertarian&quot;&gt;I am libertarian&lt;/h2&gt;
+<h2 id="i-am-libertarian">I am libertarian</h2>
 
-&lt;p&gt;I am not right-wing, and neither is the Argentine Constitution of 1853. Even though Alberdi has illiberal touches:&lt;/p&gt;
+<p>I am not right-wing, and neither is the Argentine Constitution of 1853. Even though Alberdi has illiberal touches:</p>
 
-&lt;blockquote&gt;
-  &lt;p&gt;“To govern is to populate very well; but to populate is a science, and this science is none other than political economy, which considers population as an instrument of wealth and an element of prosperity. The main part of the art of populating is the art of distributing population. Sometimes, to increase it too much is the opposite of populating; it is to diminish and ruin the population of the country.”&lt;/p&gt;
-&lt;/blockquote&gt;
+<blockquote>
+  <p>“To govern is to populate very well; but to populate is a science, and this science is none other than political economy, which considers population as an instrument of wealth and an element of prosperity. The main part of the art of populating is the art of distributing population. Sometimes, to increase it too much is the opposite of populating; it is to diminish and ruin the population of the country.”</p>
+</blockquote>
 
-&lt;p&gt;Rationality is socialist, the right-wing is socialist. It believes that it can, and must, control. That the role of the State is scientific. That reason can administer better than the impossible decentralized mind of the market. That the absolute indivisible individual is a tool for civilization, and not the other way around. And here we liberals separate ourselves from rationalists, empiricists and positivists. We have faith in the incomprehensible market, or at least, we have more faith in it than in the pretentious State.&lt;/p&gt;
+<p>Rationality is socialist, the right-wing is socialist. It believes that it can, and must, control. That the role of the State is scientific. That reason can administer better than the impossible decentralized mind of the market. That the absolute indivisible individual is a tool for civilization, and not the other way around. And here we liberals separate ourselves from rationalists, empiricists and positivists. We have faith in the incomprehensible market, or at least, we have more faith in it than in the pretentious State.</p>
 
-&lt;p&gt;Personally, I think Alberdi is (somewhat) liberal, and fortunately that is what filtered into the Constitution. His faith in the work of the individual and the market, and that optimism towards freedom comes through. Thus he writes:&lt;/p&gt;
+<p>Personally, I think Alberdi is (somewhat) liberal, and fortunately that is what filtered into the Constitution. His faith in the work of the individual and the market, and that optimism towards freedom comes through. Thus he writes:</p>
 
-&lt;blockquote&gt;
-  &lt;p&gt;“Liberty is power, strength, ability to do or not to do what our will desires. As human strength and power reside in the intelligent and moral capacity of man rather than in his material or animal capacity, there is no other means of extending and propagating liberty, than to generalize and extend the conditions of liberty, which are education, industry, wealth, capacity, in short, in which consists the force which is called liberty.”&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>Ian Mihura</name></author><category term="economy" /><category term="liberalism" /><category term="freedom" /><category term="america" /><category term="argentina" /><summary type="html">“Foreigners enjoy in the territory of the Nation all the civil rights of the citizen; they may exercise their industry, commerce and profession; own real estate, buy and alienate it; navigate the rivers and coasts; freely exercise their worship; testament and marry according to the laws.”</summary></entry></feed>
+<blockquote>
+  <p>“Liberty is power, strength, ability to do or not to do what our will desires. As human strength and power reside in the intelligent and moral capacity of man rather than in his material or animal capacity, there is no other means of extending and propagating liberty, than to generalize and extend the conditions of liberty, which are education, industry, wealth, capacity, in short, in which consists the force which is called liberty.”</p>
+</blockquote>]]></content><author><name>Ian Mihura</name></author><category term="economy" /><category term="liberalism" /><category term="freedom" /><category term="america" /><category term="argentina" /><summary type="html"><![CDATA[“Foreigners enjoy in the territory of the Nation all the civil rights of the citizen; they may exercise their industry, commerce and profession; own real estate, buy and alienate it; navigate the rivers and coasts; freely exercise their worship; testament and marry according to the laws.”]]></summary></entry></feed>

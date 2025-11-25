@@ -1,0 +1,178 @@
+<html lang="en">
+    <head>
+    <title>Royal Assassin p2p</title>
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon_3.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&amp;display=swap" rel="stylesheet">
+    <script src="/assets/js/main.js"></script>
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <meta name="description" content="">
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Royal Assassin p2p" />
+    <meta property="og:title" content="Royal Assassin p2p" />
+    <meta property="og:description" content="">
+    <meta property="og:image" content="/assets/img/me.jpg" />
+    <meta property="url" content="http://localhost:4000" />
+    <meta property="og:updated_time" content="1700248939" />
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@ianmihura" />
+    <meta name="twitter:creator" content="@ianmihura" />
+</head>
+
+    <body>
+        <nav>
+    
+    <a href="/">Home</a>
+    
+    <a href="/games/">Games</a>
+    
+    <a href="/code/">Code</a>
+    
+    <a href="https://medium.com/@mihura.ian">Posts 🗗</a>
+    
+    <a href="https://github.com/ianmihura">Github 🗗</a>
+    
+    <a href="/contact/">Contact</a>
+    
+</nav>
+
+
+        <div class="header">
+            <p class="title">
+                Royal Assassin p2p
+            </p>
+
+            
+            14 Sep 2025 
+            
+
+            
+            
+            
+            | 3 min read
+            
+
+            <!-- Medium -->
+            
+
+            <!-- Translations -->
+            
+
+            <div class="post-tags">
+                
+                <span class="tag-small">
+                    battle
+                </span>
+                
+                <span class="tag-small">
+                    epic story
+                </span>
+                
+                <span class="tag-small">
+                    2 decks
+                </span>
+                
+                <span class="tag-small">
+                    solitaire
+                </span>
+                
+            </div>
+        </div>
+
+        <div class="content">
+            <p>This is a 2 player version of the solitaire called <a href="https://boardgamegeek.com/boardgame/149845/royal-assassin">Royal Assassin</a>. Make sure you understand the solo version before reading this variation.</p>
+
+<h2 id="cards">Cards</h2>
+
+<p>Best played with 2 full decks, can be played with one deck.</p>
+
+<h2 id="setup">Setup</h2>
+
+<p>Each player setups up their noble families, similarly to the solo version. In contrast with it, the noble families they present will be their allies rather than their enemies.</p>
+
+<p>During the setup players build up their own reserve pile (stack of cards facing up). The reserve pile is not shared.</p>
+
+<p>Otherwise, the fresh deck and the discard pile are shared.</p>
+
+<h2 id="rounds">Rounds</h2>
+
+<p>Instead of playing one card at a time, each player draws 3 cards from their deck, and plays one card per turn. They play alternatively until they have no more cards in the hand. Then players draw 3 more cards, and so on.</p>
+
+<p>In each turn the player can choose to:</p>
+
+<h2 id="attack">Attack</h2>
+
+<p>To attack enemy’s families the player places a card in an enemy’s family pile. Same general rules as in the solitaire:</p>
+
+<ul>
+  <li>Only attack cross-color</li>
+  <li>Attacks trigger defenses from the reserve pile of the enemy</li>
+  <li>Attacks also trigger new attacks from the attacking reserve pile</li>
+</ul>
+
+<p>If both players’ piles can attack and defend in the same moment, these happen alternatively, starting with the defense. For example:</p>
+
+<ul>
+  <li>Player A attacks K of clubs with a 5 of hearts (from their hand)</li>
+  <li>Player B defends with a 3 of clubs (from their reserve pile)</li>
+  <li>Player A attacks with a 2 of hearts (from their reserve pile)</li>
+  <li>Player B has no more clubs in their reserve pile, they cannot defend</li>
+  <li>Player A continues the attack from their reserve pile</li>
+</ul>
+
+<p>Revealing cards: Note that attacking and defending can reveal cards in the reserve pile that can attack or defend a different family tree. Players should also alternate their turn to play these cards.</p>
+
+<p>Coincidence: If a card is revealed in the reserve pile that can both defend one of their own and attack another, the player is free to choose what to do.</p>
+
+<p>Royalty vs royalty: Pieces of royalty can kill other pieces of royalty, given that they are:</p>
+
+<ul>
+  <li>The same value, or better</li>
+  <li>There are no ongoing attacks (no number cards in front of it)</li>
+  <li>The corresponding color</li>
+</ul>
+
+<h2 id="defend">Defend</h2>
+
+<p>To defend one of their families, the player places a card in one of the piles. These families don’t need to be under attack to be defended (in contrast with the solitaire version). Also, a defense that exceeds an attack does not wipe away the ongoing attack. Only an exact sum of zero wipes away the pile. For example:</p>
+
+<ul>
+  <li>Player B attacks a J of spades with a 2 of hearts (ongoing count: +2).</li>
+  <li>Player A defends with a 5 of spades (ongoing count: -3).</li>
+  <li>Player B attacks with a 5 of hearts (ongoing count: +2).</li>
+  <li>Player A defends with a 2 of spades (ongoing count: 0).</li>
+  <li>The attack pile is discarded, leaving the J of spades open.</li>
+</ul>
+
+<p>(Note that the defense has been re-balanced giving a slight advantage to the defender).</p>
+
+<h2 id="other-actions">Other actions</h2>
+
+<ul>
+  <li>Present royal figures as in the solitaire version</li>
+  <li>If nothing else possible, discard to the reserve pile</li>
+</ul>
+
+<h2 id="shared-and-not-shared">Shared and not shared</h2>
+
+<p>Players share a discard pile and a deck to draw new cards from.</p>
+
+<p>Players do not share a reserve deck (face-up pile to place unusable cards, and draw defenses/attackers from) nor Jokers.</p>
+
+<h2 id="endgame">Endgame</h2>
+
+<p>The player to completely wipe the other player wins.</p>
+
+<p>Depleting the stockpile is not an endgame condition. If there are no more cards to draw from, the players must re-shuffle the discard pile and draw from it.</p>
+
+            <a href="/posts/">Back to index</a>
+        </div>
+        <div class="back-to-top">↑</div>
+    </body>
+</html>

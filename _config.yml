@@ -43,9 +43,6 @@ keep_files:
   - CNAME
 
 collections:
-  podcasts:
-    output: true
-    permalink: /:title/
   code:
     output: true
     permalink: /:title/
