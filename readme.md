@@ -9,6 +9,6 @@ Host with `bundler exec jekyll serve`
 - add code projects (content)
     - orderbook
     - sbe
-- stonks 
+- free market
 - remove posts (code)
 - royal assassin p2p basic rules
