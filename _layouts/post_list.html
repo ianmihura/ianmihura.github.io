@@ -11,7 +11,7 @@
         </p>
 
         <ul class="content">
-            {% for post in site.games %}
+            {% for post in site.games reversed %}
             <li class="list-single">
                 {% if post.hide_date %}
                 (coming soon)
