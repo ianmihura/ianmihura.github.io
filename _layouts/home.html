@@ -51,6 +51,12 @@
                 <span class="tag-small">
                     {{ post.tags[0] }}
                 </span>
+                {% if post.code_link %}
+                <p><a href="{{ post.code_link }}" traget="_blank">
+                    Check the code
+                </a></p>
+                {% endif %}
+
             </li>
             {% endfor %}
         </ul>
