@@ -44,7 +44,7 @@
         </p>
 
         <ul class="content">
-            {% for post in site.code %}
+            {% for post in site.code reversed %}
             <li class="list-single">
                 ({{ post.date | date_to_string }})
                 <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>

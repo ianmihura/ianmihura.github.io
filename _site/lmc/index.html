@@ -1,0 +1,137 @@
+<html lang="en">
+    <head>
+    <title>LMC CLI debugger</title>
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon_3.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&amp;display=swap" rel="stylesheet">
+    <script src="/assets/js/main.js"></script>
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <meta name="description" content="Simple CLI tool to execute and debug LMC (assembly-like) programs. Read more about LMC.">
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="LMC CLI debugger" />
+    <meta property="og:title" content="LMC CLI debugger" />
+    <meta property="og:description" content="Simple CLI tool to execute and debug LMC (assembly-like) programs. Read more about LMC.">
+    <meta property="og:image" content="/assets/img/me.jpg" />
+    <meta property="url" content="http://localhost:4000" />
+    <meta property="og:updated_time" content="1700248939" />
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@ianmihura" />
+    <meta name="twitter:creator" content="@ianmihura" />
+</head>
+
+    <body>
+        <nav>
+    
+    <a href="/">Home</a>
+    
+    <a href="/games/">Games</a>
+    
+    <a href="/code/">Code</a>
+    
+    <a href="https://medium.com/@mihura.ian">Posts 🗗</a>
+    
+    <a href="https://github.com/ianmihura">Github 🗗</a>
+    
+    <a href="/contact/">Contact</a>
+    
+</nav>
+
+
+        <div class="header">
+            <p class="title">
+                LMC CLI debugger
+            </p>
+
+            
+            12 Oct 2023 
+            
+
+            
+            
+            
+            | 4 min read
+            
+
+            <!-- Medium -->
+            
+
+            <!-- Translations -->
+            
+
+            <div class="post-tags">
+                
+                <span class="tag-small">
+                    c++
+                </span>
+                
+                <span class="tag-small">
+                    low level
+                </span>
+                
+                <span class="tag-small">
+                    assembly
+                </span>
+                
+                <span class="tag-small">
+                    cpu architecture
+                </span>
+                
+            </div>
+        </div>
+
+        <div class="content">
+            <h2 id="check-the-code"><a href="https://github.com/ianmihura/LMC-cpp">Check the code</a></h2>
+
+<p>A simple CLI tool to execute and debug LMC (assembly-like) programs. The Little Man Computer (LMC) is a dummy Von Neumann processor. Its simplicity makes it ideal for learning about low level programming and machine architecture.</p>
+
+<h1 id="lmc-architecture">LMC Architecture</h1>
+
+<p>One must imagine a “little man” within a room with 100 mailboxes (the memory), a working bech (accumulator), a counter (starts at 0) and two trays for input and output. The mailboxes are numbered 0-99 (addresss) and store a number also between 0-99 (data). Note that the data within any mailbox can be either raw data or an instruction (as per the von Neumann architecture: data is indistinguishable from instructions).</p>
+
+<p>There’s also a list of “opcodes” that translate a piece of data to an action. For example 901 may mean “fetch next data in input tray and put it in the accumulator”, or 123 “fetch whatever is in address 23 and add it to what is already in the accumulator”. Each instruction contains two fields: an opcode (indicating the operation to perform, usually the first number) and the address field (indicating where to find the data to perform the operation on, usually the last 2 numbers).</p>
+
+<p>The little man does these simple repetitive tasks in a loop:</p>
+
+<ol>
+  <li>Check the content of the mailbox at address = counter</li>
+  <li>Increment the counter by 1 (so that it contains the mailbox number of the next instruction)</li>
+  <li>Decode the instruction. If the instruction uses data stored in another mailbox, then use the address field to find the mailbox number for the data it will work on, e.g. “get data from mailbox 42” or “get data from input”.</li>
+  <li>Fetch the data (from the input, accumulator, or mailbox with the address determined in step 4).</li>
+  <li>Execute the instruction based on the opcode given</li>
+  <li>Branch or store the result (in the output, accumulator, or mailbox with the address determined in step 4)</li>
+  <li>Return to the counter to repeat the cycle or halt</li>
+</ol>
+
+<p><a href="https://en.wikipedia.org/wiki/Little_Man_Computer">Read more details about LMC</a></p>
+
+<h1 id="real-processors">Real processors</h1>
+
+<h3 id="registers">Registers</h3>
+<p>LMC has only one register. This kills any idea of efficiency, as every operation that needs more than one piece of data needs to constantly load and save data to memory. In reality, CPUs have multiple registers: Intel’s x86-64 architecture chips have up to 16 registers, each 64 bits long.</p>
+
+<p>CPUs also work with binary numbers rather than base 10, so the size of addresses and opcodes is limited in base 2 (eg. 32 bit or 64 bit).</p>
+
+<h3 id="memory">Memory</h3>
+<p>Modern CPUs come with many types of “mailboxes”, or address spaces. The most obvious memory space is the RAM, which can be GBs long, but the i/o cost of accessing RAM is very high for the CPU, as they are physically far apart.</p>
+
+<p>Because of this, CPUs now have a local memory called “cache” that lives inside the CPU itself, and makes for a much faster memory space. The cache is reserved for memory that was recently used, as it is likely that it may be used again soon. Nowadays we can find multiple layers of cache in a single CPU (L1, L2, L3) with different sizes and speed. There is naturally an inverse relationship bewteen size and speed, limiting cache size to MB or even KB.</p>
+
+<h3 id="alu--opcodes">ALU &amp; opcodes</h3>
+<p>The list of valid opcodes in constantly growing in modern CPUs. This is because CPUs are made out of hardware, and when engineers find a better circuit to calculate, for example, a vector multiplication of 3x3 matrices, they “hard-code it” into an opcode.</p>
+
+<p>This is also why processing is also separated into units: as Arithmetic &amp; Logical Unit (ALU), Single Instruction, Floating Point Unit (FPU), or Multiple Data (SIMD - vectors). These can be very complex, as not every instruction is executed by the same circuit.</p>
+
+<h3 id="many-little-men">Many little men</h3>
+<p>Having one little man do the fetching and the calculating is obviously a bottleneck. As with ALU, modern CPUs spearate these essential tasks into different processing units to increase circuit-specific efficiencies, and to increase paralel processing.</p>
+
+            <a href="/posts/">Back to index</a>
+        </div>
+        <div class="back-to-top">↑</div>
+    </body>
+</html>
