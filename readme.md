@@ -7,7 +7,6 @@ Host with `bundler exec jekyll serve`
 
 ### TODO
 * add code projects (content)
-    lmc js & c++
     RetroFF
     pings
 - remove posts (code)
