@@ -44,6 +44,14 @@
         </div>
 
         <div class="content">
+            {% if page.code_link %}
+            <h2>
+                <a href="{{ page.code_link }}" traget="_blank">
+                    Check the code
+                </a>
+            </h2>
+            {% endif %}
+
             {{ content }}
             <a href="/posts/">Back to index</a>
         </div>

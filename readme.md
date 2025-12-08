@@ -6,10 +6,9 @@
 Host with `bundler exec jekyll serve`
 
 ### TODO
-* add code projects (content)
-    RetroFF
-    pings
+- add code projects (content)
+    - orderbook
+    - sbe
+- stonks 
 - remove posts (code)
-- publish other code things
 - royal assassin p2p basic rules
-
