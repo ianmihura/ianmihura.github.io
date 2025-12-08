@@ -6,9 +6,7 @@
 Host with `bundler exec jekyll serve`
 
 ### TODO
-- add code projects (content)
-    - orderbook
-    - sbe
 - free market
 - remove posts (code)
 - royal assassin p2p basic rules
+- maybe main link in code list takes you to github?
