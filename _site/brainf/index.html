@@ -1,0 +1,112 @@
+<html lang="en">
+    <head>
+    <title>Brain F*ck Compiler</title>
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon_3.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&amp;display=swap" rel="stylesheet">
+    <script src="/assets/js/main.js"></script>
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <meta name="description" content="">
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Brain F*ck Compiler" />
+    <meta property="og:title" content="Brain F*ck Compiler" />
+    <meta property="og:description" content="">
+    <meta property="og:image" content="/assets/img/me.jpg" />
+    <meta property="url" content="http://localhost:4000" />
+    <meta property="og:updated_time" content="1700248939" />
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@ianmihura" />
+    <meta name="twitter:creator" content="@ianmihura" />
+</head>
+
+    <body>
+        <nav>
+    
+    <a href="/">Home</a>
+    
+    <a href="/games/">Games</a>
+    
+    <a href="/code/">Code</a>
+    
+    <a href="https://medium.com/@mihura.ian">Posts 🗗</a>
+    
+    <a href="https://github.com/ianmihura">Github 🗗</a>
+    
+    <a href="/contact/">Contact</a>
+    
+</nav>
+
+
+        <div class="header">
+            <p class="title">
+                Brain F*ck Compiler
+            </p>
+
+            
+            13 Dec 2025 
+            
+
+            
+            
+            
+
+            <!-- Medium -->
+            
+
+            <!-- Translations -->
+            
+
+            <div class="post-tags">
+                
+                <span class="tag-small">
+                    c++
+                </span>
+                
+                <span class="tag-small">
+                    programming language
+                </span>
+                
+                <span class="tag-small">
+                    compiler
+                </span>
+                
+                <span class="tag-small">
+                    low level
+                </span>
+                
+                <span class="tag-small">
+                    assembly
+                </span>
+                
+            </div>
+        </div>
+
+        <div class="content">
+            
+            <h2>
+                <a href="https://github.com/ianmihura/brainf" traget="_blank">
+                    Check the code
+                </a>
+            </h2>
+            
+
+            <p>This implementation is inspired by <a href="https://codingchallenges.substack.com/p/coding-challenge-81-brainfck-interpreter">John Crickett’s Challenge</a>.</p>
+
+<p>There’s 2 different execution mechanism:</p>
+
+<ul>
+  <li>BFExecutor interprets the BF code and executes it, opcode by opcode.</li>
+  <li>BFCompiler transpiles the BF code to an arbitrary bytecode, hoping to get some efficiency during compile-time (eg. identifying loop jumps and repeating opcodes). Then, the BFVM executes the bytecode.</li>
+</ul>
+
+            <a href="/">Back to index</a>
+        </div>
+        <div class="back-to-top">↑</div>
+    </body>
+</html>
