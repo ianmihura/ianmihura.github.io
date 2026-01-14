@@ -3,28 +3,6 @@
     <body>
         {% include navbar.html %}
 
-        <h1 class="header">
-            Games
-        </h1>
-        <p class="header">
-            Mostly card games, inspired by stock trading, betting, poker and truco.
-        </p>
-
-        <ul class="content">
-            {% for post in site.games reversed %}
-            <li class="list-single">
-                {% if post.hide_date %}
-                (coming soon)
-                {% else %}
-                ({{ post.date | date_to_string }})
-                {% endif %}
-                <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-                <span class="tag-small">
-                    {{ post.tags[0] }}
-                </span>
-                <p style="padding-left:30px">{{ post.excerpt }}</p>
-            </li>
-            {% endfor %}
-        </ul>
+        {% include pages/games.html %}
     </body>
 </html>

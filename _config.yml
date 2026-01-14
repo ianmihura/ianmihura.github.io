@@ -1,12 +1,12 @@
 title: Ian Mihura
 author: Ian Mihura
-cv_description: >-
+old_description: >-
   Lifelong learner. Passionate about technology and the ways stuff gets built. 
   From webapps, deep learning, hashing algorithms, to video encoding protocols 
   and financial markets, my path is quite a divergent one, making me skilled 
   in a wide range of technologies. I tend to work in positions where I can learn. 
   My main strength is learning on the spot and finding fast solutions. 
-description: >-
+old_description_2: >-
   Developer & Writer. Welcome to my Home. Here I store stories and other things.
   There's a bit of everything, but don't expect much of anything.
 welcome: >-
@@ -19,7 +19,7 @@ other: >-
   I'm grateful coding is a viable career path, because honestly, I'd be doing it even if it wasn't.
   I love building stuff and fixing stuff. The long process of crafting something big. Chipping away, smoothing the edges. And the mysterious meandering path of debugging, detective-like.
   Yes, that's what I get up in the morning for.
-tagline: Developer & Writer
+tagline: Software Engineering & Finance
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://ianmihura.github.io
 permalink: /:title/

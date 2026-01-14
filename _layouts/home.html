@@ -7,69 +7,16 @@
             <div>
                 <h1>{{ site.author }}</h1>
                 <p>{{ site.tagline }}</p>
-                <br>
-                <p>{{ site.welcome }}</p>
+                <!-- <br>
+                <p>{{ site.welcome }}</p> -->
             </div>
         </div>
 
-        <h1 class="header">
-            Games
-        </h1>
-        <p class="header">
-            Mostly card games, inspired by stock trading, betting, poker and truco.
-        </p>
+        {% include pages/games.html %}
 
-        <ul class="content">
-            {% for post in site.games reversed %}
-            <li class="list-single">
-                {% if post.hide_date %}
-                (coming soon)
-                {% else %}
-                ({{ post.date | date_to_string }})
-                {% endif %}
-                <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-                <span class="tag-small">
-                    {{ post.tags[0] }}
-                </span>
-                <p style="padding-left:30px">{{ post.excerpt }}</p>
-            </li>
-            {% endfor %}
-        </ul>
+        {% include pages/codes.html %}
 
-        <h1 class="header">
-            Code
-        </h1>
-        <p class="header">
-            Some code pet projects, or articles about technical subjects.
-        </p>
+        {% include pages/contact.html %}
 
-        <ul class="content">
-            {% for post in site.code reversed %}
-            <li class="list-single">
-                ({{ post.date | date_to_string }})
-                <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-                <span class="tag-small">
-                    {{ post.tags[0] }}
-                </span>
-                {% if post.code_link %}
-                <p><a href="{{ post.code_link }}" traget="_blank">
-                    Check the code
-                </a></p>
-                {% endif %}
-
-            </li>
-            {% endfor %}
-        </ul>
-
-        <h1 class="header">
-            Find me in the inter-webs
-        </h1>
-        <ul class="content">
-            {% for link in site.data.social_links %}
-            <li class="list-single">
-                <a href="{{ link.url }}" target="_blank">{{ link.title }}</a>
-            </li>
-            {% endfor %}
-        </ul>
     </body>
 </html>
